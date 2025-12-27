@@ -36,7 +36,7 @@ for x in range(1, 100):
 '''
 
 
-'''
+
 from sys import *
 
 setrecursionlimit(10000)
@@ -52,7 +52,7 @@ def fibonacci_iterative(n):
     return b
 
 print(fibonacci_iterative(2024))
-'''
+
 
 
 
