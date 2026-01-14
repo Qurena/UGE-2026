@@ -7,6 +7,7 @@
 from math import *
 f = open("27_A_1__4uxdd.txt")
 a = [list(map(float, i.replace(",", '.').split())) for i in f if 'X' not in i]
+clusters = []
 
 
 clusters = [[], []]

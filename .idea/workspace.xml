@@ -4,17 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="base 3">
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/A__7jba4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/A__7jbaa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/B__7jba6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/B__7jbab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/Задание_27_B__7ik6g.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№26 Теория чисел.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№26 Теория чисел.py" afterDir="false" />
+    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27-2a__2zntv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27-2b__2zntw.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/4__t7qm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Пробник №5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/17__1w6mz.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/24__7h51q.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_5_A__51ud2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_5_B__51ud4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ЕГЭ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ЕГЭ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Особые случаи.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Особые случаи.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/№ 23/Задача 23 Словари (04.09).py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 23/Задача 23 Словари (04.09).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№26 Теория чисел.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№26 Теория чисел.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. Через циклы и словари.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. Через циклы и словари.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 22 Процессы в мс (Электронные таблицы)/№ 22 Процессы. Электронные таблицы.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 22 Процессы в мс (Электронные таблицы)/№ 22 Процессы. Электронные таблицы.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 27 Звезды. DBSCAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 27 Звезды. DBSCAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Школа и олимпиады/Олимпиады.py" beforeDir="false" afterPath="$PROJECT_DIR$/Школа и олимпиады/Олимпиады.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +39,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Qurena"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Qurena&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Qurena/UGE-2026.git",
-    "accountId": "3e714abd-845c-4452-9f03-b42403b970e0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Qurena/UGE-2026.git&quot;,
+    &quot;accountId&quot;: &quot;2ddb240a-8165-4159-ad9a-fb104abad8a1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -50,90 +58,92 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="32EuJ24oEhurUuAcOhmr6zXQ0Tk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Dictionaries.executor": "Run",
-    "Python.HackerRank.executor": "Run",
-    "Python.fg.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.ЕГЭ №2.executor": "Run",
-    "Python.ЕГЭ №5.executor": "Run",
-    "Python.Задача 23 Особые случаи (1).executor": "Run",
-    "Python.Задача 23 Особые случаи.executor": "Run",
-    "Python.Задача 23 Рекурсия (11.09).executor": "Run",
-    "Python.Задача 23 Словари (04.09).executor": "Run",
-    "Python.Задача 23 особые случаи.executor": "Run",
-    "Python.Задача 24 и 25 (практика МАСКИ).executor": "Run",
-    "Python.Задача 24 и 25 (теория МАСКИ).executor": "Run",
-    "Python.Задача 25 (02.10) МАСКИ.executor": "Run",
-    "Python.Задача 25 (11.09).executor": "Run",
-    "Python.Задача 25 (практика МАСКИ) (1).executor": "Run",
-    "Python.Задача 25 (практика МАСКИ).executor": "Run",
-    "Python.Задача 25 (теория ДЕЛИТЕЛИ).executor": "Run",
-    "Python.Задача 25 (теория МАСКИ) (1).executor": "Run",
-    "Python.Задача № 23 Ограничение по командам (рекурсия).executor": "Run",
-    "Python.Олимпиады (1).executor": "Run",
-    "Python.Олимпиады.executor": "Run",
-    "Python.Особые случаи.executor": "Run",
-    "Python.Пробник № 2.executor": "Run",
-    "Python.Пробник №0.executor": "Run",
-    "Python.Пробник №1.executor": "Run",
-    "Python.Пробник №2.executor": "Run",
-    "Python.Пробник №3.executor": "Run",
-    "Python.Пробник №4.executor": "Run",
-    "Python.Решение входного пробника (№0).executor": "Run",
-    "Python.№ 13 IP-адрес.executor": "Run",
-    "Python.№ 13 IP-адреса.executor": "Run",
-    "Python.№ 14 Системы счисления.executor": "Run",
-    "Python.№ 15. Решение прогой.executor": "Run",
-    "Python.№ 16, 23 Рекурсия.executor": "Run",
-    "Python.№ 19-21 Теория игр. Рекурсия.executor": "Run",
-    "Python.№ 19-21 Теория игр.executor": "Run",
-    "Python.№ 19.executor": "Run",
-    "Python.№ 24 Метод двух указателей (практика).executor": "Run",
-    "Python.№ 24 Метод двух указателей.executor": "Run",
-    "Python.№ 24 Регулярные выражния.executor": "Run",
-    "Python.№ 25 делители.executor": "Run",
-    "Python.№ 27 Звезды. DBSCAN.executor": "Run",
-    "Python.№ 27 Звёзды и кластеры.executor": "Run",
-    "Python.№ 5 Алгоритмы.executor": "Run",
-    "Python.№ 6 Черепаха.executor": "Run",
-    "Python.№ 8 itertools (практика).executor": "Run",
-    "Python.№ 8 itertools (теория) (1).executor": "Run",
-    "Python.№ 8 itertools (теория).executor": "Run",
-    "Python.№ 8 itertools.executor": "Run",
-    "Python.№12 Машина Тьюринга (1).executor": "Run",
-    "Python.№12 Машина Тьюринга.executor": "Run",
-    "Python.№26 Теория чисел (1).executor": "Run",
-    "Python.№26 Теория чисел.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/misha/PycharmProjects/ЕГЭ/ШКОЛКОВО/Файлы для пробников"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Dictionaries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HackerRank.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fg.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ЕГЭ №2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ЕГЭ №5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 23 Особые случаи (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 23 Особые случаи.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 23 Рекурсия (11.09).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 23 Словари (04.09).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 23 особые случаи.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 24 и 25 (практика МАСКИ).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 24 и 25 (теория МАСКИ).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 25 (02.10) МАСКИ.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 25 (11.09).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 25 (практика МАСКИ) (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 25 (практика МАСКИ).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 25 (теория ДЕЛИТЕЛИ).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 25 (теория МАСКИ) (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача № 23 Ограничение по командам (рекурсия).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Олимпиады (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Олимпиады.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Особые случаи.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник № 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник №0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник №1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник №2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник №3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник №4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник №5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Решение входного пробника (№0).executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 13 IP-адрес.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 13 IP-адреса.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 14 Системы счисления.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 15. Решение прогой.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 16, 23 Рекурсия.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 19-21 Теория игр. Рекурсия.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 19-21 Теория игр.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 24 Метод двух указателей (практика).executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 24 Метод двух указателей.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 24 Регулярные выражния.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 25 делители.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 27 Звезды. DBSCAN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 27 Звёзды и кластеры.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 5 Алгоритмы.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 6 Черепаха.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 8 itertools (практика).executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 8 itertools (теория) (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 8 itertools (теория).executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 8 itertools.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№12 Машина Тьюринга (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.№12 Машина Тьюринга.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/PycharmProjects/USE-2026/ШКОЛКОВО&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Файлы для пробников" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Хард прога" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Теория\Хард прога" />
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Файлы для пробников" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Файлы для пробников" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
+      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
+      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.№26 Теория чисел (1)">
+  <component name="RunManager" selected="Python.Пробник №5">
     <configuration name="Пробник №4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
@@ -147,6 +157,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Пробник №4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -156,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№12 Машина Тьюринга (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Пробник №5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,11 +176,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№12 Машина Тьюринга.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Пробник №5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,6 +203,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\USE-2026\Школа\Олимпиады.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -200,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№26 Теория чисел" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="№12 Машина Тьюринга (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,11 +222,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Хард прога\№26 Теория чисел.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№12 Машина Тьюринга.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,7 +236,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№26 Теория чисел" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="№12 Машина Тьюринга" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,11 +245,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Теория" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№26 Теория чисел.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Теория/№12 Машина Тьюринга.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,18 +261,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.№26 Теория чисел (1)" />
-        <item itemvalue="Python.№26 Теория чисел" />
-        <item itemvalue="Python.Пробник №4" />
+        <item itemvalue="Python.Пробник №5" />
         <item itemvalue="Python.Олимпиады" />
         <item itemvalue="Python.№12 Машина Тьюринга (1)" />
+        <item itemvalue="Python.№12 Машина Тьюринга" />
+        <item itemvalue="Python.Пробник №4" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
   </component>
