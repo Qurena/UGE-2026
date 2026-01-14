@@ -199,45 +199,127 @@ print(px, py)
 затем |Py|⋅1000 для файла А, далее целую часть произведения |Px|⋅1000 и |Py|⋅1000 для файла Б.
 ---------------------------------------------------------------------------------------------------
 '''
-# Для файла А
-from math import *
-
-def dbscan(a: int, r: int) -> list:
-    cl = []
-    while a:
-        cl.append([a.pop(0)])
-        for i in cl[-1]:
-            for j in a[:]:
-                if dist(i[:2], j[:2]) < r:
-                    cl[-1].append(j)
-                    a.remove(j)
-    return cl
-
-
-f = open("27.txt")
-l = f.readline()
-a = [list(map(float, i.replace(",", ".").split())) for i in f]
-r = 0.5
-t = 0.01
-
-clusters = dbscan(a, r)
-px = py = 0
-
-for p in clusters:
-    st = dbscan(p, t)
-    mx = 0
-    for q in st:
-        if len(q) == 2:
-            if (2.7 <= q[0][2] <= 0) and (2.7 <= q[0][1] <= 0):
-                if abs(q[0][2] - q[1][2]) > mx:
-                    mx = abs(q[0][2] - q[1][2])
-                    mx_st = q
-    px += mx_st[0][0] + mx_st[1][0]
-    py += mx_st[0][1] + mx_st[1][1]
-
-print(int(abs(px / 8) * 10000), int(abs(py / 8) * 10000))
-
-
+# # Для файла А
+# from math import *
+#
+# def dbscan(a: int, r: int) -> list:
+#     cl = []
+#     while a:
+#         cl.append([a.pop(0)])
+#         for i in cl[-1]:
+#             for j in a[:]:
+#                 if dist(i[:2], j[:2]) < r:
+#                     cl[-1].append(j)
+#                     a.remove(j)
+#     return cl
+#
+#
+# f = open("27.txt")
+# l = f.readline()
+# a = [list(map(float, i.replace(",", ".").split())) for i in f]
+# r = 0.5
+# t = 0.01
+#
+# clusters = dbscan(a, r)
+# px = py = 0
+#
+# for p in clusters:
+#     st = dbscan(p, t)
+#     mx = 0
+#     for q in st:
+#         if len(q) == 2:
+#             if (2.7 <= q[0][2] <= 0) and (2.7 <= q[0][1] <= 0):
+#                 if abs(q[0][2] - q[1][2]) > mx:
+#                     mx = abs(q[0][2] - q[1][2])
+#                     mx_st = q
+#     px += mx_st[0][0] + mx_st[1][0]
+#     py += mx_st[0][1] + mx_st[1][1]
+#
+# print(int(abs(px / 8) * 10000), int(abs(py / 8) * 10000))
 
 
+# 4 (Разбивка неприятных кластеров-окружностей условиями)
+'''
+---------------------------------------------------------------------------------------------------
+Учёный решил провести кластеризацию некоторого множества звёзд по их
+расположению на карте звёздного неба. Кластер звёзд – это набор звёзд (точек) на графике,
+лежащий внутри круга радиусом R. Каждая звезда обязательно принадлежит только одному из кластеров.
 
+Истинный центр кластера, или центроид, – это одна из звёзд на графике,
+сумма расстояний от которой до всех остальных звёзд кластера минимальна.
+
+В файле Б хранятся данные о звёздах трёх кластеров, где R = 8.
+Известно, что количество звёзд не превышает 15000.
+
+Для каждого файла определите координаты центра каждого кластера, затем вычислите два числа:
+Px — произведение абсцисс центров кластеров, и Py – произведение ординат центров кластеров.
+
+В ответе запишите целую часть произведения Px⋅Py⋅1000000000 для файла Б.
+---------------------------------------------------------------------------------------------------
+'''
+# РЕШЕНИЕ ЧЕРЕЗ УРАВНЕНИЯ ПРЯМЫХ
+# # Сначала в экселе строим график: уменьшаем единичный отрезок, находим прямые, рассекающие кластеры
+# from math import dist
+# from turtle import *
+# f = open('Файлы к задачам/4B__5gsqq.txt')
+# a = [list(map(float, i.replace(',', '.').split())) for i in f if 'X' not in i]
+# clusters = [[], [], []]
+# # определили две прямые: y = -x + 1.5 и y = x - 1.5
+# for i in a:
+#     x, y = i
+#     if (y > -x + 1.5) and (y > x - 1.5):
+#         clusters[1].append(i)
+#     if (y < -x + 1.5) and x < 1.5:
+#         clusters[0].append(i)
+#     if (y < x - 1.5) and x > 1.5:
+#         clusters[2].append(i)
+#
+# px = py = 1
+# # mn_s = []
+# for k in range(3):
+#     mn = 10**10
+#     for star in clusters[k]:
+#         s = 0
+#         for j in clusters[k]:
+#             s += dist(star, j)
+#         if s < mn:
+#             mn = s
+#             mn_star = star
+#     # mn_s.append(mn_star)
+#     px *= mn_star[0]
+#     py *= mn_star[1]
+# print(int(px*py*(10**9)))
+#
+# # m = 20
+# # tracer(0)
+# # up()
+# # for k in range(3):
+# #     for i in clusters[k]:
+# #         x, y = i
+# #         goto(x*m, y*m)
+# #         dot(3, 'blue')
+# # for i in mn_s:
+# #     x, y = i
+# #     goto(x * m, y * m)
+# #     dot(3, 'yellow')
+# # done()
+#
+# # Ответ: 220
+
+# РЕШЕНИЕ ЧЕРЕЗ УРАВНЕНИЯ ОКРУЖНОСТЕЙ
+from math import dist
+from turtle import *
+# f = open('Файлы к задачам/4B__5gsqq.txt')
+# a = [list(map(float, i.replace(',', '.').split())) for i in f if 'X' not in i]
+# clusters = [[], [], []]
+# trash = []
+# for i in a:
+#     x, y = i
+#     if (x)**2 + (y)**2 < 1:
+#         clusters[0].append(i)
+#     if (x-1.5)**2 + (y-1.5)**2 < 1:
+#         clusters[1].append(i)
+#     if  (x-3)**2 + (y)**2 < 1:
+#         clusters[2].append(i)
+#     else:
+#         trash.append(i)

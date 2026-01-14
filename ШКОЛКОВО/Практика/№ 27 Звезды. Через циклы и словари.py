@@ -1,4 +1,6 @@
-"""Решение дз к вебу: https://3.shkolkovo.online/lesson/34223"""
+"""Решение дз к вебу:
+https://3.shkolkovo.online/lesson/34223
++ https://3.shkolkovo.online/my/course/7259/dz/27814"""
 
 # 1
 '''
@@ -143,3 +145,52 @@ print(int(px * 100), int(py * 100))
 #
 # done()
 '''
+
+# 4
+# Файл А
+from math import dist
+from turtle import *
+f = open("27_A__8vcrw.txt")
+a = [list(map(float, i.replace(',','.').split())) for i in f if 'X' not in i]
+clusters = [[], []]
+
+c0 = 0
+c1 = 0
+for i in a:
+    x, y = i
+    if y > 90 and x < 40:
+        clusters[0].append(i)
+        c0 += 1
+    if y > 80 and x > 60:
+        c1 += 1
+        clusters[1].append(i)
+print(c0, c1)
+
+p1 = p2 = 0
+for k in range(2):
+    if k != 0:
+        mn = 10**10
+        for star in clusters[k]:
+            s = 0
+            for j in clusters[k]:
+                s += dist(star, j)
+            if s < mn:
+                mn = s
+                mn_star = star
+        p1 += mn_star[0] + mn_star[1]
+print(p1)
+ans1 = 117.11175644254592
+ans2 = 153.21673240650313
+print(int(ans1*10000), int(ans2*10000))
+# m = 20
+# tracer(2)
+# screensize(200*200)
+# up()
+# for k in range(2):
+#     for i in clusters[k]:
+#         x, y = i
+#         goto(x, y)
+#         dot(3, 'blue')
+# done()
+
+# 1171117 1532167
