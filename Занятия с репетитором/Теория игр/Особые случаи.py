@@ -207,7 +207,7 @@ for s in range(506, 10000):
 '''
 
 
-# 2 КУЧКИ И МУДРЕНЫЕ ХОДЫ:
+# 2 КУЧКИ И МУДРЕНЫЕ ХОДЫ (задача 1):
 """
 Задача 19-21 (множество команд)
 https://education.yandex.ru/ege/inf/task/77aab5b2-72a5-4702-9766-b0630ebb8c11
@@ -217,35 +217,111 @@ https://education.yandex.ru/ege/inf/task/1d76f57f-5e17-46ba-92bc-37adc56980d7
 https://education.yandex.ru/ege/inf/task/b021f83e-ca24-4822-aea3-5fcb4969cea4
 Ответ: 16
 """
-def steps(p):
-    a, b = p
-    next_steps = []
-    if b > a:  # делаем так, что куча a всегда больше
-        a, b = b, a
+# def steps(p):
+#     a, b = p
+#     next_steps = []
+#     if b > a:  # делаем так, что куча a всегда больше
+#         a, b = b, a
+#
+#     f = lambda x: (x + 1, x + 2, x + 3)  # если мы вызовем функцию f, то она вернет три значения
+#
+#     next_steps.extend(zip(f(a), [b] * 3))  # zip создает все пары аргументов
+#     if a == b:  # extend добавляет несколько значений в список
+#         next_steps.extend(zip([a] * 3, f(b)))
+#     else:
+#         next_steps.append((a, b * 2))
+#     return next_steps
+#
+#
+# def play(p, r):
+#   if max(p) >= 40 and r in (0, 2):
+#     return True
+#
+#   if max(p) >= 40 or r == 0:
+#     return False
+#
+#   next_plays = [play(p1, r - 1) for p1 in steps(p)]
+#
+#   return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+#
+# for s in range(1, 40):
+#   p = (s, 31)
+#   if play(p, 4) and not play(p, 2):
+#     print(s)
 
-    f = lambda x: (x + 1, x + 2, x + 3)  # если мы вызовем функцию f, то она вернет три значения
 
-    next_steps.extend(zip(f(a), [b] * 3))  # zip создает все пары аргументов
-    if a == b:  # extend добавляет несколько значений в список
-        next_steps.extend(zip([a] * 3, f(b)))
-    else:
-        next_steps.append((a, b * 2))
-    return next_steps
+# 2 КУЧКИ И МУДРЕНЫЕ ХОДЫ (задача 2):
+'''https://education.yandex.ru/ege/inf/task/04a951bf-d429-45bf-ae09-5321c1ac8e73'''
+# def steps(p):
+#     a, b = p
+#     next_steps = [(a, b + 2), (a + 2, b), (a + b, b), (a, b + a)]
+#     return next_steps
+#
+# def play(p, r):
+#     if sum(p) >= 180 and r in (0, 2):
+#         return True
+#
+#     if sum(p) >= 180 or r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     if r - 2 == 0:
+#         return all(next_plays)
+#     if r - 1 == 0:
+#         return any(next_plays)
+#
+# for s in range(1, 161):
+#     p = (s, 18)
+#     if play(p, 2):
+#         print(s)
+# # 80
 
+'''https://education.yandex.ru/ege/inf/training/20/task/1?examTaskId=02eb39f3-94db-42bc-acc9-4b869c078324&examTaskNumber=20&taskId=86cf75fa-bb1e-4967-b6b6-beccf119211c&categoryId=d113c406-3195-4315-888c-e40c9e97e5a6'''
+# def steps(p):
+#   a, b = p
+#   next_steps = [(a, b+2), (a+2,b), (a+b, b), (a, b+a)]
+#   return next_steps
+#
+# def play(p, r):
+#   if sum(p) >= 180 and r in (0, 2):
+#     return True
+#
+#   if sum(p) >= 180 or r == 0:
+#     return False
+#
+#   next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#   return any(next_plays) if r % 2 != 0 else all(next_plays)
+#
+# for s in range(1, 161):
+#   p = (18, s)
+#   if not(play(p, 1)) and play(p, 3):
+#     print(s)
+# # 62 3
 
-def play(p, r):
-  if max(p) >= 40 and r in (0, 2):
-    return True
-
-  if max(p) >= 40 or r == 0:
-    return False
-
-  next_plays = [play(p1, r - 1) for p1 in steps(p)]
-
-  return all(next_plays) if r % 2 == 0 else any(next_plays)
-
-
-for s in range(1, 40):
-  p = (s, 31)
-  if play(p, 4) and not play(p, 2):
-    print(s)
+'''https://education.yandex.ru/ege/inf/training/21/task/1?examTaskId=f8058cf8-b8da-4f7a-8c3b-ee63b30347ee&examTaskNumber=21&taskId=35e457ca-93a2-4f56-92ba-17755c68463a&categoryId=3a7d0f4e-32ce-499a-a65d-420f87a288cd'''
+# def steps(p):
+#   a, b = p
+#   next_steps = [(a, b+2), (a+2,b), (a+b, b), (a, b+a)]
+#   return next_steps
+#
+# def play(p, r):
+#   if sum(p) >= 180 and r in (0, 2):
+#     return True
+#
+#   if sum(p) >= 180 or r == 0:
+#     return False
+#
+#   next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#   return any(next_plays) if r % 2 != 0 else all(next_plays)
+#
+# for s in range(1, 161):
+#   p = (18, s)
+#   # if play(p, 4) and not play(p, 2):
+#   #    print(s)
+#   if not(play(p, 2)) and (play(p, 2) or play(p, 4)):
+#       print(s)
+# # 77
