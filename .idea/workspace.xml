@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="base 3">
-      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/!Файлы для задач/26.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/!Файлы для задач/26_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/!Файлы для задач/test27.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/!Файлы для задач/test272.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Практика.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Практика.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/20_A__4iej7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/2__t1mf.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/3_A__4i7tl.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/3_B__4i7tm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/Задание_27_A__f6wd__swpb.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Динамическое программирование.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_01_2026_19_32_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_01_2026_19_32__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/1_A__2kc3g.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27A_6__3shsc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27B_6__3shsd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/2B__2pbyl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/3A__2pbyo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/3B__2pbyp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/7_A__2rcth.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/7_B__2rcti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/8A__2pbz2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/8B__2pbz3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Списки. Метод остатков для задач на пары.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Особые случаи.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Особые случаи.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/№ 19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/№ 19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№26 Теория чисел.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Теория чисел.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +108,7 @@
     "Python.№ 24 Регулярные выражния.executor": "Run",
     "Python.№ 25 делители.executor": "Run",
     "Python.№ 26 Динамическое программирование.executor": "Run",
+    "Python.№ 26 Списки. Метод остатков для задач на пары.executor": "Run",
     "Python.№ 26.executor": "Run",
     "Python.№ 27 Звезды. DBSCAN. Особые случаи.executor": "Run",
     "Python.№ 27 Звезды. DBSCAN.executor": "Run",
@@ -143,14 +136,36 @@
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\!Файлы для задач" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\№ 26" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Хард прога" />
+      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\!Файлы для задач" />
+      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\№ 26" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\Файлы для задач" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Практика (1)">
+  <component name="RunManager" selected="Python.№ 26 Списки. Метод остатков для задач на пары">
+    <configuration name="№ 26 Списки. Метод остатков для задач на пары" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Списки. Метод остатков для задач на пары.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="№ 26 Динамическое программирование" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
@@ -263,10 +278,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.№ 26 Списки. Метод остатков для задач на пары" />
         <item itemvalue="Python.Практика (1)" />
         <item itemvalue="Python.Практика" />
         <item itemvalue="Python.№ 26 Динамическое программирование" />
-        <item itemvalue="Python.№ 26 Теория" />
         <item itemvalue="Python.№ 27 Звезды. DBSCAN" />
       </list>
     </recent_temporary>
@@ -327,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769004059997</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="base 3">
+      <option name="closed" value="true" />
+      <created>1769533781835</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769533781835</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
