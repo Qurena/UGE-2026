@@ -308,7 +308,7 @@ https://education.yandex.ru/ege/inf/task/b021f83e-ca24-4822-aea3-5fcb4969cea4
 #   return next_steps
 #
 # def play(p, r):
-#   if sum(p) >= 180 and r in (0, 2):
+#   if sum(p) >= 180 and r in (0, 2): # выиграть последним и предпоследним ходом
 #     return True
 #
 #   if sum(p) >= 180 or r == 0:
@@ -325,3 +325,6 @@ https://education.yandex.ru/ege/inf/task/b021f83e-ca24-4822-aea3-5fcb4969cea4
 #   if not(play(p, 2)) and (play(p, 2) or play(p, 4)):
 #       print(s)
 # # 77
+
+
+
