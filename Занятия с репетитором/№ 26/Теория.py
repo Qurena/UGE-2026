@@ -11,34 +11,66 @@
 • прогнать код решения через эти тесты уже запустив его в среде разработки
 '''
 
-# Тип 1: конференц-залы
+# Тип 1: Жадный алгоритм (конференц-залы)
 '''https://education.yandex.ru/ege/inf/task/1e8269f4-e912-4cb5-a75a-468ce40cc16d'''
 
-# сортируем список по времени окончания меро
-# чем раньше закончится меро, тем лучше
+# # сортируем список по времени окончания меро
+# # чем раньше закончится меро, тем лучше
+#
+# f = open("../!Файлы для задач/26.txt")
+# n = int(f.readline())
+# ev = [list(map(int, line.split())) for line in f]
+#
+# ev = sorted(ev, key=lambda x: x[1])
+# # ev.sort(key=lambda x: x[1])
+# # 480, 600
+# ap_ev = [ev[0]]
+#
+# for i in range(n):
+#     if ap_ev[-1][1] <= ev[i][0]:
+#         ap_ev.append(ev[i])
+#
+# ap_ev.pop(-1)
+#
+# for k in range(n - 1, -1, -1):
+#     if ev[k][0] >= ap_ev[-1][-1]:
+#         ap_ev.append(ev[k])
+#         break
+#
+# print(len(ap_ev), ap_ev[-1][-1], sep='\t')
+# # 16 1345
 
-f = open("../!Файлы для задач/26.txt")
-n = int(f.readline())
-ev = [list(map(int, line.split())) for line in f]
 
-ev = sorted(ev, key=lambda x: x[1])
-# ev.sort(key=lambda x: x[1])
-# 480, 600
-ap_ev = [ev[0]]
+# Тип 2: Хронология. Живая очередь (багаж)
+'''https://education.yandex.ru/ege/inf/task/150c0498-2a71-452d-9522-6eb0bb37d260'''
 
-for i in range(n):
-    if ap_ev[-1][1] <= ev[i][0]:
-        ap_ev.append(ev[i])
+k = 2
+n = 5
+regs = [[30, 60], [40, 1000], [59, 60], [61, 1000], [1010, 1440]]
+regs.sort()
 
-ap_ev.pop(-1)
+lockers = [[0, 0] for _ in range(k)] # Номер ячеек от 0
 
-for k in range(n - 1, -1, -1):
-    if ev[k][0] >= ap_ev[-1][-1]:
-        ap_ev.append(ev[k])
-        break
+count = 0
+for start, end in regs:
+    for i in range(len(lockers)):
+        if lockers[i][-1] <= start:
+            lockers[i] = [start, end + 1]
+            count += 1
+            break
 
-print(len(ap_ev), ap_ev[-1][-1], sep='\t')
-# 16 1345
+latest = 0
+latest_num = None
+for i in range(len(lockers)):
+    if lockers[i][0] > latest:
+        latest = lockers[i][0]
+        latest_num = i + 1
+print(count, latest_num)
+# 4     1
+
+
+
+
 
 
 

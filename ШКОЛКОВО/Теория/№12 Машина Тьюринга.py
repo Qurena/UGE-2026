@@ -52,4 +52,4 @@ while c != 'S':
         i -= 1
     else:
         i += 1
-    print(''.join(s))
+print(''.join(s))

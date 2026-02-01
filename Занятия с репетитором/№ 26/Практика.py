@@ -32,33 +32,35 @@
 # 2
 '''https://education.yandex.ru/ege/inf/task/ea4c8f9d-4292-4fef-bd08-426ed0628ff2'''
 
-f = open("../!Файлы для задач/26_2.txt")
-n, start, end = map(int, str(f.readline()).split())
-a = [list(map(int, i.split())) for i in f]
+# f = open("../!Файлы для задач/26_2.txt")
+# n, start, end = map(int, str(f.readline()).split())
+# a = [list(map(int, i.split())) for i in f]
+#
+# eyes = []
+# mxt = 0
+# for i in range(n):
+#   if a[i][0] <= start:
+#     if a[i][-1] > mxt:
+#       mxt = a[i][-1]
+#       first_eye = a[i]
+# eyes.append(first_eye)
+#
+# def e(eyes):
+#   mxt = 0
+#   for i in range(n):
+#     if a[i][0] <= eyes[-1][-1]:
+#       if a[i][-1] > mxt:
+#         mxt = a[i][-1]
+#         eye = a[i]
+#   return eye
+#
+#
+# while eyes[-1][-1] < end:
+#   eyes.append(e(eyes))
+#
+# # print(eyes)
+# print(len(eyes), eyes[0][-1] - start, sep='\t')
+# # 59	290
 
-eyes = []
-mxt = 0
-for i in range(n):
-  if a[i][0] <= start:
-    if a[i][-1] > mxt:
-      mxt = a[i][-1]
-      first_eye = a[i]
-
-eyes.append(first_eye)
-
-def e(eyes):
-  mxt = 0
-  for i in range(n):
-    if a[i][0] <= eyes[-1][-1]:
-      if a[i][-1] > mxt:
-        mxt = a[i][-1]
-        eye = a[i]
-  return eye
 
 
-while eyes[-1][-1] < end:
-  eyes.append(e(eyes))
-
-# print(eyes)
-print(len(eyes), eyes[0][-1] - start, sep='\t')
-# 59	290
