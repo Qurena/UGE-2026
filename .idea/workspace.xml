@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="base 3">
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/24__7y15x.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/5_A__62ruo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/5_B__62ruq.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/demo_2025_26__7a4yn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/!Файлы для задач/26_07a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/!Файлы для задач/26_07b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/!Файлы для задач/test_07a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Пробник №8.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Пробник №8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ЕГЭ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ЕГЭ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Особые случаи.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Особые случаи.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Практика.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Практика.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/№ 19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Теория.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Практика.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Практика.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Qurena/UGE-2026.git&quot;,
-    &quot;accountId&quot;: &quot;2ddb240a-8165-4159-ad9a-fb104abad8a1&quot;
+    &quot;accountId&quot;: &quot;3e714abd-845c-4452-9f03-b42403b970e0&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -46,7 +51,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="32EuJ24oEhurUuAcOhmr6zXQ0Tk" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -56,7 +61,6 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.27.01 (№10-№15).executor&quot;: &quot;Run&quot;,
     &quot;Python.Dictionaries.executor&quot;: &quot;Run&quot;,
     &quot;Python.HackerRank.executor&quot;: &quot;Run&quot;,
     &quot;Python.fg.executor&quot;: &quot;Run&quot;,
@@ -80,6 +84,8 @@
     &quot;Python.Олимпиады (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.Олимпиады.executor&quot;: &quot;Run&quot;,
     &quot;Python.Особые случаи.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Практика (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Практика.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник № 2.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №0.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №1.executor&quot;: &quot;Run&quot;,
@@ -87,8 +93,9 @@
     &quot;Python.Пробник №3.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №4.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник №8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник №7.executor&quot;: &quot;Run&quot;,
     &quot;Python.Решение входного пробника (№0).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Теория.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 13 IP-адрес.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 13 IP-адреса.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 14 Системы счисления.executor&quot;: &quot;Run&quot;,
@@ -101,6 +108,9 @@
     &quot;Python.№ 24 Метод двух указателей.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 24 Регулярные выражния.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 25 делители.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 26 Динамическое программирование.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 26 Списки. Метод остатков для задач на пары.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 26.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 27 Звезды. DBSCAN. Особые случаи.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 27 Звезды. DBSCAN.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 27 Звезды. Через циклы и словари.executor&quot;: &quot;Run&quot;,
@@ -116,96 +126,25 @@
     &quot;Python.№26 Теория чисел (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.№26 Теория чисел.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/PycharmProjects/USE-2026/ШКОЛКОВО&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/misha/PycharmProjects/ЕГЭ/ШКОЛКОВО/Файлы для пробников&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Файлы для пробников" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Файлы для пробников" />
-      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика" />
+      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\!Файлы для задач" />
+      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\№ 26" />
+      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Файлы для пробников" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
+      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Пробник №8">
-    <configuration name="№ 15. Решение прогой" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ЕГЭ" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Теория" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 15. Решение прогой.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="№ 27 Звезды. DBSCAN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ЕГЭ" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. DBSCAN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Пробник №8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ЕГЭ" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Пробник №8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Практика (1)">
     <configuration name="Особые случаи" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
@@ -219,7 +158,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Особые случаи.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -229,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="27.01 (№10-№15)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Пробник №7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,12 +176,121 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Школа и олимпиады" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Школа и олимпиады/27.01 (№10-№15).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Пробник №7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Практика (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Занятия с репетитором/№ 26" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/№ 26/Практика.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Теория" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Занятия с репетитором/№ 26" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Практика" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Занятия с репетитором/Теория игр" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Практика.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Теория" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Занятия с репетитором/№ 26" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Теория" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Занятия с репетитором/№ 26" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\№ 26\Теория.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,18 +301,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Пробник №8" />
-        <item itemvalue="Python.№ 15. Решение прогой" />
-        <item itemvalue="Python.27.01 (№10-№15)" />
-        <item itemvalue="Python.№ 27 Звезды. DBSCAN" />
+        <item itemvalue="Python.Практика (1)" />
+        <item itemvalue="Python.Практика" />
         <item itemvalue="Python.Особые случаи" />
+        <item itemvalue="Python.Теория" />
+        <item itemvalue="Python.Пробник №7" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -312,13 +359,29 @@
     </task>
     <task id="LOCAL-00005" summary="base 3">
       <option name="closed" value="true" />
-      <created>1770031075929</created>
+      <created>1769004059997</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1770031075929</updated>
+      <updated>1769004059997</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="base 3">
+      <option name="closed" value="true" />
+      <created>1769533781835</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769533781835</updated>
+    </task>
+    <task id="LOCAL-00007" summary="base 3">
+      <option name="closed" value="true" />
+      <created>1769545223087</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1769545223087</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -327,4 +327,30 @@ https://education.yandex.ru/ege/inf/task/b021f83e-ca24-4822-aea3-5fcb4969cea4
 # # 77
 
 
+# ОГРАНИЧЕННОЕ КОЛИЧЕСТВО КАМНЕЙ
+def steps(p):
+    next_steps = []
+    if p + 1 <= 60:
+        next_steps.append(p+1)
+    if p + 2 <= 60:
+        next_steps.append(p+2)
+    if p * 2 <= 60:
+        next_steps.append(p*2)
+    return next_steps
+
+def play(p, r):
+    if p >= 51 and r == 0:
+        return True
+    if p >= 51 or r == 0:
+        return False
+
+    next_plays = [play(step, r-1) for step in steps(p)]
+
+    return any(next_plays) if r % 2 != 0 else all(next_plays)
+
+for s in range(1, 51):
+    if play(s, 4):
+        print(s)
+# 45
+
 
