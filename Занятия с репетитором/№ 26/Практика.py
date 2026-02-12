@@ -144,3 +144,28 @@
 
 
 # 5
+'''https://education.yandex.ru/ege/inf/task/4e43bee7-572c-4e2e-8805-22fd8a9b50c2'''
+
+f = open("../!Файлы для задач/26wlhf.txt")
+n = int(f.readline())
+data = [list(map(int, i.split())) for i in f]
+visitors = [0] * (24 * 60 + 1)
+
+for start, end in data:
+    visitors[start] += 1
+    visitors[end + 1] -= 1
+
+current = 0
+l_empt = 0
+count_empt = 0
+moment = 0
+for v in visitors[:-1]:
+    current += v
+    if current == 0:
+        l_empt += 1
+    if (v == -1 and current == 0) or (moment == 0 and current == 0):
+        count_empt += 1
+    moment += 1
+
+print(count_empt, l_empt)
+# 3 303

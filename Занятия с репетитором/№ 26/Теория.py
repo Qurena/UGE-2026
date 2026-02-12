@@ -69,29 +69,78 @@
 # # 4     1
 
 
+
+
 # Тип 3: Посещаемость | Час-пик
+'''https://education.yandex.ru/ege/inf/task/e05939fa-2be0-410f-9a67-e8ab0c5b9bb9'''
+'''https://education.yandex.ru/ege/inf/task/e05939fa-2be0-410f-9a67-e8ab0c5b9bb9'''
+
+# Быстрый вариант решения (чтобы его хорошо понять, нужно визуализировать код на бумажке)
+# f = open("../!Файлы для задач/26htgjdyrtjr.txt")
+# n = int(f.readline())
+# data = [list(map(int, i.split())) for i in f]
 # visitors = [0]*1441
 #
 # for start, end in data:
-#     visitors[start] += 1
-#     visitors[end + 1] -= 1
+#   visitors[start] += 1
+#   visitors[end + 1] -= 1
 #
 # # current - количество посетителей в момент времени t. current = sum(visitors[:(t+1)])
 # current = 0
-# mx_v = 0
+# mxc = 0
 # for v in visitors:
-#     current += v
-#     mx_v = max(mx_v, current)
+#   current += v
+#   mxc = max(mxc, current)
 #
+# # Рассчитываем количество час-пиков
 # count = 0
 # current = 0
 # for v in visitors:
-#     if current != mx_v and current + v == mx_v:
+#     if current != mxc and current + v == mxc:
 #         count += 1
 #     current += v
+# print(count, mxc)
+# # 2	643
+
+
+# Медленный вариант решения (более примитивный)
+# f = open("../!Файлы для задач/26htgjdyrtjr.txt")
+# n = int(f.readline())
+# a = [list(map(int, i.split())) for i in f]
+#
+# flow = []
+# for m in range(24 * 60 + 1):
+#     q = 0
+#     for k in range(n):
+#         if a[k][0] <= m <= a[k][1]:
+#             q += 1
+#     flow.append(q)
+# print(max(flow), sep='\t')
+# # 643
 
 
 
+
+# Тип 4: Посещаемость | Нули (нулевая посещаемость)
+'''https://education.yandex.ru/ege/inf/task/4e43bee7-572c-4e2e-8805-22fd8a9b50c2'''
+
+f = open("../!Файлы для задач/26wlhf.txt")
+n = int(f.readline())
+data = [list(map(int, i.split())) for i in f]
+
+data.sort()
+    intervals.sort()
+    result = []
+
+    start, end = intervals[0]
+    for s, e in intervals[1:]:
+        if s <= end:
+            end = max(end, e)
+        else:
+            result.append([start, end])
+            start, end = s, e
+
+    result.append([start, end])
 
 
 
