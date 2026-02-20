@@ -124,23 +124,94 @@
 # Тип 4: Посещаемость | Нули (нулевая посещаемость)
 '''https://education.yandex.ru/ege/inf/task/4e43bee7-572c-4e2e-8805-22fd8a9b50c2'''
 
-f = open("../!Файлы для задач/26wlhf.txt")
-n = int(f.readline())
-data = [list(map(int, i.split())) for i in f]
+# f = open("../!Файлы для задач/26wlhf.txt")
+# n = int(f.readline())
+# data = [list(map(int, i.split())) for i in f]
+#
+# data.sort()
+# result = []
+#
+# # выявляем интервалы из исходного массива
+# start, end = data[0]
+# for s, e in data[1:]:
+#     if s <= end:
+#         end = max(end, e)
+#     else:
+#         result.append([start, end])
+#         start, end = s, e
+#
+# result.append([start, end])
+#
+# # считаем количество пустых интервалов и их длину
+# ldist = 0
+# count = 0
+# if result[0][0] != 0:
+#     ldist += result[0][0]
+#     count += 1
+# for i in range(len(result) - 1):
+#     d = result[i+1][0] - result[i][1] - 1
+#     ldist += d
+#     count += 1
+# if result[-1][-1] != 1440:
+#     ldist += 1440 - result[-1][-1] - 1
+#     count += 1
+# print(count, ldist, sep='\t')
+# # 5	303
 
-data.sort()
-    intervals.sort()
-    result = []
 
-    start, end = intervals[0]
-    for s, e in intervals[1:]:
-        if s <= end:
-            end = max(end, e)
-        else:
-            result.append([start, end])
-            start, end = s, e
 
-    result.append([start, end])
+
+# Тип 5: Бинарный поиск
+'''https://leetcode.com/problems/binary-search/'''
+# def bin_search(nums: list[int], target: int) -> int:
+#     lt = 0
+#     rt = len(nums) - 1
+#     while rt - lt > 1:
+#         midel = (rt + lt) // 2
+#         if target == nums[midel]:
+#             return midel
+#         elif target > nums[midel]:
+#             lt = midel
+#         else:
+#             rt = midel
+#
+#     if nums[rt] == target:
+#         return rt
+#     if nums[lt] == target:
+#         return lt
+#     return -1
+
+
+
+
+# Тип 5: Музыкальные стулья
+'''https://education.yandex.ru/ege/inf/task/a1b96fa1-7cf5-4a10-aa78-e933372024a2'''
+d = {}
+key = 54
+val = 23
+if key not in d:
+    d[key] = []
+d[key].append(val)
+
+from collections import defaultdict
+# d = defaultdict(int)
+d = defaultdict(list)
+key = 54
+val = 23
+d[key] += 1
+
+d.get(key, 0) # если ключ есть в словаре, то get вернет значение по этому ключу, а если нет - вернёт 0
+
+from collections import Counter
+l = [1, 1, 5, 5, 7, 8, 5]
+print(Counter(l)) # Counter({5: 3, 1: 2, 7: 1, 8: 1})
+
+
+bisect.bisect_left(a, x, lo=0, hi=len(a), *, key=None)
+
+
+
+
 
 
 

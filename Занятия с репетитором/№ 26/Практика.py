@@ -144,28 +144,36 @@
 
 
 # 5
-'''https://education.yandex.ru/ege/inf/task/4e43bee7-572c-4e2e-8805-22fd8a9b50c2'''
+'''https://alex-math.ru/gia/zadaniye-26-informatika-yege-2026-statgrad-16122025'''
 
-f = open("../!Файлы для задач/26wlhf.txt")
-n = int(f.readline())
-data = [list(map(int, i.split())) for i in f]
-visitors = [0] * (24 * 60 + 1)
-
-for start, end in data:
-    visitors[start] += 1
-    visitors[end + 1] -= 1
-
-current = 0
-l_empt = 0
-count_empt = 0
-moment = 0
-for v in visitors[:-1]:
-    current += v
-    if current == 0:
-        l_empt += 1
-    if (v == -1 and current == 0) or (moment == 0 and current == 0):
-        count_empt += 1
-    moment += 1
-
-print(count_empt, l_empt)
-# 3 303
+# f = open("../!Файлы для задач/26hm19.02.txt")
+# # f = open("testhm19.022.txt")
+# n = int(f.readline())
+# data = [list(map(int, i.split())) for i in f.readlines()]
+#
+# data.sort()
+# result = []
+#
+# start, end = data[0]
+# for s, e in data:
+#     if s < end:
+#         end = max(end, e)
+#     else:
+#         result.append([start, end])
+#         start, end = s, e
+# result.append([start, end])
+#
+# ld, c = 0, 0
+# if result[0][0] != 0:
+#     ld += result[0][0]
+#     c += 1
+#
+# for i in range(len(result) - 1):
+#     ld += result[i+1][0] - result[i][1]
+#     c += 1
+#
+# if result[-1][1] != 86400000:
+#     ld += 86400000 - result[-1][1]
+#     c += 1
+# print(c, ld, sep='\t')
+# # 360	376359
