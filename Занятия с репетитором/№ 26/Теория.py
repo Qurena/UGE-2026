@@ -207,7 +207,7 @@ l = [1, 1, 5, 5, 7, 8, 5]
 print(Counter(l)) # Counter({5: 3, 1: 2, 7: 1, 8: 1})
 
 
-bisect.bisect_left(a, x, lo=0, hi=len(a), *, key=None)
+# bisect.bisect_left(a, x, lo=0, hi=len(a), *, key=None)
 
 
 

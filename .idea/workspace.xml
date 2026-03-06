@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="base 3">
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Пробник №9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/17_11__89i2f.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/24-1__8ag0n.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/26_1__7rls7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/2_A__5kcr9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/2_B__5kcra.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/3_26_conf__3uznv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/4_26_conf__3uzok.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Жадные алгоритмы (кабинеты и покраска).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№26 Базовые прототипы.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Школа и олимпиады/Код будущего.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ЕГЭ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ЕГЭ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Фишки для задач.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Фишки для задач.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +81,7 @@
     "Python.Задача 25 (теория ДЕЛИТЕЛИ).executor": "Run",
     "Python.Задача 25 (теория МАСКИ) (1).executor": "Run",
     "Python.Задача № 23 Ограничение по командам (рекурсия).executor": "Run",
+    "Python.Код будущего.executor": "Run",
     "Python.Олимпиады (1).executor": "Run",
     "Python.Олимпиады.executor": "Run",
     "Python.Особые случаи.executor": "Run",
@@ -111,6 +111,7 @@
     "Python.№ 24 Регулярные выражния.executor": "Run",
     "Python.№ 25 делители.executor": "Run",
     "Python.№ 26 Динамическое программирование.executor": "Run",
+    "Python.№ 26 Жадные алгоритмы (кабинеты и покраска).executor": "Run",
     "Python.№ 26 Списки. Метод остатков для задач на пары.executor": "Run",
     "Python.№ 26.executor": "Run",
     "Python.№ 27 Звезды. DBSCAN. Особые случаи.executor": "Run",
@@ -125,30 +126,32 @@
     "Python.№ 8 itertools.executor": "Run",
     "Python.№12 Машина Тьюринга (1).executor": "Run",
     "Python.№12 Машина Тьюринга.executor": "Run",
+    "Python.№26 Базовые прототипы.executor": "Run",
     "Python.№26 Теория чисел (1).executor": "Run",
     "Python.№26 Теория чисел.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/user/PycharmProjects/USE-2026/ШКОЛКОВО"
+    "last_opened_file_path": "C:/Users/user/PycharmProjects/USE-2026/ШКОЛКОВО/Практика/Хард прога"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Практика\Хард прога" />
       <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Файлы для пробников" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Практика\Файлы к задачам" />
       <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Файлы для пробников" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\!Файлы для задач" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\№ 26" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Файлы для пробников" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Пробник №9">
+  <component name="RunManager" selected="Python.№ 26 Жадные алгоритмы (кабинеты и покраска)">
     <configuration name="Пробник №1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
@@ -164,6 +167,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Школа и олимпиады/Пробник №1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="№ 26 Жадные алгоритмы (кабинеты и покраска)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Жадные алгоритмы (кабинеты и покраска).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,29 +221,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Практика (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ЕГЭ" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Занятия с репетитором/№ 26" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/№ 26/Практика.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Особые случаи" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
@@ -241,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Теория" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Код будущего" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,12 +253,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Занятия с репетитором/№ 26" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Школа и олимпиады" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Школа и олимпиады/Код будущего.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,7 +267,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Практика" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="№26 Базовые прототипы" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,11 +276,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Занятия с репетитором/Теория игр" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Практика.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№26 Базовые прототипы.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.№ 26 Жадные алгоритмы (кабинеты и покраска)" />
+        <item itemvalue="Python.№26 Базовые прототипы" />
+        <item itemvalue="Python.Код будущего" />
         <item itemvalue="Python.Пробник №9" />
         <item itemvalue="Python.Пробник №1" />
-        <item itemvalue="Python.Практика (1)" />
-        <item itemvalue="Python.Особые случаи" />
-        <item itemvalue="Python.Теория" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769545223087</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="base 3">
+      <option name="closed" value="true" />
+      <created>1771862524712</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771862524712</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
