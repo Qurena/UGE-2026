@@ -186,27 +186,27 @@
 
 # Тип 5: Музыкальные стулья
 '''https://education.yandex.ru/ege/inf/task/a1b96fa1-7cf5-4a10-aa78-e933372024a2'''
-d = {}
-key = 54
-val = 23
-if key not in d:
-    d[key] = []
-d[key].append(val)
-
-from collections import defaultdict
-# d = defaultdict(int)
-d = defaultdict(list)
-key = 54
-val = 23
-d[key] += 1
-
-d.get(key, 0) # если ключ есть в словаре, то get вернет значение по этому ключу, а если нет - вернёт 0
-
-from collections import Counter
-l = [1, 1, 5, 5, 7, 8, 5]
-print(Counter(l)) # Counter({5: 3, 1: 2, 7: 1, 8: 1})
-
-
+# d = {}
+# key = 54
+# val = 23
+# if key not in d:
+#     d[key] = []
+# d[key].append(val)
+#
+# from collections import defaultdict
+# # d = defaultdict(int)
+# d = defaultdict(list)
+# key = 54
+# val = 23
+# d[key] += 1
+#
+# d.get(key, 0) # если ключ есть в словаре, то get вернет значение по этому ключу, а если нет - вернёт 0
+#
+# from collections import Counter
+# l = [1, 1, 5, 5, 7, 8, 5]
+# print(Counter(l)) # Counter({5: 3, 1: 2, 7: 1, 8: 1})
+#
+#
 # bisect.bisect_left(a, x, lo=0, hi=len(a), *, key=None)
 
 
