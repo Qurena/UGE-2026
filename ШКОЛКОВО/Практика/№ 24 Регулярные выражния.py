@@ -39,7 +39,7 @@ from re import *
 f = open("demo_2025_24__7ae4q.txt")
 s = f.readline()
 
-pattern = r'(0|[6-9]+[6, 7, 8, 9, 0]*)([-*](0|[6-9]+[6, 7, 8, 9, 0]*))+'
+pattern = r'(0|[6-9]+[67890]*)([-*](0|[6-9]+[67890]*))+'
 mx = 0
 
 for i in finditer(pattern, s):

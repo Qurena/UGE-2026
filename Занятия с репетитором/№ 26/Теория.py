@@ -41,6 +41,7 @@
 # # 16 1345
 
 
+
 # Тип 2: Хронология. Живая очередь (багаж)
 '''https://education.yandex.ru/ege/inf/task/150c0498-2a71-452d-9522-6eb0bb37d260'''
 
@@ -67,7 +68,6 @@
 #         latest_num = i + 1
 # print(count, latest_num)
 # # 4     1
-
 
 
 
@@ -120,7 +120,6 @@
 
 
 
-
 # Тип 4: Посещаемость | Нули (нулевая посещаемость)
 '''https://education.yandex.ru/ege/inf/task/4e43bee7-572c-4e2e-8805-22fd8a9b50c2'''
 
@@ -160,9 +159,9 @@
 
 
 
-
 # Тип 5: Бинарный поиск
 '''https://leetcode.com/problems/binary-search/'''
+
 # def bin_search(nums: list[int], target: int) -> int:
 #     lt = 0
 #     rt = len(nums) - 1
@@ -183,9 +182,9 @@
 
 
 
-
 # Тип 5: Музыкальные стулья
 '''https://education.yandex.ru/ege/inf/task/a1b96fa1-7cf5-4a10-aa78-e933372024a2'''
+
 # d = {}
 # key = 54
 # val = 23
@@ -211,10 +210,73 @@
 
 
 
+# Тип 6: Комбайн
+'''https://education.yandex.ru/ege/inf/task/b2dafbbb-9867-456d-9211-70dfb78deee9'''
+# Ключевая идея: заменяем left и right. Главное в конце убрать площадь пересекающихся строк.
+
+# f = open("26.txt")
+# [s, w, n, k] = [int(i) for i in f.readline().split()]
+# xi = []
+# for i in range(n):
+#     xi.append(int(f.readline()))
+# yi = [int(i) for i in f.readlines()]
+#
+# # Сначала считаем убранные столбики:
+# yi.sort()
+# xi.sort()
+#
+# total_dx = 0
+# left, right = [max(xi[0] - w//2, 0), min(s, xi[0] + w//2)] # min и max, чтобы не заходить за края поля
+#
+# for x in xi:
+#     if x - w // 2 <= right:
+#         right = min(s, x + w // 2)
+#     else:
+#         total_dx += (right - left)
+#         left, right = [max(x - w//2, 0), min(s, x + w//2)]
+#
+# total_dx += (right - left)
+#
+#
+# total_dy = 0
+# left, right = [max(yi[0] - w//2, 0), min(s, yi[0] + w//2)] # min и max, чтобы не заходить за края поля
+#
+# for y in yi:
+#     if y - w // 2 <= right:
+#         right = min(s, y + w // 2)
+#     else:
+#         total_dy += (right - left)
+#         left, right = [max(y - w//2, 0), min(s, y + w//2)]
+#
+# total_dy += (right - left)
+#
+# # total_dx * total_dy - площадь пересечения вертикальных и горизонтальных полосок
+# ans = s * total_dx + s * total_dy - total_dx * total_dy
+# print(ans)
 
 
 
+# Тип 7: Гирьки
 
+# with open('24.txt') as file:
+#     N = int(file.readline())
+#     weights = [int(line) for line in file]
+# weights.sort()
+#
+# possible = set() # 1 2 3
+# for w in weights:
+#     current = {w} # 1 2 3
+#     for p in possible:
+#         current.add(w + p) # 2 3 4 5
+#     possible = possible.union(current)
+#
+# print(len(possible))
+#
+# for w in range(1, sum(weights) + 1):
+#     if w not in possible:
+#         print(w)
+#         break
+# # 4217
 
 
 

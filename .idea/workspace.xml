@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="base 3">
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/26_1M__3whph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/26_4M__63amv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 24/№ 24. Метод частичной суммы.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Жадные алгоритмы (кабинеты и покраска).py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Жадные алгоритмы (кабинеты и покраска).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№26 Базовые прототипы.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№26 Базовые прототипы.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Регулярные выражния.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Регулярные выражния.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Фишки для задач.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Фишки для задач.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +35,12 @@
     &quot;assignee&quot;: &quot;Qurena&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Qurena/UGE-2026.git",
-    "accountId": "3e714abd-845c-4452-9f03-b42403b970e0"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Qurena/UGE-2026.git&quot;,
+    &quot;accountId&quot;: &quot;3e714abd-845c-4452-9f03-b42403b970e0&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -106,6 +106,7 @@
     "Python.№ 24 Метод двух указателей (практика).executor": "Run",
     "Python.№ 24 Метод двух указателей.executor": "Run",
     "Python.№ 24 Регулярные выражния.executor": "Run",
+    "Python.№ 24. Метод частичной суммы.executor": "Run",
     "Python.№ 25 делители.executor": "Run",
     "Python.№ 26 Динамическое программирование.executor": "Run",
     "Python.№ 26 Жадные алгоритмы (кабинеты и покраска).executor": "Run",
@@ -147,7 +148,7 @@
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.№26 Базовые прототипы">
+  <component name="RunManager" selected="Python.№ 24. Метод частичной суммы">
     <configuration name="Новогодний пробник (8 марта)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
@@ -170,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Пробник №1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="№ 24. Метод частичной суммы" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Школа и олимпиады" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Занятия с репетитором/№ 24" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Школа и олимпиады/Пробник №1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/№ 24/№ 24. Метод частичной суммы.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,28 +272,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Теория" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ЕГЭ" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Занятия с репетитором/№ 26" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\№ 26\Теория.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -304,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.№ 24. Метод частичной суммы" />
         <item itemvalue="Python.№26 Базовые прототипы" />
         <item itemvalue="Python.№ 26 Жадные алгоритмы (кабинеты и покраска)" />
         <item itemvalue="Python.Новогодний пробник (8 марта)" />
         <item itemvalue="Python.Пробник №9" />
-        <item itemvalue="Python.Пробник №1" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773056597872</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="base 3">
+      <option name="closed" value="true" />
+      <created>1773142204322</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1773142204322</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
