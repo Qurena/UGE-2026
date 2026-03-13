@@ -277,24 +277,24 @@
 # # ???
 
 # Второе решение:
-# def steps(p):
-#     return p - 2, p - 3, p//3
-#
-# def play(p, r):
-#     if p <= 26 and r % 2 == 0:
-#         return True
-#
-#     if p <= 26 or r == 0:
-#         return False
-#
-#     next_steps = [play(step, r - 1) for step in steps(p)]
-#
-#     return any(next_steps) if r % 2 != 0 else all(next_steps)
-#
-# for s in range(27, 201):
-#     if not(play(s, 2)) and (play(s, 2) or play(s, 4)):
-#         print(s)
-# # 87
+def steps(p):
+    return p - 2, p - 3, p//3
+
+def play(p, r):
+    if p <= 26 and r in (2, 4):
+        return True
+
+    if p <= 26 or r == 0:
+        return False
+
+    next_steps = [play(step, r - 1) for step in steps(p)]
+
+    return any(next_steps) if r % 2 != 0 else all(next_steps)
+
+for s in range(27, 201):
+    if not(play(s, 2)) and (play(s, 2) or play(s, 4)):
+        print(s)
+# 87
 
 
 # 23
