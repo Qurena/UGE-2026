@@ -1,6 +1,7 @@
 """
 Конспект по вебу: https://3.shkolkovo.online/my/course/7259/materials/lesson/36568
-+ дз: https://3.shkolkovo.online/my/course/7259/dz/27118"""
++ дз: https://3.shkolkovo.online/my/course/7259/dz/27118
++ веб: https://3.shkolkovo.online/my/course/7259/materials/lesson/38265"""
 
 # 1
 '''
@@ -112,3 +113,207 @@ adr = str(net.network_address)
 print(adr.replace(".", ""))
 # 18322400
 '''
+
+
+# 7
+'''
+---------------------------------------------------------------------------------------------------
+Узлы с IP-адресами 114.91.57.39 и 114.91.19.61 находятся в одной сети.
+Укажите наименьшее возможное количество принадлежащих этой сети IP-адресов,
+в двоичной записи которых чётное число единиц.
+---------------------------------------------------------------------------------------------------
+'''
+# from ipaddress import *
+#
+# ip1 = ip_address('114.91.57.39')
+# ip2 = ip_address('114.91.19.61')
+#
+# # поиск маски с наибольшим количеством единиц (=18)
+# # for i in range(32):
+# #     nt = ip_network('114.91.57.39/' + str(i), 0)
+# #     if ip2 in nt:
+# #         print(i)
+# ans = 0
+# n = ip_network('144.91.57.39/18', 0)
+# for i in n:
+#     if bin(int(i))[2:].zfill(32).count('1') % 2 == 0:
+#         ans += 1
+# print(ans)
+# # 8192
+
+
+# 18 марта (веб: https://3.shkolkovo.online/my/course/7259/materials/lesson/38265)
+
+# 1
+'''
+---------------------------------------------------------------------------------------------------
+Сеть задана IP-адресом 192.168.32.160 и маской сети 255.255.255.240.
+Сколько в этой сети IP-адресов, для которых сумма единиц в двоичной записи IP-адреса чётна?
+---------------------------------------------------------------------------------------------------
+'''
+# # На бумаге поняли, что последние 4 разряда в маске - нули -> в ip там либо 1, либо 0.
+# # Количество единиц ip левее = 8. Следовательно, нужно посчитать, сколько четверок с чет кол-вом единиц.
+# from itertools import *
+#
+# ans = 0
+# for i in product('01', repeat=4):
+#     g = ''.join(i)
+#     if str(g).count('1') % 2 == 0:
+#         ans += 1
+# print(ans)
+
+
+# 2
+'''
+---------------------------------------------------------------------------------------------------
+Для узла с IP-адресом 1.100.224.252 адрес сети равен 1.100.224.0.
+Для скольких различных значений маски это возможно?
+---------------------------------------------------------------------------------------------------
+'''
+# from ipaddress import *
+#
+# net = ip_network('1.100.224.0')
+#
+# ans = 0
+# for i in range(32):
+#     nt = ip_network('1.100.224.252/' + str(i), 0)
+#     if '1.100.224.0' == str(nt)[:-3]:
+#         ans += 1
+# print(ans)
+# # 6
+
+
+# 18 марта (ДЗ к вебу: https://3.shkolkovo.online/my/course/7259/dz/27832)
+
+# 1
+# from ipaddress import *
+#
+# net = ip_network('167.66.136.176/255.254.0.0', 0)
+#
+# mn = 10**10
+# for i in net.hosts():
+#     mn = min(mn, sum(int(k) for k in str(i).split('.')))
+# print(mn)
+# # 234
+
+
+# 2
+# print(int('11011000000000', 2))
+# # 13824
+
+
+# 3
+# from ipaddress import *
+#
+# net = ip_network('112.208.0.0/255.255.248.0', 0)
+# ans = 0
+# for ip in net:
+#     l = bin(int(ip))[2:].zfill(32)
+#     if l[-4:].count('0') == 0 or l[-4:].count('1') == 0:
+#         ans += 1
+# print(ans)
+# # 256
+
+
+# 4
+# from ipaddress import *
+#
+# ip = ip_address('135.120.117.213')
+# net = ip_network('135.120.117.192')
+#
+# msk = []
+# for i in range(32):
+#     nt = ip_network('135.120.117.213/' + str(i), 0)
+#     if '135.120.117.192' == str(nt)[:-3]:
+#         msk.append(i)
+# m = max(msk)
+#
+# nnt = ip_network('135.120.117.213/' + str(m), 0)
+# ans = 0
+# for i in nnt:
+#     ans += 1
+# print(ans)
+# # 32
+
+
+# 5
+# from ipaddress import *
+#
+# ip = ip_address('149.127.136.165')
+# net = ip_network('149.127.136.160')
+#
+# msk = []
+# for i in range(32):
+#     nt = ip_network('149.127.136.165/' + str(i), 0)
+#     if '149.127.136.160' == str(nt)[:-3]:
+#         msk.append(i)
+# m = max(msk)
+#
+# nnt = ip_network('149.127.136.165/' + str(m), 0)
+# ans = 0
+# for i in nnt:
+#     ans += 1
+# print(ans)
+# # 8
+
+
+# 6
+# from ipaddress import *
+# print(ip_network('90.146.86.168/255.255.224.0', 0))
+# # 90.146.64.0
+
+
+# 7
+# from ipaddress import *
+#
+# net = ip_network('68.232.57.148/255.255.252.0', 0)
+# n = str(net)[:-3]
+# q = n.split('.')
+# t = [bin(int(i))[2:].zfill(8) for i in q]
+# nt = ''.join(t)
+# print(nt.count('0'))
+# # 23
+
+
+# 8
+# from ipaddress import *
+#
+# msk = []
+# for i in range(32):
+#     nt = ip_network('14.253.13.6/' + str(i), 0)
+#     if '14.253.0.0' == str(nt)[:-3]:
+#         msk.append(i)
+#
+# ans = []
+# for k in range(len(msk)):
+#     net = ip_network('14.253.13.6/' + str(msk[k]), 0)
+#     mx = 0
+#     for i in net.hosts():
+#         ip = bin(int(i))[2:].zfill(32)
+#         mx = max(mx, ip.count('1'))
+#     ans.append(mx)
+# print(max(ans))
+# # 25
+
+
+# 9
+# from ipaddress import *
+#
+# msk = []
+# for i in range(32):
+#     nt = ip_network('145.46.8.250/' + str(i), 0)
+#     if '145.46.0.0' == str(nt)[:-3]:
+#         msk.append(i)
+#
+# ans = []
+# for k in range(len(msk)):
+#     net = ip_network('145.46.8.250/' + str(msk[k]), 0)
+#     mx = 0
+#     for i in net.hosts():
+#         ip = bin(int(i))[2:].zfill(32)
+#         mx = max(mx, ip.count('1'))
+#     ans.append(mx)
+# print(max(ans))
+# # 23
+
+
