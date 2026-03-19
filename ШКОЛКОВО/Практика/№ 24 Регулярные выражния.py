@@ -80,7 +80,7 @@ pattern = r'B[1-9]+([+*][1-9]+){1, 49}'
 
 from re import *
 
-f = open("24.txt")
+f = open("24dtwwe.txt")
 s = f.readline()
 
 pattern = r'([BCD][AE][BCD])+'
@@ -112,7 +112,7 @@ print(mx//3)
 
 from re import *
 
-f = open('24.txt')
+f = open('24dtwwe.txt')
 s = f.readline()
 
 pattern = r'[-]?[1-9]+([+-][1-9]+)+'
@@ -142,7 +142,7 @@ print(mx)
 
 from re import *
 
-f = open('24.txt')
+f = open('24dtwwe.txt')
 s = f.readline()
 
 pattern = r'A[1-4]+([+*][1-4]+)+'
@@ -166,7 +166,7 @@ print(mx)
 from re import *
 from string import *
 
-f = open('24.txt')
+f = open('24dtwwe.txt')
 s = f.readline()
 
 pattern = r'C[ABEFGHIJKLMNOPQRSTUVWXYZ]*D'
@@ -189,7 +189,7 @@ print(mx)
 
 from re import *
 
-f = open('24.txt')
+f = open('24dtwwe.txt')
 s = f.readline()
 
 pattern = r'(ABCD)+(ABCD|ABC|AB|A)*'

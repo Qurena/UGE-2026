@@ -18,12 +18,12 @@ https://education.yandex.ru/ege/task/7cecbe1f-be24-497e-8c28-cab3dc437d2f
 
 Для выполнения этого задания следует написать программу.
 
-# Доступен файл для чтения: 24.txt
+# Доступен файл для чтения: 24dtwwe.txt
 import re
 
 pattern = r"(AB|CB)+"
 
-with open("24.txt") as file:
+with open("24dtwwe.txt") as file:
   text = file.readline()
 
 max_len = 0

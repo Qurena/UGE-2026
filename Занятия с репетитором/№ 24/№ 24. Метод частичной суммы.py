@@ -1,4 +1,4 @@
-"""12 марта"""
+"""12 марта, 19 марта"""
 
 
 # 1
@@ -27,5 +27,25 @@
 #             max_len = max(max_len, j - i + 1)
 # print(max_len)
 # # 333
+
+
+# 2
+'''https://alex-math.ru/gia/zadaniye-24-informatika-yege-yegkr-19042025'''
+
+from re import *
+f = open('../!Файлы для задач/24dtwwe.txt')
+s = f.readline()
+s = s.replace('RSQ', 'AAA')
+pattern = r"(?=(AAA([FGQRSW]*AAA){129}[Q]*[^Q]))"
+
+mn = 10**10
+for i in finditer(pattern, s):
+    g = i.group(1)
+    mn = min(mn, len(g))
+print(mn)
+# 497
+
+
+
 
 

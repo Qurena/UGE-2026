@@ -214,7 +214,7 @@
 '''https://education.yandex.ru/ege/inf/task/b2dafbbb-9867-456d-9211-70dfb78deee9'''
 # Ключевая идея: заменяем left и right. Главное в конце убрать площадь пересекающихся строк.
 
-# f = open("26.txt")
+# f = open("26etery.txt")
 # [s, w, n, k] = [int(i) for i in f.readline().split()]
 # xi = []
 # for i in range(n):
@@ -258,7 +258,7 @@
 
 # Тип 7: Гирьки
 
-# with open('24.txt') as file:
+# with open('24dtwwe.txt') as file:
 #     N = int(file.readline())
 #     weights = [int(line) for line in file]
 # weights.sort()
@@ -277,6 +277,81 @@
 #         print(w)
 #         break
 # # 4217
+
+
+# Тип 8: Жилой дом с подъездами
+'''https://alex-math.ru/gia/zadaniye-26-informatika-yege-2026-statgrad-23102025'''
+
+# with open("../!Файлы для задач/26etery.txt") as file:
+#     n = int(file.readline())
+#     data = [list(map(int, i.split())) for i in file.readlines()]
+# data.sort(key=lambda x: (x[1], x[2], x[0]))
+#
+# numhouse = [[0]]
+# house = [[0]]
+# current = []
+# data.append([0, 1001, 0])
+#
+# for i in range(n):
+#         if data[i][1] == data[i+1][1]:
+#             current.append([data[i][0], data[i][2]])
+#         else:
+#             current.append([data[i][0], data[i][2]])
+#             numhouse.append(current)
+#             current = []
+#
+# def mxlfh(house):
+#     res = []
+#     ch = []
+#     res.append(house[0])
+#     for i in range(1, len(house)):
+#         if i != len(house) - 1:
+#             if house[i][1] == res[-1][1]:
+#                 pass
+#             if house[i][1] == res[-1][1] + 1:
+#                 res.append(house[i])
+#             if house[i][1] > res[-1][1] + 1:
+#                 ch.append(res)
+#                 res = [house[i]]
+#         else:
+#             if house[i][1] == res[-1][1]:
+#                 ch.append(res)
+#             if house[i][1] == res[-1][1] + 1:
+#                 res.append(house[i])
+#                 ch.append(res)
+#             if house[i][1] > res[-1][1] + 1:
+#                 ch.append(res)
+#                 ch.append(house[i])
+#     fin = []
+#     mx = 0
+#     for line in ch:
+#         if len(line) > mx:
+#             fin = [line]
+#             mx = len(line)
+#     for line in ch:
+#         if len(line) == mx and [line] != fin:
+#             fin.append(line)
+#     return fin
+#
+# for i in range(1, len(numhouse)):
+#     house.append(mxlfh(numhouse[i]))
+#
+# # mx = 0
+# # for i in range(1, len(house)):
+# #     for k in house[i]:
+# #         if len(k) > mx:
+# #             mx = len(k)
+#
+# mxhouse = []
+# for i in range(1, len(house)):
+#     for k in house[i]:
+#         if len(k) == 7:
+#             mxhouse.append([i, k])
+# print(mxhouse)
+# ans1 = mxhouse[0][0]
+# ans2 = mxhouse[0][1][0][1]
+# print(ans1, ans2)
+# # 171 701
 
 
 

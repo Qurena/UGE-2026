@@ -174,7 +174,7 @@ import re
 
 pattern = r"(([6789][06789]*|0)[-*])+([6789][06789]*|0)"
 
-with open("24.txt") as file:
+with open("24dtwwe.txt") as file:
   text = file.readline()
 
 ml = 0
@@ -186,13 +186,13 @@ print(ml)
 '''
 
 '''
-Найдите максимальное значение подходящей строки из файла 24.txt
+Найдите максимальное значение подходящей строки из файла 24dtwwe.txt
 
 import re
 
 pattern = r"(([6789][06789]*|0)[-*])+([6789][06789]*|0)"
 
-with open("24.txt") as file:
+with open("24dtwwe.txt") as file:
   text = file.readline()
 
 ml = 0
@@ -251,7 +251,7 @@ import re
 pattern = r"(QRP|RP|P)?(SQRP)+(SQR|SQ|R)?" #если мы напишем (S|SQ|SQR), и он наткнётся на S, которая подходит, то SQ и SQR уже рассматриваться не будут.
 ml = 0
 
-with open("24.txt") as file:
+with open("24dtwwe.txt") as file:
   text = file.readline()
 
 for match in re.finditer(pattern, text):
@@ -272,7 +272,7 @@ https://education.yandex.ru/ege/task/bcd7eb8e-445f-413b-a844-6e8394d50eb7
 ---------------------------------------------------------------------------
 РЕШЕНИЕ НЕ ЧЕРЕЗ РЕГУЛЯРКИ
 
-with open("24.txt") as file:
+with open("24dtwwe.txt") as file:
     text = file.readline()
 
 pos_e = []
@@ -301,7 +301,7 @@ print(max_len)
 import re
 
 max_len = 0 
-with open("24.txt") as file:
+with open("24dtwwe.txt") as file:
     text = file.readline()
     
 for match in re.finditer("E[ND]+", text):
@@ -314,7 +314,7 @@ print(max_len)
 
 import re
 
-with open("24.txt") as file:
+with open("24dtwwe.txt") as file:
   text = file.readline() 
 
 max_len = 0
@@ -346,7 +346,7 @@ import re
 
 pattern = r"[02468]([^S02468]*S){35}[^S02468]*"
 
-with open("24.txt") as file:
+with open("24dtwwe.txt") as file:
   text = file.readline()
 
 max_len = 0
@@ -365,7 +365,7 @@ https://education.yandex.ru/ege/inf/task/dc2aa40a-ee08-4e9c-b43f-81fbccbd1d7e
 состоящей только из уникальных символов.
 ---------------------------------------------------------------------------
 
-with open("24.txt") as file:
+with open("24dtwwe.txt") as file:
     text = file.readline()
 
 lset = set()
@@ -396,9 +396,9 @@ https://education.yandex.ru/ege/inf/task/b0ac476e-824a-4d0c-8b3f-5c52f208a0ef
 (длину непрерывной подпоследовательности), среди которых символ T встречается
 ровно 100 раз, а символ U - ровно 50 раз.
 ---------------------------------------------------------------------------
-# Доступен файл для чтения: 24.txt
+# Доступен файл для чтения: 24dtwwe.txt
 
-with open("24.txt") as file:
+with open("24dtwwe.txt") as file:
     text = file.readline()
 
 start = end = 0
@@ -431,10 +431,10 @@ print(max_len)
 среди которых нет подстроки AHAHA.
 ---------------------------------------------------------------------------
 
-# Доступен файл для чтения: 24.txt
+# Доступен файл для чтения: 24dtwwe.txt
 import re
 
-f = open("24.txt")
+f = open("24dtwwe.txt")
 text = f.readline()
 
 pattern = r"AHA(HA)+"

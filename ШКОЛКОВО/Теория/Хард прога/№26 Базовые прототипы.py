@@ -3,7 +3,7 @@
 
 # 1 | Конференц-залы:
 
-# f = open("26.txt")
+# f = open("26etery.txt")
 # n = int(f.readline())
 # a = [list(map(int, i.split())) for i in f]
 #
@@ -25,7 +25,7 @@
 
 # 2 | Шлифовка и покраска (без подвохов):
 
-# f = open("26.txt.")
+# f = open("26etery.txt.")
 # n = int(f.readline())
 #
 # l_start = []
