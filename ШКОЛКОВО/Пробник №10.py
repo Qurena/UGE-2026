@@ -185,10 +185,16 @@
 #     return p + 3, p * 4
 #
 # def play(p, r):
-#     if 120 > p >= 100 and r == 0:
+#     if 120 > p >= 100:
+#         return r % 2 == 0
+#
+#     if p >= 120 and r % 2 == 0: # наш победитель не может перейти через границу (он проиграет)
+#         return False
+#
+#     if p >= 120 and r % 2 == 1: # его соперник может перейти через границу (если Ваня проиграл, то Петя выиграл)
 #         return True
 #
-#     if 120 > p >= 100 or r == 0:
+#     if r == 0: # окончание игры
 #         return False
 #
 #     next_plays = [play(step, r - 1) for step in steps(p)]
@@ -202,18 +208,21 @@
 # # 25
 
 
-# 20-21
+# 20
 # def steps(p):
 #     return p + 3, p * 4
 #
 # def play(p, r):
-#     if 120 > p >= 100 and r % 2 == 0:
-#         return True
+#     if 120 > p >= 100:
+#         return r % 2 == 0
 #
-#     if 120 > p >= 100 or r % 2 == 0:
+#     if p >= 120 and r % 2 == 0: # наш победитель не может перейти через границу (он проиграет)
 #         return False
 #
-#     if r == 0 or p >= 120:
+#     if p >= 120 and r % 2 == 1: # его соперник может перейти через границу (если Ваня проиграл, то Петя выиграл)
+#         return True
+#
+#     if r == 0: # окончание игры
 #         return False
 #
 #     next_plays = [play(step, r - 1) for step in steps(p)]
@@ -221,33 +230,36 @@
 #     return any(next_plays) if r % 2 != 0 else all(next_plays)
 #
 # for s in range(1, 61):
-#     if not(play(s, 2)) and play(s, 4):
+#     if play(s, 4) and not play(s, 2):
 #         print(s)
-# # хз, почему не работает...
+# # 23
 
-# Второй вариант решения:
-# from sys import *
-# from functools import *
-# setrecursionlimit(10**9)
+
+# 21
+# def steps(p):
+#     return p + 3, p * 4
 #
-# @lru_cache(None)
-# def f(s):
-#     if 120 > s >= 100:
+# def play(p, r):
+#     if 120 > p >= 100:
+#         return r % 2 == 0
+#
+#     if p >= 120 and r % 2 == 0: # наш победитель не может перейти через границу (он проиграет)
+#         return False
+#
+#     if p >= 120 and r % 2 == 1: # его соперник может перейти через границу (если Ваня проиграл, то Петя выиграл)
 #         return True
-#     t = [f(s + 3), f(s * 4)]
-#     n = [int(i) for i in t if i <= 0]
-#     if n:
-#         return -max(n) + 1
-#     return -max(t)
 #
-# for s in range(62):
-#     f(s)
+#     if r == 0: # окончание игры
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return any(next_plays) if r % 2 != 0 else all(next_plays)
 #
 # for s in range(1, 61):
-#     if f(s) == -2:
+#     if play(s, 5) and not play(s, 1) and not play(s, 3):
 #         print(s)
-# # RecursionError: Stack overflow (used 2912 kB)
-
+# # 2022
 
 # 23
 # def f(start, end):
