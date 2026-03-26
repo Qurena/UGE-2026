@@ -32,18 +32,51 @@
 # 2
 '''https://alex-math.ru/gia/zadaniye-24-informatika-yege-yegkr-19042025'''
 
-from re import *
-f = open('../!Файлы для задач/24dtwwe.txt')
-s = f.readline()
-s = s.replace('RSQ', 'AAA')
-pattern = r"(?=(AAA([FGQRSW]*AAA){129}[Q]*[^Q]))"
+# from re import *
+# f = open('../!Файлы для задач/24dtwwe.txt')
+# s = f.readline()
+# s = s.replace('RSQ', 'AAA')
+# pattern = r"(?=(AAA([FGQRSW]*AAA){129}[Q]*[^Q]))"
+#
+# mn = 10**10
+# for i in finditer(pattern, s):
+#     g = i.group(1)
+#     mn = min(mn, len(g))
+# print(mn)
+# # 497
 
-mn = 10**10
-for i in finditer(pattern, s):
-    g = i.group(1)
-    mn = min(mn, len(g))
-print(mn)
-# 497
+
+# 3
+'''https://kpolyakov.spb.ru/school/ege/gen.php?action=viewTopic&topicId=8840'''
+
+f = open("24-371.txt")
+s = f.readline()
+c = 0
+s = s.split('.')
+
+for el in s:
+    d = [i for i in el]
+    if d[-1] == ' ':
+        s.remove(el)
+for el in s:
+    el = el[2:]
+    f = el.split(' ')
+    for k in f:
+        if k == '':
+            f.remove(k)
+
+    w = [len(i) for i in f]
+    c = 0
+    for i in range(len(w) - 1):
+        if w[i] < w[i+1]:
+            c += 1
+            break
+    if c == 0:
+        print(w, len(el[2:]))
+
+
+
+
 
 
 
