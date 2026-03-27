@@ -29,7 +29,7 @@
 #         goto(x*m, y*m)
 #         dot(3, 'blue')
 # done()
-# # 95
+# # 102
 
 
 # 2
@@ -107,3 +107,77 @@
 #         dot(3, 'blue')
 # done()
 # # 5
+
+
+# 5
+# def f(x, a):
+#     return ((x % 19 != 0) or (x % 13 != 0)) <= (x % a != 0)
+#
+# for a in range(1, 10000):
+#     t = [f(x, a) for x in range(1, 10000)]
+#     if all(t):
+#         print(a)
+#         break
+# # 247
+
+
+# 6
+# def f(x, a):
+#     return (x % a == 0) <= ((x % 14 == 0) and (x % 21 == 0))
+#
+# for a in range(1, 10000):
+#     t = [f(x, a) for x in range(1, 10000)]
+#     if all(t):
+#         print(a)
+#         break
+# # 42
+
+
+# 7
+# def f(a, x, y):
+#     return (((x - 10 < a) <= (y + 28 >= 4*a)) or (x + y != 17))
+#
+# for a in range(100000):
+#     t = [f(a, x, y) for x in range(1, 10000) for y in range(1, 1000)]
+#     if all(t):
+#         print(a)
+# # 7
+
+
+# 8
+# def f(a, x, y):
+#     return ((y**2 <= a) <= (y <= 10)) and ((x <= 9) <= (x**2 < a))
+#
+#
+# for a in range(1000):
+#     t = [f(a, x, y) for x in range(1, 1000) for y in range(1, 1000)]
+#     if all(t):
+#         print(a)
+# # 82
+
+
+# 9
+# def f(a, x):
+#     return ((x & 35 != 0) or (x & 23 != 0)) <= ((x & 26 != 0) or (x & a == 0))
+#
+# for a in range(1, 100000):
+#     t = [f(a, x) for x in range(10000)]
+#     if all(t):
+#         print(a)
+#         break
+# # 2
+
+
+# 10
+# def f(x, a):
+#     return ((((x & 13 != 0) or (x & a != 0)) <= (x & 13 != 0)) or ((x & a != 0) and (x & 39 == 0)))
+#
+# for a in range(1, 100):
+#     t = 0
+#     for x in range(1, 101):
+#         if f(x, a) == False:
+#             t = 1
+#             break
+#     if t == 0:
+#         print(a)
+# # 13
