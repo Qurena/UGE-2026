@@ -152,7 +152,7 @@
 # # 16898
 
 
-# 14
+# 16
 # from sys import *
 # setrecursionlimit(10**9)
 # def f(n):
@@ -165,7 +165,7 @@
 # # 2097152
 
 
-# 15
+# 17
 # f = open("Файлы для пробников/8__1vf5e.txt")
 # n = [int(i) for i in f.readlines()]
 #

@@ -1,4 +1,17 @@
-"""Конспект к вебу: https://3.shkolkovo.online/my/course/7259/materials/lesson/36570"""
+"""Конспект к вебам:
+https://3.shkolkovo.online/my/course/7259/materials/lesson/36570
+https://3.shkolkovo.online/my/course/7259/materials/lesson/38266"""
+
+# Теория по номеру
+'''
+1. Тип: делители. Как определить диапазон перебора A?
+Мы должны перемножить числа в функциях ДЕЛ и взять в два раза больше -
+это и будет верхней границей нашего диапазона.
+
+2. Тип: конъюнкция. Как определить диапазон перебора A?
+Мы должны перемножить взять следующую степень двойки максимального числа в формуле и умножить на 2.
+Пример: (x&a==0) or (x&122!=0) or (x&144!=0) -> 64<144<256 -> 256*2=512
+'''
 
 # 1
 '''
@@ -97,3 +110,35 @@ for a in range(1, 1000):
         print(a)
 # 79
 '''
+
+# Вебинар https://3.shkolkovo.online/my/course/7259/materials/lesson/38266
+# 5
+# def d(a, b):
+#     if a % b == 0:
+#         return True
+#     else:
+#         return False
+# def f(a, x):
+#     return ((not(d(x, 38))) or (not(d(x, 134)))) <= (not(d(x, a)))
+#
+# for a in range(1, 20000):
+#     t = [f(x, a) for x in range(1, 10000)]
+#     if all(t):
+#         print(a)
+#         break
+# # 2546
+
+
+# 9
+# кодом не решается - слишком большие значения
+
+
+# 10
+# for x in range(500):
+#     for y in range(500):
+#         if (5 * x + 2 * y == 85) and (y < x):
+#             print(x, y)
+# # A <= макс. возм. x
+# # Следовательно, ответ 13.
+
+
