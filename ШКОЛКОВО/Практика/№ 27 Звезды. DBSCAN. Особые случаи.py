@@ -238,3 +238,203 @@ print(px, py)
 # print(int(abs(px / 8) * 10000), int(abs(py / 8) * 10000))
 
 
+'''------------------------------------------------------------------------------------------------------------------'''
+# Задачи с Яндекс-ЕГЭ (особые случаи от репетитора)
+
+# 1
+'''https://education.yandex.ru/ege/inf/task/46b001b3-6892-49d4-8688-9387df9be399'''
+
+# Файл A:
+# from math import *
+# f = open("Файлы к задачам/27_A4363835.txt")
+# a = [list(map(float, i.replace(',','.').split())) for i in f if 'x' not in i]
+# clusters = [[] for _ in range(9)]
+# new_a = []
+#
+# def social(k, data):
+#     n = 0
+#     for i in data:
+#         if i != k:
+#             if dist(i, k) <= 0.1:
+#                 n += 1
+#         if n >= 14:
+#             return True
+#     return False
+#
+# for i in a:
+#     new_a.append([i[0], i[1], social(i, a)])
+#
+# for i in new_a:
+#     x, y, z = i
+#     if 0 <= x <= 1 and 0 <= y <= 1:
+#         clusters[0].append(i)
+#     if 1 <= x <= 2 and 0 <= y <= 1:
+#         clusters[1].append(i)
+#     if 2 <= x <= 3 and 0 <= y <= 1:
+#         clusters[2].append(i)
+#     if 0 <= x <= 1 and 1 <= y <= 2:
+#         clusters[3].append(i)
+#     if 1 <= x <= 2 and 1 <= y <= 2:
+#         clusters[4].append(i)
+#     if 2 <= x <= 3 and 1 <= y <= 2:
+#         clusters[5].append(i)
+#     if 0 <= x <= 1 and 2 <= y <= 3:
+#         clusters[6].append(i)
+#     if 1 <= x <= 2 and 2 <= y <= 3:
+#         clusters[7].append(i)
+#     if 2 <= x <= 3 and 2 <= y <= 3:
+#         clusters[8].append(i)
+#
+# # for k in range(9):
+# #     clusters[k] = len(clusters[k])
+# # print(clusters)
+# # # макс сумма в 4 и 5
+#
+#
+# # from turtle import *
+# # tracer(0)
+# # lt(90)
+# # m = 100
+# # up()
+# # for i in new_a:
+# #     x, y, z, = i
+# #     goto(x*m, y*m)
+# #     if z:
+# #         dot(3, 'green')
+# #     else:
+# #         dot(3, 'blue')
+# # done()
+#
+# s = 0
+# k = 0
+#
+# for i in clusters[4]:
+#     if i[2] == True:
+#         s += 1
+#     else:
+#         k += 1
+#
+# for i in clusters[5]:
+#     if i[2] == True:
+#         s += 1
+#     else:
+#         k += 1
+#
+# print(s, k)
+# # 104 453
+
+# Файл B:
+# from math import *
+# f = open("Файлы к задачам/27_B23641343213412.txt")
+# a = [list(map(float, i.replace(',','.').split())) for i in f if 'x' not in i]
+# clusters = [[] for _ in range(25)]
+# new_a = []
+#
+# def social(k, data):
+#     n = 0
+#     for i in data:
+#         if i != k:
+#             if dist(i, k) <= 0.1:
+#                 n += 1
+#         if n >= 14:
+#             return True
+#     return False
+#
+# for i in a:
+#     new_a.append([i[0], i[1], social(i, a)])
+#
+# for i in new_a:
+#     x, y, z = i
+#     if 0 <= x <= 1 and 0 <= y <= 1:
+#         clusters[0].append(i)
+#     if 1 <= x <= 2 and 0 <= y <= 1:
+#         clusters[1].append(i)
+#     if 2 <= x <= 3 and 0 <= y <= 1:
+#         clusters[2].append(i)
+#     if 3 <= x <= 4 and 0 <= y <= 1:
+#         clusters[3].append(i)
+#     if 4 <= x <= 5 and 0 <= y <= 1:
+#         clusters[4].append(i)
+#     if 0 <= x <= 1 and 1 <= y <= 2:
+#         clusters[5].append(i)
+#     if 1 <= x <= 2 and 1 <= y <= 2:
+#         clusters[6].append(i)
+#     if 2 <= x <= 3 and 1 <= y <= 2:
+#         clusters[7].append(i)
+#     if 3 <= x <= 4 and 1 <= y <= 2:
+#         clusters[8].append(i)
+#     if 4 <= x <= 5 and 1 <= y <= 2:
+#         clusters[9].append(i)
+#     if 0 <= x <= 1 and 2 <= y <= 3:
+#         clusters[10].append(i)
+#     if 1 <= x <= 2 and 2 <= y <= 3:
+#         clusters[11].append(i)
+#     if 2 <= x <= 3 and 2 <= y <= 3:
+#         clusters[12].append(i)
+#     if 3 <= x <= 4 and 2 <= y <= 3:
+#         clusters[13].append(i)
+#     if 4 <= x <= 5 and 2 <= y <= 3:
+#         clusters[14].append(i)
+#     if 0 <= x <= 1 and 3 <= y <= 4:
+#         clusters[15].append(i)
+#     if 1 <= x <= 2 and 3 <= y <= 4:
+#         clusters[16].append(i)
+#     if 2 <= x <= 3 and 3 <= y <= 4:
+#         clusters[17].append(i)
+#     if 3 <= x <= 4 and 3 <= y <= 4:
+#         clusters[18].append(i)
+#     if 4 <= x <= 5 and 3 <= y <= 4:
+#         clusters[19].append(i)
+#     if 0 <= x <= 1 and 4 <= y <= 5:
+#         clusters[20].append(i)
+#     if 1 <= x <= 2 and 4 <= y <= 5:
+#         clusters[21].append(i)
+#     if 2 <= x <= 3 and 4 <= y <= 5:
+#         clusters[22].append(i)
+#     if 3 <= x <= 4 and 4 <= y <= 5:
+#         clusters[23].append(i)
+#     if 4 <= x <= 5 and 4 <= y <= 5:
+#         clusters[24].append(i)
+#
+# # for k in range(25):
+# #     clusters[k] = [k, len(clusters[k])]
+# # print(clusters)
+# # # макс сумма в 13, 17 и 18
+#
+# # from turtle import *
+# # tracer(0)
+# # lt(90)
+# # m = 100
+# # up()
+# # for i in new_a:
+# #     x, y, z, = i
+# #     goto(x*m, y*m)
+# #     if z:
+# #         dot(3, 'green')
+# #     else:
+# #         dot(3, 'blue')
+# # done()
+#
+# s = 0
+# k = 0
+#
+# for i in clusters[13]:
+#     if i[2] == True:
+#         s += 1
+#     else:
+#         k += 1
+#
+# for i in clusters[17]:
+#     if i[2] == True:
+#         s += 1
+#     else:
+#         k += 1
+#
+# for i in clusters[18]:
+#     if i[2] == True:
+#         s += 1
+#     else:
+#         k += 1
+#
+# print(s, k)
+# # 2156 158
