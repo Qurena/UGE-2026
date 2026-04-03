@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="base 5">
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27_A4363835.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27_B23641343213412.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Статград № 402.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/17__9jc1d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/24__9jc3z.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/26__9jeu3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_A__9jfiw.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_B__9jfix.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/test_26_24i195i23u932.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ЕГЭ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ЕГЭ.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. DBSCAN. Особые случаи.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. DBSCAN. Особые случаи.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -39,7 +44,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Qurena/UGE-2026.git&quot;,
-    &quot;accountId&quot;: &quot;3e714abd-845c-4452-9f03-b42403b970e0&quot;
+    &quot;accountId&quot;: &quot;2ddb240a-8165-4159-ad9a-fb104abad8a1&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -49,7 +54,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="32EuJ24oEhurUuAcOhmr6zXQ0Tk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -63,6 +68,7 @@
     &quot;Python.HackerRank.executor&quot;: &quot;Run&quot;,
     &quot;Python.fg.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Апробация ЕГЭ 13 марта.executor&quot;: &quot;Run&quot;,
     &quot;Python.ЕГЭ №2.executor&quot;: &quot;Run&quot;,
     &quot;Python.ЕГЭ №5.executor&quot;: &quot;Run&quot;,
     &quot;Python.Задача 23 Особые случаи (1).executor&quot;: &quot;Run&quot;,
@@ -89,6 +95,7 @@
     &quot;Python.Пробник №0.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник №11.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №2.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №3.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №4.executor&quot;: &quot;Run&quot;,
@@ -96,10 +103,13 @@
     &quot;Python.Пробник №7.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №9.executor&quot;: &quot;Run&quot;,
     &quot;Python.Решение входного пробника (№0).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Статград № 402.executor&quot;: &quot;Run&quot;,
     &quot;Python.Теория.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 13 IP-адрес.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 13 IP-адреса.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 14 Системы счисления.executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 15 Решение прогой (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.№ 15 Решение прогой.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 15. Решение прогой.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 16, 23 Рекурсия.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 17 Тройки (1).executor&quot;: &quot;Run&quot;,
@@ -107,17 +117,14 @@
     &quot;Python.№ 19-21 Теория игр. Рекурсия.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 19-21 Теория игр.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 19.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 2 Переборные алгоритмы.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 24 Метод двух указателей (практика).executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 24 Метод двух указателей.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 24 Регулярные выражния.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 24. Метод частичной суммы. Регулярки (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 24. Метод частичной суммы.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 25 Делители.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 25 делители.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 26 Динамическое программирование.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 26 Жадные алгоритмы (кабинеты и покраска).executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 26 Свободные ячейки и места.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 26 Списки. Метод остатков для задач на пары.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 26.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 27 Звезды. DBSCAN. Особые случаи.executor&quot;: &quot;Run&quot;,
@@ -138,26 +145,49 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/misha/PycharmProjects/ЕГЭ/ШКОЛКОВО/Теория/№ 18 Нестандартные задачи&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/PycharmProjects/USE-2026/ШКОЛКОВО&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Теория\№ 18 Нестандартные задачи" />
       <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО" />
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Файлы для пробников" />
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\Школа и олимпиады" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Файлы для пробников" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Файлы для пробников" />
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Хард прога" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\!Файлы для задач" />
+      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Теория" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.№ 27 Звезды. DBSCAN. Особые случаи">
+  <component name="RunManager" selected="Python.Статград № 402">
+    <configuration name="Статград № 402" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Статград № 402.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Пробник №10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
@@ -171,6 +201,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Пробник №10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -180,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№ 24. Метод частичной суммы. Регулярки (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Пробник №11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,11 +220,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Занятия с репетитором/№ 24" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/№ 24/№ 24. Метод частичной суммы. Регулярки.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Пробник №11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,29 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№ 26 Свободные ячейки и места" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ЕГЭ" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Свободные ячейки и места.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="№ 27 Звезды. DBSCAN. Особые случаи" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="№ 15 Решение прогой (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,7 +247,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. DBSCAN. Особые случаи.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 15 Решение прогой.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,7 +257,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№ 2, № 5, № 14 Переборные алгоритмы" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="№ 15 Решение прогой" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,11 +266,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Теория" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\№ 2, № 5, № 14 Переборные алгоритмы.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 15 Решение прогой.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,18 +282,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.№ 27 Звезды. DBSCAN. Особые случаи" />
-        <item itemvalue="Python.№ 26 Свободные ячейки и места" />
+        <item itemvalue="Python.Статград № 402" />
+        <item itemvalue="Python.Пробник №11" />
+        <item itemvalue="Python.№ 15 Решение прогой (1)" />
+        <item itemvalue="Python.№ 15 Решение прогой" />
         <item itemvalue="Python.Пробник №10" />
-        <item itemvalue="Python.№ 24. Метод частичной суммы. Регулярки (1)" />
-        <item itemvalue="Python.№ 2, № 5, № 14 Переборные алгоритмы" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
   </component>
@@ -376,29 +388,21 @@
     </task>
     <task id="LOCAL-00011" summary="base 5">
       <option name="closed" value="true" />
-      <created>1773865982735</created>
+      <created>1774614703385</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1773865982735</updated>
+      <updated>1774614703385</updated>
     </task>
     <task id="LOCAL-00012" summary="base 5">
       <option name="closed" value="true" />
-      <created>1774289425581</created>
+      <created>1774625722979</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1774289425581</updated>
+      <updated>1774625722979</updated>
     </task>
-    <task id="LOCAL-00013" summary="base 5">
-      <option name="closed" value="true" />
-      <created>1774537067778</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1774537067779</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
