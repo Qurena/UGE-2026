@@ -1,15 +1,14 @@
 '''https://3.shkolkovo.online/my/course/7259/dz/30731'''
 
 # 2
-# print('x y z w F')
+# print('x y w z F')
 # for x in range(2):
 #     for y in range(2):
 #         for z in range(2):
 #             for w in range(2):
-#                 F = w and (z == x <= y)
-#                 if int(F) == 0 and w == 1 and z == 1:
-#                     print(x, y, z, w, int(F))
-# # xwyz
+#                 F = w and (z == (x <= y))
+#                 print(x, y, w, z, int(F))
+# # zwxy
 
 
 # 5
@@ -76,25 +75,27 @@
 
 
 # 8
-def tw(n):
-    s = ''
-    a = '0123456789AB'
-    while n != 0:
-        s += a[n % 12]
-        n //= 12
-    return s[::-1]
+# def tw(n):
+#     s = ''
+#     a = '0123456789AB'
+#     while n != 0:
+#         s += a[n % 12]
+#         n //= 12
+#     return s[::-1]
+#
+# ans = 0
+# for n in range(1, 1_000_000):
+#     t = tw(n)
+#     if len(t) == 5:
+#         odd = sum(1 for i in t if i in '13579B')
+#         if odd == 3:
+#             good = ['111', '333', '555', '777', '999', 'BBB']
+#             for k in good:
+#                 if k in t:
+#                     ans += 1
+# print(ans)
 
-ans = 0
-for n in range(1, 1_000_000):
-    t = tw(n)
-    if len(t) == 5:
-        odd = sum(1 for i in t if i in '13579B')
-        if odd == 3:
-            good = ['111', '333', '555', '777', '999', 'BBB']
-            for k in good:
-                if k in t:
-                    ans += 1
-print(ans)
+
 # ans = 0
 # for n in range(10000, 100000):
 #     s = tw(n)

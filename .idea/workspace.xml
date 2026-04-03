@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="base 5">
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Статград № 402.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/17__9jc1d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/24__9jc3z.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/26__9jeu3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_A__9jfiw.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_B__9jfix.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/test_26_24i195i23u932.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="base 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ЕГЭ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ЕГЭ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Статград № 402.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Статград № 402.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774625722979</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="base 6">
+      <option name="closed" value="true" />
+      <created>1775252106589</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1775252106589</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,6 +419,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base 3" />
     <MESSAGE value="base 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="base 5" />
+    <MESSAGE value="base 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="base 6" />
   </component>
 </project>
