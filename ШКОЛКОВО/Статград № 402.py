@@ -197,7 +197,7 @@
 # print(count, min(ms))
 # # 2414 280
 
-
+# Ситуация на any-any
 # 19
 # from math import *
 #
@@ -207,17 +207,14 @@
 #
 # def play(p, r):
 #     if prod(p) >= 450:
-#         return r == 0
-#
-#     if prod(p) >= 450:
-#         return False
+#         return r % 2 == 0
 #
 #     if r == 0:
 #         return False
 #
 #     next_steps = [play(step, r - 1) for step in steps(p)]
 #
-#     return any(next_steps) if r % 2 != 0 else all(next_steps)
+#     return any(next_steps) if r % 2 != 0 else any(next_steps)
 #
 # ans = 0
 # for s in range(1, 90):
@@ -225,26 +222,31 @@
 #     if not(play(p, 1)) and play(p, 2):
 #         ans += 1
 # print(ans)
-# # 3
+# # 18
 
 
 # 20
-# from functools import *
+# from math import *
+# def steps(p):
+#     h1, h2 = p
+#     return (h1, h2 + 5), (h1, h2 + 19), (h1 + 5, h2), (h1 + 19, h2)
 #
-# @lru_cache(None)
-# def f(a, b):
-#     if a*b >= 450:
-#         return True
-#     t = [f(a+5, b), f(a+19, b), f(a, b+5), f(a, b+19)]
-#     n = [int(i) for i in t if i<=0]
-#     if n:
-#         return -max(n) + 1
-#     return -max(t)
+# def play(p, r):
+#     if prod(p) >= 450:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return False
+#
+#     next_steps = [play(step, r - 1) for step in steps(p)]
+#
+#     return all(next_steps) if r % 2 != 0 else any(next_steps)
 #
 # for s in range(1, 90):
-#     if f(5, s) == 2:
+#     p = (5, s)
+#     if play(p, 4) and not(play(p, 2)): # play(s, 4) включает в себя решение play(s, 2)
 #         print(s)
-# # 16 17
+
 
 
 # 21
@@ -261,7 +263,7 @@
 # def f(start, end):
 #     d = {}
 #
-#     for i in (start, end - 1, -1):
+#     for i in range(start, end - 1, -1):
 #         d[i] = 0
 #
 #     d[start] = 1
@@ -274,7 +276,7 @@
 #     return d[end]
 #
 # print(f(43, 13))
-# # 4 - руками (как решить кодом? ошибка: ValueError: invalid literal for int() with base 10: '-')
+# # 4
 
 
 # 24

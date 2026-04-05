@@ -438,3 +438,60 @@ print(px, py)
 #
 # print(s, k)
 # # 2156 158
+
+
+# 2
+'''https://education.yandex.ru/ege/inf/task/7a75b2b4-bb1f-400a-8604-89e029642d0f'''
+
+from math import *
+f = open("27_A456787658.txt")
+a = [list(map(float, i.replace(',','.').split())) for i in f if 'x' not in i]
+clusters = []
+r = 13
+while a:
+    clusters.append([a.pop(0)])
+    for i in clusters[-1]:
+        for j in a[:]:
+            if dist(i, j) < r:
+                clusters[-1].append(j)
+                a.remove(j)
+
+mxcl = []
+for _ in range(2):
+    mxl = 0
+    for c in clusters:
+        if len(c) > mxl:
+            mxl = len(c)
+            m = c
+    mxcl.append(m)
+    clusters.remove(m)
+
+ave = []
+for k in range(2):
+    d = 0
+    av = 0
+    mx = 0
+    for i in mxcl[k]:
+        for j in mxcl[k]:
+            d += dist(i, j)
+            mx = max(mx, dist(i, j))
+    av = (d / (2 * (factorial(len(mxcl[k]))/(factorial(2) * factorial(len(mxcl[k]) - 2))))) / mx
+    ave.append(av)
+
+pmin = min(ave)
+pavg = sum(ave)/2
+print(int(pmin*10000), int(pavg*10000))
+# 2987 3330
+
+# from turtle import *
+# lt(90)
+# tracer(0)
+# m = 0.3
+# screensize(2000*2000)
+# up()
+# for k in range(len(mxcl)):
+#     for i in mxcl[k]:
+#         x, y = i
+#         goto(x*m, y*m)
+#         dot(3, 'blue')
+# done()
