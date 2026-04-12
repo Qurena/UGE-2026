@@ -212,10 +212,8 @@ print(count(2025, 250) * count(250, 25))
 '''
 
 # def count(start, end, cmd):
-#     if start == end:
-#         if cmd[-3:] == [1, 2, 1]:
-#             return 1
-#         return 0
+#     if start == end and cmd[-3:] == [1, 2, 1]:
+#         return 1
 #
 #     if start > end:
 #         return 0

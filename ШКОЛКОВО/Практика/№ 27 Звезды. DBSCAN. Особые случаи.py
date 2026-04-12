@@ -444,7 +444,7 @@ print(px, py)
 '''https://education.yandex.ru/ege/inf/task/7a75b2b4-bb1f-400a-8604-89e029642d0f'''
 
 from math import *
-f = open("27_A456787658.txt")
+f = open("Файлы к задачам/27_A456787658.txt")
 a = [list(map(float, i.replace(',','.').split())) for i in f if 'x' not in i]
 clusters = []
 r = 13
