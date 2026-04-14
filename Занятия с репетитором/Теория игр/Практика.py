@@ -40,7 +40,7 @@
 #
 #     next_plays = [play(step, r - 1) for step in steps(p)]
 #
-#     return any(next_plays) if r % 2 != 0 else all(next_plays)
+#     return any(next_plays) if r % 2 == 0 else all(next_plays)
 #
 # for s in range(1, 61):
 #     if play(s, 1):
@@ -68,7 +68,7 @@
 #
 #     next_plays = [play(step, r - 1) for step in steps(p)]
 #
-#     return any(next_plays) if r % 2 != 0 else all(next_plays)
+#     return any(next_plays) if r % 2 == 0 else all(next_plays)
 #
 # for s in range(1, 61):
 #     if play(s, 4) and not play(s, 2):
@@ -95,7 +95,7 @@
 #
 #     next_plays = [play(step, r - 1) for step in steps(p)]
 #
-#     return any(next_plays) if r % 2 != 0 else all(next_plays)
+#     return any(next_plays) if r % 2 == 0 else all(next_plays)
 #
 # for s in range(1, 61):
 #     if play(s, 5) and not play(s, 1) and not play(s, 3):

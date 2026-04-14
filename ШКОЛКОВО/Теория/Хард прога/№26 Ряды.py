@@ -97,8 +97,8 @@
 
 
 # 3
-# f = open("../../Практика/Файлы к задачам/26__86lva.txt")
-f = open("test.txt")
+f = open("../../Практика/Файлы к задачам/26__86lva.txt")
+# f = open("test.txt")
 n, m, k = map(int, f.readline().split())
 data = [list(map(int, i.split())) for i in f]
 hall = [[] for _ in range(k + 1)]
@@ -106,14 +106,44 @@ hall = [[] for _ in range(k + 1)]
 for sit in data:
     row, place = sit
     hall[place].append(row)
+print('1')
 
-# for i in range(len(hall)):
-#     if hall[i]:
-
-new_hall = [[0]*m for _ in range(k + 1)]
+new_hall = []
+for _ in range(k+1):
+    cur = []
+    for _ in range(m):
+        cur.append([0])
+    new_hall.append(cur)
+print('2')
 
 for i in range(len(hall)):
     places = hall[i]
     for num in places:
-        new_hall[i][num-1] = 1
-print(new_hall)
+        new_hall[i][num-1] = [1]
+print('3')
+
+for place in new_hall[1:]:
+    p = place[::-1]
+    for i in range(len(p)):
+        deep = 0
+        for j in range(i+1, len(p)):
+            if p[j] == [1]:
+                deep += 1
+            if deep > 2:
+                break
+        p[i].append(deep)
+print('4')
+
+new_hall = new_hall[1:]
+ans = []
+for i in range(k-1):
+    for k in range(m):
+        if new_hall[i][k][0] == [0] and new_hall[i+1][k][0] == [0] and new_hall[i][k][1] <= 2 and new_hall[i+1][k][1] <= 2:
+            ans.append([i+1, i+2, k+1])
+
+print(ans)
+ans.sort(key=lambda x:(-x[-1]))
+mx = ans[0][-1]
+for a in ans:
+    if a[-1] == mx:
+        print(a)

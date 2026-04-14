@@ -145,14 +145,138 @@ print(c)
 # 60
 '''
 
+# from itertools import *
+#
+# a = 'МАШИН'
+# c = 0
+# q = set()
+#
+# for i in permutations(a):
+#     s = ''.join(i)
+#     if s[0] not in 'НСТ':
+#         q.add(s)
+# print(len(q))
+
+"""ДЗ: https://3.shkolkovo.online/my/course/7259/dz/28533"""
+
+# 2
+# from itertools import *
+# s = 'ПРОГА'
+# ans = set()
+# for i in product(s, repeat=5):
+#     g = ''.join(i)
+#     if g.count('Г') <= 2:
+#        ans.add(g)
+# print(len(ans))
+# # 2944
+
+
+# 3
+# from itertools import *
+# s = 'КВАС'
+# ans = set()
+# for i in product(s, repeat=6):
+#     g = ''.join(i)
+#     if g.count('А') == 1:
+#        ans.add(g)
+# print(len(ans))
+# # 1458
+
+
+# 4
+# from itertools import *
+# s = 'ЖАСМИН'
+# ans = set()
+# for i in product(s, repeat=5):
+#     g = ''.join(i)
+#     if g.count('М') >= 2:
+#        ans.add(g)
+# print(len(ans))
+# # 1526
+
+
+# 5
+# from itertools import *
+# s = 'ЖЕМЧУГ'
+# ans = set()
+# for i in product(s, repeat=6):
+#     g = ''.join(i)
+#     if g.count('Ч') == 2:
+#        ans.add(g)
+# print(len(ans))
+# # 9375
+
+
+# 6
+# from itertools import *
+# s = 'ПАРЕК'
+# ans = set()
+# bad = ['ПР', 'РП', 'КР', 'РК', 'КП', 'ПК', 'АЕ', 'ЕА']
+# for i in permutations(s):
+#     g = ''.join(i)
+#     flag = 1
+#     for el in bad:
+#         if el in g:
+#             flag = 0
+#     if flag == 1:
+#         ans.add(g)
+# print(len(ans))
+# # 12
+
+
+# 7
+# from itertools import *
+# s = 'КАПКАН'
+# ans = set()
+# bad = ['КК', 'АА']
+# for i in permutations(s):
+#     g = ''.join(i)
+#     flag = 1
+#     for el in bad:
+#         if el in g:
+#             flag = 0
+#     if flag == 1:
+#         ans.add(g)
+# print(len(ans))
+# # 84
+
+
+# 8
+# from itertools import *
+# s = 'АНДРЕЙ'
+# ans = set()
+# for i in product(s, repeat=7):
+#     g = ''.join(i)
+#     if g.count('А') == 1 and g.count('Й') == 1 and g[0] != 'Й':
+#         ans.add(g)
+# print(len(ans))
+# # 36864
+
+
+# 9
+# from itertools import *
+# s = 'ПОЧЕМУ'
+# ans = set()
+# for i in product(s, repeat=9):
+#     g = ''.join(i)
+#     if g.count('П') <= 6:
+#         ans.add(g)
+# print(len(ans))
+# # 10076750
+
+
+# 10
 from itertools import *
-
-a = 'МАШИН'
-c = 0
-q = set()
-
-for i in permutations(a):
-    s = ''.join(i)
-    if s[0] not in 'НСТ':
-        q.add(s)
-print(len(q))
+s = 'ТАРУХ'
+ans = set()
+bad = ['ТР', 'РТ', 'ТХ', 'ХТ', 'АУ', 'УА', 'РХ', 'ХР']
+for i in permutations(s):
+    g = ''.join(i)
+    flag = 1
+    for el in bad:
+        if el in g:
+            flag = 0
+    if flag == 1:
+        ans.add(g)
+print(len(ans))
+# 12

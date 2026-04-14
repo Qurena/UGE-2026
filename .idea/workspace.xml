@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="base 5">
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/26_8__1kubw.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/26__86lva.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/task26__5z1ta.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/Задание_26__mixo__t7qt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/Задание_26__o4nj__rs6l.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№26 Ряды.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="12.04">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ЕГЭ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ЕГЭ.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Особые случаи.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Особые случаи.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/№ 23/Задача 23 Рекурсия (11.09).py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 23/Задача 23 Рекурсия (11.09).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/27_A456787658.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27_A456787658.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. DBSCAN. Особые случаи.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. DBSCAN. Особые случаи.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№26 Теория чисел.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№26 Теория чисел.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Практика.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Практика.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 8 itertools (практика).py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 8 itertools (практика).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№26 Ряды.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№26 Ряды.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +157,7 @@
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Хард прога" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Особые случаи">
+  <component name="RunManager" selected="Python.№ 8 itertools (практика)">
     <configuration name="Статград № 402" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
@@ -213,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№ 27 Звезды. DBSCAN. Особые случаи" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="№ 8 itertools (практика)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,7 +215,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. DBSCAN. Особые случаи.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 8 itertools (практика).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Особые случаи" />
+        <item itemvalue="Python.№ 8 itertools (практика)" />
         <item itemvalue="Python.№26 Ряды" />
+        <item itemvalue="Python.Особые случаи" />
         <item itemvalue="Python.Статград № 402" />
         <item itemvalue="Python.Задача 23 Рекурсия (11.09)" />
-        <item itemvalue="Python.№ 27 Звезды. DBSCAN. Особые случаи" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +398,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774537067779</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="12.04">
+      <option name="closed" value="true" />
+      <created>1776015414050</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1776015414050</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,6 +423,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base 3" />
     <MESSAGE value="base 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="base 5" />
+    <MESSAGE value="12.04" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.04" />
   </component>
 </project>
