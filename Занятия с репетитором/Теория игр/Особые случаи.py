@@ -355,32 +355,32 @@ https://education.yandex.ru/ege/inf/task/b021f83e-ca24-4822-aea3-5fcb4969cea4
 
 
 # 4 кучки (https://3.shkolkovo.online/catalog/4297/19971)
-def steps(p):
-    next_steps = []
-    for i in range(len(p)):
-        step = list(p)
-        step[i] = step[i] + 2
-        next_steps.append(step)
-        step = list(p)
-        step[i] = step[i] * 3
-        next_steps.append(step)
-
-    return next_steps
-
-
-def play(p, r):
-    if 80 >= sum(p) >= 60:
-        return r % 2 == 0 # ход того, кто должен победить
-
-    if sum(p) > 80: # ЭТО УСЛОВИЕ ПИШЕМ, ТОЛЬКО КОГДА ЕСТЬ ПОТОЛОК
-        return r % 2 != 0
-
-    if r == 0:
-        return False
-
-    next_plays = [play(step, r - 1) for step in steps(p)]
-#   при r - нечет (побед. Петя), то           тут про победа (Петю)
-    return all(next_plays) if r % 2 == 0 else any(next_plays)
+# def steps(p):
+#     next_steps = []
+#     for i in range(len(p)):
+#         step = list(p)
+#         step[i] = step[i] + 2
+#         next_steps.append(step)
+#         step = list(p)
+#         step[i] = step[i] * 3
+#         next_steps.append(step)
+#
+#     return next_steps
+#
+#
+# def play(p, r):
+#     if 80 >= sum(p) >= 60:
+#         return r % 2 == 0 # ход того, кто должен победить
+#
+#     if sum(p) > 80: # ЭТО УСЛОВИЕ ПИШЕМ, ТОЛЬКО КОГДА ЕСТЬ ПОТОЛОК
+#         return r % 2 != 0
+#
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+# #   при r - нечет (побед. Петя), то           тут про победа (Петю)
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
 
 # Петя 1 ход Ваня 1 ход Петя 2 ход
 # Петя должен выиграть 2-м ходом -> r = 3
@@ -417,5 +417,147 @@ def play(p, r):
 # # 2
 
 
+# Досрок (https://alex-math.ru/gia/zadaniya-19-21-informatika-yege-2026-dosrochnyy-ekzamyen-07042026)
+# 19
+# def steps(p):
+#     h1, h2 = p
+#     return (h1 + 1, h2), (h1 * 3, h2), (h1, h2 + 1), (h1, h2 * 3)
+#
+# def play(p, r):
+#     if sum(p) >= 65:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return any(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(1, 59):
+#     p = (6, s)
+#     if play(p, 2) and (not(play(p, 1))):
+#         print(p)
+#         break
+# # 7
 
+
+# 20
+# def steps(p):
+#     h1, h2 = p
+#     return [[h1 + 1, h2], [h1 * 3, h2], [h1, h2 + 1], [h1, h2 * 3]]
+#
+# def play(p, r):
+#     if sum(p) >= 65:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(1, 59):
+#     p = (6, s)
+#     if not(play(p, 1)) and play(p, 3):
+#         print(p)
+#
+# # 10 19
+
+
+# 21
+# def steps(p):
+#     h1, h2 = p
+#     return [[h1 + 1, h2], [h1 * 3, h2], [h1, h2 + 1], [h1, h2 * 3]]
+#
+#
+# def play(p, r):
+#     if sum(p) >= 65:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+#
+# for s in range(1, 59):
+#     p = (6, s)
+#     if not (play(p, 2)) and play(p, 4):
+#         print(p)
+#
+# # 18
+
+
+# Апробация (https://alex-math.ru/gia/zadaniya-19-21-informatika-yege-2026-aprobatsiya-04032026)
+# 19
+# def steps(p):
+#     h1, h2 = p
+#     return [[h1 + 1, h2], [h1, h2 + 1], [h1 * 2, h2], [h1, h2 * 2]]
+#
+# def play(p, r):
+#     if sum(p) >= 211:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return any(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(1, 194):
+#     p = (17, s)
+#     if play(p, 2) and (not(play(p, 1))):
+#         print(s)
+# # 49
+
+
+# 20
+# def steps(p):
+#     h1, h2 = p
+#     return [[h1 + 1, h2], [h1, h2 + 1], [h1 * 2, h2], [h1, h2 * 2]]
+#
+# def play(p, r):
+#     if sum(p) >= 211:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(1, 194):
+#     p = (17, s)
+#     if play(p, 3) and (not(play(p, 1))):
+#         print(s)
+# # 88 96
+
+
+# 21
+# def steps(p):
+#     h1, h2 = p
+#     return [[h1 + 1, h2], [h1, h2 + 1], [h1 * 2, h2], [h1, h2 * 2]]
+#
+# def play(p, r):
+#     if sum(p) >= 211:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(1, 194):
+#     p = (17, s)
+#     if play(p, 4) and (not(play(p, 2))):
+#         print(s)
+# # 87
 
