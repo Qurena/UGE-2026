@@ -1,4 +1,4 @@
-'''https://3.shkolkovo.online/my/course/7259/dz/30731'''
+"""https://3.shkolkovo.online/my/course/7259/dz/30731"""
 
 # 2
 # print('x y w z F')

@@ -1,5 +1,5 @@
 """Веб: https://3.shkolkovo.online/my/course/7259/dz/26331"""
-import locale
+
 
 # 1
 # f = open("../Файлы к задачам/3_26_conf__3uznv.txt")
@@ -98,3 +98,29 @@ import locale
 # l = l_start + l_end
 # print(l_end[0][-1], len(l_start) - len(l)//2)
 # # 895 17
+
+
+# Интервалы
+# 1 (https://3.shkolkovo.online/my/course/7259/dz/30727)
+# f = open("Файлы для пробников/26__8lb2q.txt")
+# n = int(f.readline())
+# data = [list(map(int, i.split())) for i in f.readlines()]
+# data.sort(key=lambda x: x[0])
+#
+# intervals = []
+# cend = data[0][1]
+# cstart = data[0][0]
+#
+# for start, end in data[1:]:
+#     if start <= cend:
+#         cend = max(end, cend) # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#     else:
+#         intervals.append([cstart, cend])
+#         cstart, cend = start, end
+# intervals.append([cstart, cend])
+#
+# sm = 0
+# for k in intervals:
+#     sm += k[1] - k[0]
+# print(len(intervals), sm)
+# # 359 86023641
