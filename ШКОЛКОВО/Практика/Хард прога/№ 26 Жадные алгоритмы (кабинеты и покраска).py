@@ -124,3 +124,84 @@
 #     sm += k[1] - k[0]
 # print(len(intervals), sm)
 # # 359 86023641
+
+
+# Камеры хранения | №1 https://3.shkolkovo.online/my/course/7259/dz/27116
+# f = open("../Файлы к задачам/26_9__3ck5k.txt")
+# k = int(f.readline())
+# n = int(f.readline())
+# data = [list(map(int, i.split())) for i in f]
+# data.sort(key=lambda x: (x[0], -x[1]))
+#
+# safe = []
+# for i in range(k):
+#     safe.append([])
+#
+# ans1 = 0
+# ans2 = 0
+# count = 0
+# for i in range(k):
+#     for j in range(n):
+#         if not safe[j] or data[i][0] >= safe[j][-1][1] + 1:
+#             safe[j].append(data[i])
+#             ans1 += 1
+#             count += 1
+#             if count == 100:
+#                 ans2 = j + 1
+#             break
+#
+# print(ans1, ans2)
+# # 256 4
+
+
+# Конференц-залы | №2 https://3.shkolkovo.online/my/course/7259/dz/27116
+# f = open("../Файлы к задачам/1_26_conf__3uznj.txt")
+# n = int(f.readline())
+# data = [list(map(int, i.split())) for i in f]
+# data.sort(key=lambda x: x[1])
+# conf = [data[0]]
+#
+# for event in data[1:]:
+#     if conf[-1][-1] <= event[0]:
+#         conf.append(event)
+#
+# ans1 = len(conf)
+#
+# mx = 0
+# for last_event in data:
+#     if last_event[0] >= conf[-2][-1]:
+#         mx = max(mx, last_event[0])
+# ans2 = mx - conf[-2][-1]
+# print(ans1, ans2)
+# # 40 26
+
+
+# Покраска (детали) | №3 https://3.shkolkovo.online/my/course/7259/dz/27116
+# f = open("../Файлы к задачам/26_2M__3whpt.txt")
+# n, k = map(int, f.readline().split())
+# # 1. Создаем две "коробки"
+# l_start = [] # шлифовка
+# l_end = [] # покраска
+#
+# # 2. Рассматриваем детали: если время шлифовки меньше, кладем в первую "коробку" (l_start),
+# # если окрашивания - во вторую (l_end).
+# for i in range(n):
+#     a, b = map(int, f.readline().split())
+#     if a < b:
+#         l_start.append([a, i + 1]) # одно из значений не нужно (в данном случае время окрашивания)
+#     else:
+#         l_end.append([b, i + 1]) # i + 1, так как нумерация идет с 1
+#
+# # 3. Сортировка элементов в двух "коробках"
+# l_start.sort()
+# l_end.sort(reverse=True)
+# # !!!! в l_start - эл-ты в порядке возрастания, а в l_end - в порядке убывания !!!!!
+# ans1 = len(l_start)
+# l_all = l_start + l_end
+# ans2 = l_all[k-1][-1]
+# print(ans1, ans2)
+# # 489 924
+
+
+
+

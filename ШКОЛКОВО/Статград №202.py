@@ -249,20 +249,20 @@
 # # 12
 
 
-# 24
+# 24 (ЖДАТЬ МИНУТ 10)
 # from re import *
-# f = open('Файлы для пробников/24__8lbo7.txt')
+# from math import inf
+#
+# f = open("../../ШКОЛКОВО/Практика/Файлы к задачам/24__8l7.txt")
 # s = f.readline()
-# mx = 0
-# pattern = r'(?=(([A-Z][0-9]+)([A-Z][0-9]+[A-Z])+))'
+# pattern = '[A-Z](?=(([0-9]+[A-Z]+){9999}[0-9]+[A-Z]))'
+#
+# mn = inf
 # for i in finditer(pattern, s):
 #     g = i.group(1)
-#     if len(g) == 19:
-#         print(g)
-# #     mx = max(mx, len(g))
-# # print(mx)
-#
-# # вообще не понятно, как решать
+#     mn = min(mn, len(g)+1)
+#     print(mn)
+# # 68613
 
 
 # 25
