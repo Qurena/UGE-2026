@@ -1,4 +1,6 @@
-"""Конспект по вебу https://3.shkolkovo.online/my/course/7259/materials/lesson/34222"""
+"""Конспект по вебу: https://3.shkolkovo.online/my/course/7259/materials/lesson/34222
+по вебу: https://3.shkolkovo.online/my/course/7259/materials/lesson/38270
+"""
 
 # ОДНА КУЧКА
 '''
@@ -166,3 +168,184 @@ for s in range(1, 71):
         print(s)
 # 18
 '''
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+'''https://3.shkolkovo.online/my/course/7259/materials/lesson/38270'''
+# 1 (вводный пример; ходы +3 и *2)
+# Воссоздадим табличку из excel:
+# def f(p):
+#     if p >= 64:
+#         return 0
+#
+#     steps = [f(p+3), f(p*2)]
+#     win_check = [i for i in steps if i <= 0]
+#     if win_check: # если мы можем попасть в поля с отриц. значением
+#         return 1
+#     return -1
+# for i in range(1, 64):
+#     print(i, f(i))
+# # 1 -1
+# # 2 1
+# # 3 1
+# # 4 1
+# # 5 -1
+# # 6 -1
+# # 7 -1
+# # 8 1
+# # 9 1
+# # 10 1
+# # 11 -1
+# # 12 1
+# # 13 -1
+# # 14 1
+# # 15 1
+# # 16 1
+# # 17 -1
+# # 18 -1
+# # 19 -1
+# # 20 1
+# # 21 1
+# # 22 1
+# # 23 -1
+# # 24 -1
+# # 25 -1
+# # 26 1
+# # 27 1
+# # 28 1
+# # 29 -1
+# # 30 -1
+# # 31 -1
+# # 32 1
+# # 33 1
+# # 34 1
+# # 35 1
+# # 36 1
+# # 37 1
+# # 38 1
+# # 39 1
+# # 40 1
+# # 41 1
+# # 42 1
+# # 43 1
+# # 44 1
+# # 45 1
+# # 46 1
+# # 47 1
+# # 48 1
+# # 49 1
+# # 50 1
+# # 51 1
+# # 52 1
+# # 53 1
+# # 54 1
+# # 55 1
+# # 56 1
+# # 57 1
+# # 58 1
+# # 59 1
+# # 60 1
+# # 61 1
+# # 62 1
+# # 63 1
+
+# Код для задачи:
+# def f(p):
+#     if p >= 64:
+#         return 0
+#
+#     steps = [f(p+3), f(p*2)]
+#
+#     win_check = [i for i in steps if i <= 0]
+#
+#     if win_check: # если мы можем попасть в поля с отриц. значением
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for i in range(1, 64):
+#     print(i, f(i))
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 2 | Странные ходы
+# from functools import *
+#
+# @lru_cache(None)
+# def f(p):
+#     if p >= 96:
+#         return 0
+#
+#     steps = [f(p + 1)]
+#     if p % 2 == 0:
+#         steps.append(f(p + p // 2))
+#     if p % 3 == 0:
+#         steps.append(f(p + p // 3))
+#     if p % 2 != 0 and p % 3 != 0:
+#         steps.append(f(p * 2))
+#
+#     win_check = [i for i in steps if i <= 0]
+#
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for i in range(1, 96):
+#     if f(i) == -1:
+#         print(i)
+# # 48
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 3 | Победа при 65 <= p <= 108
+# from functools import *
+#
+# @lru_cache(None)
+# def f(p):
+#     if p >= 65:
+#         return 0
+#
+#     steps = [f(p + 7), f(p + 5)] # убираем самый "эффективный" ход: в данном случае это (p * 3)
+#     if p * 3 < 109:
+#         steps.append(f(p * 3))
+#
+#     win_check = [i for i in steps if i <= 0]
+#
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for i in range(1, 96):
+#     if f(i) == 1:
+#         print(i)
+# # 22
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 4 | Убывание + странные ходы
+# from functools import *
+#
+# @lru_cache(None)
+# def f(p):
+#     if p <= 17:
+#         return 0
+#
+#     steps = [f(p - 1)] # убираем самый "эффективный" ход: в данном случае это (p * 3)
+#     if p % 3 == 0:
+#         steps.append(f(p // 3))
+#     else:
+#         steps.append(f(p - 2))
+#     if p % 5 == 0:
+#         steps.append(f(p // 5))
+#     else:
+#         steps.append(f(p - 3))
+#
+#     win_check = [i for i in steps if i <= 0]
+#
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for i in range(18, 100):
+#     if f(i) == -1:
+#         print(i)
+# # 22
