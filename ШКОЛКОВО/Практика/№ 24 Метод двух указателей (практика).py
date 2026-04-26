@@ -1,7 +1,8 @@
 """
 Решение ДЗ к вебу https://3.shkolkovo.online/lesson/34219
-+ конспект к вебу: https://3.shkolkovo.online/my/course/7259/materials/lesson/36569
++ веб: https://3.shkolkovo.online/my/course/7259/materials/lesson/36569
 + дз к вебу: https://3.shkolkovo.online/my/course/7259/dz/27119
++ веб: https://3.shkolkovo.online/my/course/7259/materials/lesson/38917
 """
 
 # 1
@@ -313,4 +314,77 @@ for end in range(len(s)):
 print(mx)
 # 592
 '''
+
+
+# ----------------------------------------------------------------------------------------------------------------------
+'''https://3.shkolkovo.online/my/course/7259/materials/lesson/38917'''
+
+# 4 | Посл-ть, ограниченная точками с двух сторон
+# from string import ascii_uppercase
+# f = open("Файлы к задачам/24_M3__42ngp.txt")
+# s = f.readline()
+# mx = 0
+# cp = 0
+# c1 = c2 = 0
+# start = s.find('.')
+# for end in range(len(s)):
+#     if s[end] == '.':
+#         cp += 1
+#     elif s[end] in ascii_uppercase[:13]:
+#         c1 += 1
+#     else:
+#         c2 += 1
+#
+#     while cp > 4:
+#         start += 1
+#         if s[start] == '.':
+#             cp -= 1
+#         elif s[start] in ascii_uppercase[:13]:
+#             c1 -= 1
+#         else:
+#             c2 -= 1
+#
+#     if s[start] == '.' and s[end] == '.' and cp <= 4 and c1 > c2:
+#         mx = max(mx, end - start + 1)
+# print(mx)
+# # 378
+
+
+# ----------------------------------------------------------------------------------------------------------------------
+'''https://3.shkolkovo.online/my/course/7259/dz/29319'''
+
+# 3
+# from string import *
+# f = open("Файлы к задачам/24-7__8ag28.txt")
+# s = f.readline()
+# start = cz = cg = ck9 = 0
+# mn = 10**10
+# bad = ascii_uppercase[:10] + ascii_uppercase.lower()
+#
+# for end in range(len(s)):
+#     if s[end] in bad:
+#         cg += 1
+#     if s[end] == 'Z':
+#         cz += 1
+#
+#     while cz > 28 or cg != 0:
+#         if s[start] in bad:
+#             cg -= 1
+#         if s[start] == 'Z':
+#             cz -= 1
+#         start += 1
+#
+#     if cg == 0 and cz == 28 and (s[start] == 'K' or s[start] == '9'):
+#         mn = min(mn, end - start + 1)
+#         for n_start in range(start, start + 100):
+#             if s[n_start] in bad:
+#                 cg -= 1
+#             if s[n_start] == 'Z':
+#                 cz -= 1
+#             if (s[n_start] == 'K' or s[n_start] == '9') and cg == 0 and cz == 28:
+#                 mn = min(mn, end - n_start + 1)
+# print(mn)
+# # 990
+
+
 

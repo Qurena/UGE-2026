@@ -318,4 +318,103 @@ print(mx)
 '''
 
 
+# ----------------------------------------------------------------------------------------------------------------------
+'''https://3.shkolkovo.online/my/course/7259/dz/29319'''
 
+# 1
+# from re import *
+# f = open("Файлы к задачам/24__928qo.txt")
+# s = f.readline()
+#
+# pattern = r'[^TAEIOUY]*([T][^TAEIOUY]*){63}[AEIOUY]'
+#
+# mn = 10**30
+# for i in finditer(pattern, s):
+#     g = i.group(0)
+#     if mn > len(g):
+#         mn = len(g)
+#         mn_s = g
+# print(mn)
+# # 112
+
+
+# 2
+# from re import *
+# f = open("Файлы к задачам/24__8raj2.txt")
+# s = f.readline()
+#
+# pattern = r'([AO][AO][CDF][AO][AO][CDF][AO][AO][CDF][AO][AO][CDF])'
+#
+# mx = 0
+# for i in finditer(pattern, s):
+#     g = i.group(0)
+#     print(g)
+# # 4
+
+
+# 3
+# from re import *
+# f = open("Файлы к задачам/24-7__8ag28.txt")
+# s = f.readline()
+#
+# pattern = r'(?=([K9][^A-JZa-z]*([Z][^A-JZa-z]*){27}[Z]))'
+#
+# mn = 10**15
+# for i in finditer(pattern, s):
+#     g = i.group(1)
+#     if mn > len(g):
+#         mn = len(g)
+#         mn_s = g
+# print(mn)
+# 990
+
+
+# 4
+# from re import *
+# f = open("Файлы к задачам/24_3__6ao05.txt")
+# s = f.readline()
+#
+# pattern = r'(?=(AB(0|[12][012]*)([*+](0|[12][012]*))+))'
+#
+# for i in finditer(pattern, s):
+#     g = i.group(1)
+#     print(g)
+# 5
+
+# for i in range(len(s) - 1):
+#     if s[i:i+2] == 'AB':
+#         for k in range(i + 2, len(s)):
+#             if s[k] not in '012+*':
+#                 print(s[i:k+1])
+#                 break
+
+
+# 5
+# from re import *
+# f = open("Файлы к задачам/24_2__6anzj.txt")
+# s = f.readline()
+#
+# pattern = r'(?=((0|[1-7][0-7]*)([+*](0|[1-7][0-7]*))+))'
+#
+# mx = 0
+#
+# for i in finditer(pattern, s):
+#     g = i.group(1)
+#     mx = max(mx, len(g))
+# print(mx)
+# # 18
+
+
+# 6
+# from re import *
+# f = open("Файлы к задачам/demo_2025_24__7ae4q.txt")
+# s = f.readline()
+#
+# pattern = r'(?=((0|[6-9][06-9]*)([-*](0|[6-9][06-9]*))+))'
+#
+# mx = 0
+# for i in finditer(pattern, s):
+#     g = i.group(1)
+#     mx = max(mx, len(g))
+# print(mx)
+# # 154
