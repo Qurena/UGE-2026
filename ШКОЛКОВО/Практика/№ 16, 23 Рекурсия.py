@@ -1,4 +1,8 @@
-"""Решение ДЗ к вебу https://3.shkolkovo.online/lesson/34221"""
+"""
+Решение ДЗ к вебу: https://3.shkolkovo.online/lesson/34221
+И к вебу: https://3.shkolkovo.online/my/course/7259/materials/lesson/36690
+"""
+
 
 # 1
 '''
@@ -85,3 +89,166 @@ def f(a, b):
 print(f(2, 10) * f(10, 15))
 # 120
 '''
+
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 1
+# def f(start, end):
+#     if start > end:
+#         return 0
+#
+#     if start == end:
+#         return 1
+#
+#     return f(start + 2, end) + f(start * 3, end)
+#
+# print(f(7, 77))
+# # 14
+
+
+# 2
+# def f(start, end):
+#     if start > end:
+#         return 0
+#     if start == end:
+#         return 1
+#
+#     return f(start + 2, end) + f(start * 3, end)
+#
+# print(f(2, 42))
+# # 15
+
+
+# 3
+# def f(start, end):
+#     if start < end:
+#         return 0
+#     if start == end:
+#         return 1
+#
+#     return f(start - 1, end) + f(start - 3, end) + f(start // 3, end)
+#
+# print(f(22, 2))
+# # 2196
+
+
+# 4
+# def f(start, end, g11, g17):
+#     if start > end:
+#         return 0
+#     if start == end and g11 == 1 and g17 == 1:
+#         return 1
+#
+#     if start == 11:
+#         g11 = 1
+#     if start == 17:
+#         g17 = 1
+#
+#     return f(start + 1, end, g11, g17) + f(start + 5, end, g11, g17) + f(start * 2, end, g11, g17)
+#
+# print(f(4, 24, 0, 0))
+# # 72
+
+
+# 5
+# def f(start, end, g8, b14):
+#     if start > end:
+#         return 0
+#     if start == end and g8 == 1 and b14 == 0:
+#         return 1
+#
+#     if start == 8:
+#         g8 = 1
+#     if start == 14:
+#         b14 = 1
+#
+#     return f(start + 1, end, g8, b14) + f(start + 2, end, g8, b14)
+#
+# print(f(1, 19, 0, 0))
+# # 840
+
+
+# 6
+# def f(start, end, g8, b10):
+#     if start > end:
+#         return 0
+#     if start == end and g8 == 1 and b10 == 0:
+#         return 1
+#
+#     if start == 8:
+#         g8 = 1
+#     if start == 10:
+#         b10 = 1
+#
+#     return f(start + 1, end, g8, b10) + f(start * 2, end, g8, b10) + f(start + 5, end, g8, b10)
+#
+# print(f(1, 16, 0,0))
+# # 45
+
+
+# 7
+# def f(start, end, g14, b16):
+#     if start > end:
+#         return 0
+#     if start == end and g14 == 1 and b16 == 0:
+#         return 1
+#
+#     if start == 14:
+#         g14 = 1
+#     if start == 16:
+#         b16 = 1
+#
+#     return f(start + 1, end, g14, b16) + f(start * 2, end, g14, b16) + f(start * 3, end, g14, b16)
+#
+# print(f(1, 50, 0, 0))
+# # 192
+
+
+# 8
+# def f(start, end, k1, k2, g):
+#     if start > end:
+#         return 0
+#
+#     if start == end and g == 0:
+#         return 1
+#
+#     if k1 == 3 or k2 == 3:
+#         g = 1
+#
+#     return f(start + 1, end, k1 + 1, 0, g) + f(start * 2, end, 0, k2 + 1, g)
+#
+# print(f(1, 14, 0, 0, 0))
+# # 6
+
+
+# 9 !!!!!!!!!!!!!!!
+# def f(start, end, cA):
+#     if start > end + 1:
+#         return 0
+#     if start == end and cA != 2:
+#         return 1
+#
+#     if cA == 1:
+#         return f(start * 2, end, 0) + f(start * 3, end, 0)
+#
+#     return f(start - 1, end, cA + 1) + f(start * 2, end, cA) + f(start * 3, end, cA)
+#
+# print(f(3, 15, 0))
+# # 6
+
+
+# 10
+# def f(start, end, cB):
+#     if start > end:
+#         return 0
+#
+#     if start == end and cB != 2:
+#         return 1
+#
+#     if cB == 1:
+#         return f(start + 1, end, 0) + f(start * 2, end, 0)
+#     return f(start + 1, end, 0) + f(start + 2, end, cB + 1) + f(start * 2, end, 0)
+#
+# print(f(2, 22, 0))
+# # 4953

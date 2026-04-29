@@ -1,7 +1,9 @@
 """
 Конспект по вебу: https://3.shkolkovo.online/my/course/7259/materials/lesson/36568
 + дз: https://3.shkolkovo.online/my/course/7259/dz/27118
-+ веб: https://3.shkolkovo.online/my/course/7259/materials/lesson/38265"""
++ веб: https://3.shkolkovo.online/my/course/7259/materials/lesson/38265
++ дз: https://3.shkolkovo.online/my/course/7259/dz/31128
+"""
 
 # 1
 '''
@@ -317,3 +319,71 @@ print(adr.replace(".", ""))
 # # 23
 
 
+# ----------------------------------------------------------------------------------------------------------------------
+'''https://3.shkolkovo.online/my/course/7259/dz/31128'''
+
+# 1
+# from ipaddress import *
+#
+# net = ip_network('186.215.243.5/255.255.192.0', 0)
+#
+# for ip in net.hosts():
+#     print(ip)
+# # 186.215.255.254
+
+
+# 2
+# from ipaddress import *
+#
+# ip_add = ip_address('162.115.138.246')
+# net = ip_address('255.255.240.0')
+# print(int(ip_add) - int(net))
+
+
+# 4
+# from ipaddress import *
+#
+# net = ip_network('10.18.134.17/255.255.255.128', 0)
+# ans = 0
+# for ip in net.hosts():
+#     ans += 1
+# print(ans)
+# # 126
+
+
+# 5
+# from ipaddress import *
+#
+# # ip = ip_address('200.14.152.118')
+# # for i in range(32, 0, -1):
+# #     net_i = ip_network('200.14.152.118/' + str(i), 0)
+# #     print(net_i, net_i.netmask)
+#
+# # i = 28 или i = 29
+#
+# net = ip_network('200.14.152.118/29', 0)
+# ans = 0
+# for ip in net:
+#     ans += 1
+# print(ans)
+# # i = 28: ans = 16, i = 29: ans = 8
+# # 8
+
+
+# 6
+# from ipaddress import *
+#
+# # for i in range(32):
+# #     net = ip_network('108.212.62.110/' + str(i), 0)
+# #     print(net, net.netmask)
+# # i = 26
+#
+# net = ip_network('108.212.62.110/26', 0)
+# ans = 0
+# for ip in net:
+#     ans += 1
+# print(ans)
+# # 64
+
+
+# 7
