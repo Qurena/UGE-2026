@@ -1,7 +1,8 @@
 """Веб: https://3.shkolkovo.online/my/course/7259/dz/26331"""
 
+'''---------------------------------------------------------------------------------------------------------------------'''
 
-# 1
+# Расписание вылетов (1)
 # f = open("../Файлы к задачам/3_26_conf__3uznv.txt")
 # n = int(f.readline())
 # a = [list(map(int, i.split())) for i in f]
@@ -19,7 +20,7 @@
 # # 38 1288
 
 
-# 2
+# Расписание вылетов (1)
 # f = open("../Файлы к задачам/4_26_conf__3uzok.txt")
 # a, b = map(int, f.readline().split())
 # data = [list(map(int, i.split())) for i in f.readlines()]
@@ -38,8 +39,9 @@
 # print(len(schedule), max(mx_start))
 # # 135 7978
 
+'''---------------------------------------------------------------------------------------------------------------------'''
 
-# 3
+# Покраска (1)
 # f = open("../Файлы к задачам/26_1M__3whph.txt")
 # n = int(f.readline())
 # data = [list(map(int, i.split())) for i in f.readlines()]
@@ -69,7 +71,8 @@
 #                # то количество окрашенных деталей до нее – нулевое.
 # # 798 0
 
-# 4
+
+# Покраска (2)
 # f = open("../Файлы к задачам/26_4M__63amv.txt")
 # n = int(f.readline())
 # data = [list(map(int, i.split())) for i in f.readlines()]
@@ -238,9 +241,8 @@
 # print(len(places), places[-1])
 # # 946 2
 
-'''---------------------------------------------------------------------------------------------------------------------'''
 
-# Столбы (те же)
+# Столбы
 # f = open("../Файлы к задачам/26_1__6gp5h.txt")
 # n = int(f.readline())
 # data = [int(i) for i in f]
@@ -252,3 +254,115 @@
 #         places.append(el)
 # print(len(places), places[-1])
 # # 1214 6
+
+'''---------------------------------------------------------------------------------------------------------------------'''
+
+# Покраска | ([вр. шлиф, вр. окрас], 1. Сколько дет. будет отшлиф.? 2. Номер дет. на позиции K на ленте?)
+# f = open("../Файлы к задачам/26_2M__3whpt.txt")
+# n, k = map(int, f.readline().split())
+# data = [list(map(int, i.split())) for i in f]
+# l_start, l_end = [], []
+#
+# num = 0
+# for el in data:
+#     num += 1
+#     sh, p = el
+#     if p < sh:
+#         l_end.append([p, num])
+#     else:
+#         l_start.append([sh, num])
+#
+# l_start.sort()
+# l_end.sort(reverse=True)
+# l = l_start + l_end
+# print(len(l_start))
+# print(l[k - 1][1])
+# # 489 924
+
+
+# Покраска | [вр. шлиф, вр. окрас], 1. Номер предпоследней детали на общей ленте? 2. Кол-во дет., окраш. до неё?)
+# f = open("../Файлы к задачам/26_1M__3whph (1).txt")
+# n = int(f.readline())
+# data = [list(map(int, i.split())) for i in f]
+# l_start, l_end = [], []
+#
+# num = 0
+# for el in data:
+#     num += 1
+#     g, p = el
+#
+#     if g < p:
+#         l_start.append([g, num])
+#     else:
+#         l_end.append([p, num])
+#
+# l_start.sort()
+# l_end.sort(reverse=True)
+# l = l_start + l_end
+#
+# mx_time2 = 0
+# for detail in l:
+#     if detail[0] > mx_time2 and detail[0] != 5836: # 5836 - первый максимум
+#         mx_time2 = detail[0]
+# # print(mx_time2)
+# for detail in l:
+#     if detail[0] == mx_time2:
+#         print(detail[1])
+# print(l)
+# # 1. 798
+# # 2. 0, так как деталь с этим номером на шлифовке, то до нее не будет ни одной окраш. детали
+# # 798 0
+
+
+# Покраска | [вр. шлиф, вр. окрас], 1. Кол-во отшлиф. дет.? 2. Номер последней размещ. на ленту детали?)
+# f = open("../Файлы к задачам/26_1__3whs4.txt")
+# n = int(f.readline())
+# data = [list(map(int, i.split())) for i in f]
+# l_start, l_end = [], []
+#
+# num = 0
+# for el in data:
+#     num += 1
+#     g, p = el
+#
+#     if g < p:
+#         l_start.append([g, num])
+#     else:
+#         l_end.append([p, num])
+#
+# l_start.sort()
+# l_end.sort(reverse=True)
+# l = l_start + l_end
+#
+# # Последняя, размещ. на ленту деталь, - деталь с макс. временем: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# mx_time = 0
+# for det in l:
+#     if det[0] > mx_time:
+#         mx_time = det[0]
+#         mx_detail = det[1]
+# print(len(l_start), mx_detail)
+# # 484 544
+
+
+'''---------------------------------------------------------------------------------------------------------------------'''
+
+# Камеры наблюдения в магазине | 1.Кол-во пиков? 2.Макс. кол-во клиентов?
+# f = open("../Файлы к задачам/26_6__4103i.txt")
+# n = int(f.readline())
+# data = [list(map(int, i.split())) for i in f]
+# day = [0 for _ in range(1440)]
+#
+# for person in data:
+#     start, end = person
+#     for sec in range(start, end + 1):
+#         day[sec] += 1
+#
+# peak = max(day)
+#
+# ans2 = peak
+# ans1 = set()
+# for i in range(1440):
+#     if day[i] == peak:
+#         ans1.add(i)
+# print(len(ans1), ans2)
+# # 1 3716

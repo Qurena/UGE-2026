@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="29.04">
-      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 24/№ 24. Регулярки.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 26/26__86lva.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/26_1__6gp5h.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/26_2__6gp6f.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/26__7a6rm.txt" afterDir="false" />
+    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="30.04">
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/26-130__6qldf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/26_1M__3whph (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/26_1__3whs4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/26_6__4103i.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Особые случаи.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 19-21/Особые случаи.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Практика.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 19-21/Практика.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/Теория игр/Теория.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 19-21/Теория.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/№ 24/№ 24. Сложные случаи.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/№ 26/test23434.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 26/Теория.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Жадные алгоритмы (кабинеты и покраска).py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/!№ 26 Жадные алгоритмы (кабинеты и покраска).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 19-21 Теория игр.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 19-21 Теория игр.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 24 Регулярные выражения.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 24 Регулярные выражения.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/!№ 26 Жадные алгоритмы (кабинеты и покраска).py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/!№ 26 Жадные алгоритмы (кабинеты и покраска).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№ 26 Базовые прототипы.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№ 26 Базовые прототипы.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +61,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.!№ 26 Жадные алгоритмы (кабинеты и покраска) (1).executor": "Run",
     "Python.!№ 26 Жадные алгоритмы (кабинеты и покраска).executor": "Run",
     "Python.Dictionaries.executor": "Run",
     "Python.HackerRank.executor": "Run",
@@ -128,6 +122,7 @@
     "Python.№ 24. Сложные случаи.executor": "Run",
     "Python.№ 25 Делители.executor": "Run",
     "Python.№ 25 делители.executor": "Run",
+    "Python.№ 26 Базовые прототипы.executor": "Run",
     "Python.№ 26 Динамическое программирование.executor": "Run",
     "Python.№ 26 Жадные алгоритмы (кабинеты и покраска).executor": "Run",
     "Python.№ 26 Свободные ячейки и места.executor": "Run",
@@ -167,56 +162,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Хард прога" />
+      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Теория\Хард прога" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Теория" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\Занятия с репетитором\№ 26" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.!№ 26 Жадные алгоритмы (кабинеты и покраска)">
-    <configuration name="№ 13 IP-адреса" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ЕГЭ" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 13 IP-адреса.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="№ 16, 23 Рекурсия" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ЕГЭ" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 16, 23 Рекурсия.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.!№ 26 Жадные алгоритмы (кабинеты и покраска) (1)">
     <configuration name="№ 24. Регулярки" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
@@ -239,6 +190,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="№ 26 Базовые прототипы" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№ 26 Базовые прототипы.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Практика" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
@@ -253,6 +226,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Занятия с репетитором/№ 19-21/Практика.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="!№ 26 Жадные алгоритмы (кабинеты и покраска) (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/!№ 26 Жадные алгоритмы (кабинеты и покраска).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.!№ 26 Жадные алгоритмы (кабинеты и покраска) (1)" />
+        <item itemvalue="Python.№ 26 Базовые прототипы" />
         <item itemvalue="Python.!№ 26 Жадные алгоритмы (кабинеты и покраска)" />
         <item itemvalue="Python.№ 24. Регулярки" />
         <item itemvalue="Python.Практика" />
-        <item itemvalue="Python.№ 13 IP-адреса" />
-        <item itemvalue="Python.№ 16, 23 Рекурсия" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +448,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777497015065</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="30.04">
+      <option name="closed" value="true" />
+      <created>1777582779292</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1777582779292</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -475,6 +478,7 @@
     <MESSAGE value="23.04" />
     <MESSAGE value="24.04" />
     <MESSAGE value="29.04" />
-    <option name="LAST_COMMIT_MESSAGE" value="29.04" />
+    <MESSAGE value="30.04" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.04" />
   </component>
 </project>
