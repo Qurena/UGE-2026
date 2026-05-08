@@ -1,8 +1,7 @@
-"""Конспект по вебу: https://3.shkolkovo.online/my/course/7259/materials/lesson/34225"""
+"""Решение задач на "жадные алгоритмы" и не только"""
 
-
+'''https://3.shkolkovo.online/my/course/7259/materials/lesson/34225'''
 # 1 | Конференц-залы:
-
 # f = open("26etery.txt")
 # n = int(f.readline())
 # a = [list(map(int, i.split())) for i in f]
@@ -153,3 +152,69 @@
 #     if day[sec] == peak:
 #         print(sec, day[sec])
 # # 1 644
+
+'''---------------------------------------------------------------------------------------------------------------------'''
+'''https://3.shkolkovo.online/my/course/7259/materials/4093/lesson/39670'''
+
+# 1 | Камеры хранения с доп. условиями (размеры вещей)
+# f = open("../../Практика/Файлы к задачам/26_3__3cjvp.txt")
+# k = int(f.readline())
+# n = int(f.readline())
+# x_size = [[[]for _ in range(n)] for _ in range(3)]
+#
+# categories = {'A': 0, 'B': 1, 'C': 2}
+# data = []
+# for customer in f:
+#     start, end, size = customer.split()
+#     bag = [int(start), int(end), categories[size]] # если size == 'A', то добавляем 0, если 'B' - 1, если 'C' - 2
+#     data.append(bag)
+#
+# data.sort()
+#
+# cnt = 0
+# mx = 0
+# for customer in data:
+#     ct = customer[2]
+#     for cell in range(len(x_size[ct])):
+#         if x_size[ct][cell] == [] or x_size[ct][cell][-1][1] < customer[0]:
+#             x_size[ct][cell].append(customer)
+#             cnt += 1
+#             mx = max(mx, customer[0])
+#             if customer[0] == 999:
+#                 print(customer)
+#             break
+# print(cnt)
+# # 271 1
+
+'''---------------------------------------------------------------------------------------------------------------------'''
+
+# 2 | Камеры хранения с доп. условиями (отель БУ)
+# f = open("../../Практика/Файлы к задачам/26_6__3ck48__3t75n.txt")
+# n = int(f.readline())
+# k = int(f.readline())
+# rooms = [[] for _ in range(k*3)] # индекс - номер комнаты (№0-19 - 1 этаж; №20-39 - 2 этаж; №40-59 - 3 этаж)
+# data = [list(map(int, i.split())) for i in f]
+# data.sort(key=lambda x: (x[0], -x[1]))
+#
+# for i in range(n):
+#     if data[i][2] < 200:
+#         data[i] += [20] # 1 этаж за 100 баксов
+#     elif data[i][2] < 300:
+#         data[i] += [40] # 2 этаж за 200 баксов
+#     else:
+#         data[i] += [60] # 3 этаж за 300 баксов
+#
+# customers_money = 0
+# profit = 0
+# for customer in data:
+#     balance = customer[3]
+#     for num_of_room in range(balance-20, balance):
+#         if (not(rooms[num_of_room])) or rooms[num_of_room][-1][1] < customer[0]:
+#             rooms[num_of_room].append(customer)
+#             customers_money += customer[2] - balance * 5
+#             profit += balance * 5
+#             break
+#
+# print(customers_money, profit)
+# # 14040 39700
+
