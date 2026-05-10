@@ -3,7 +3,7 @@
 1. Через позиции ненужного / нужного элемента. Проходимся по строке и записываем все индексы в лист pos.
 2. Регулярки. Через finditer(pattern, text) и через re.search(pattern, text) с использованием сдвига.
 3. Двойные указатели
-4. Указатели через методы модуля re (re.finditer(pattern, text); match.start(); match.end(); re.search(pattern, text))
+4. Указатели через методы модуля re (re.finditer(pattern, text); sub(pat, replace, str); el.start() - индекс первого символа в подстроке; el.end(); re.search(pattern, text))
 '''
 
 # := моржовый опертор (эквивалентен match = re.search(pattern, text), а после while match:)
