@@ -266,17 +266,36 @@ print(c)
 
 
 # 10
-from itertools import *
-s = 'ТАРУХ'
-ans = set()
-bad = ['ТР', 'РТ', 'ТХ', 'ХТ', 'АУ', 'УА', 'РХ', 'ХР']
-for i in permutations(s):
-    g = ''.join(i)
-    flag = 1
-    for el in bad:
-        if el in g:
-            flag = 0
-    if flag == 1:
-        ans.add(g)
-print(len(ans))
-# 12
+# from itertools import *
+# s = 'ТАРУХ'
+# ans = set()
+# bad = ['ТР', 'РТ', 'ТХ', 'ХТ', 'АУ', 'УА', 'РХ', 'ХР']
+# for i in permutations(s):
+#     g = ''.join(i)
+#     flag = 1
+#     for el in bad:
+#         if el in g:
+#             flag = 0
+#     if flag == 1:
+#         ans.add(g)
+# print(len(ans))
+# # 12
+
+
+'-----------------------------------------------------------------------------------------------------------------------'
+
+# 1
+# from itertools import *
+#
+# s = 'ИСКАНДЕР'
+#
+# ans = 0
+# for i in product(s, repeat=6):
+#     g = ''.join(i)
+#     glscnt = sum(1 for el in g if el in 'ИАЕ')
+#     if glscnt == 1 and (g[0] in 'ИАЕ' or g[-1] in 'ИАЕ'):
+#         st = set([el for el in g])
+#         if len(st) == len([el for el in g]):
+#             ans += 1
+# print(ans)
+# # 720

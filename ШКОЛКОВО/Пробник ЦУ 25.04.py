@@ -303,10 +303,10 @@
 
 
 # 24
-# f = open("24.txt")
+# f = open("Файлы для пробников/1111111111123.txt")
 # s = f.readline().upper()
 # a = 'ABCDEFGHIJKLMNOPRQRSTUVWXYZ'
-#
+# # s ='ABcHijNOPqRswXyZ'.upper()
 # for letter in s:
 #     if letter in a:
 #         a = a.replace(letter, '*')
@@ -345,7 +345,7 @@
 # 26
 # from math import ceil
 #
-# f = open('26.txt')
+# f = open('Файлы для пробников/26 (1).txt')
 # # f = open('test')
 # n = int(f.readline())
 # data = [list(map(int, i.split())) for i in f]
@@ -393,6 +393,7 @@
 #                 smart_st_in_school.append(student)
 #                 passed += 1
 #                 smart_fcks.append(student[0])
+#
 #
 #     if smart_st_in_school:
 #         if passed + kvota > passing_amount:
