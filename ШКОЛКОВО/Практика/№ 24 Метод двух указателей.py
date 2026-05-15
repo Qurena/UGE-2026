@@ -386,5 +386,245 @@ print(mx)
 # print(mn)
 # # 990
 
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/31901'''
 
+# 1 | max(len), 'CD' <= 220 и 'BE' >= 55
+
+# 1 решение через УКАЗАТЕЛИ:
+# f = open("Файлы к задачам/24__9gm2o.txt")
+# s = f.readline()
+# mx = start = ccd = cbe = 0
+# for end in range(len(s)):
+#     if s[end - 1:end + 1] == 'CD': # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#         ccd += 1
+#     if s[end - 1:end + 1] == 'BE': # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#         cbe += 1
+#     while ccd > 220:
+#         if s[start:start + 2] == 'CD': # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#             ccd -= 1
+#         if s[start:start + 2] == 'BE': # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#             cbe -= 1
+#         start += 1
+#
+#     if ccd <= 220 and cbe >= 55:
+#         mx = max(mx, end - start + 1)
+# print(mx)
+# # 2752
+
+
+# 2 решение через ЦИКЛЫ:
+# f = open("Файлы к задачам/24__9gm2o.txt")
+# s = f.readline()
+# mx = 0
+#
+# for i in range(len(s)):
+#     for j in range(i + mx, len(s)):
+#         t = s[i:j+1]
+#         if t.count('CD') <= 220:
+#             if t.count('BE') >= 55:
+#                 mx = max(mx, len(t))
+#         else:
+#             break
+# print(mx)
+# 2752
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 2 | max(len), без 'M', 'A', 'T', 'H'
+
+# 1 решение через УКАЗАТЕЛИ:
+# f = open("Файлы к задачам/24_8__3b9ul.txt")
+# s = f.readline()
+# mx = start = cbad = 0
+# for end in range(len(s)):
+#     if s[end] in 'MATH':
+#         cbad += 1
+#
+#     if cbad > 0:
+#         if s[start] in 'MATH':
+#             cbad -= 1
+#         start += 1
+#
+#     if cbad == 0:
+#         mx = max(mx, end - start + 1)
+#
+# print(mx)
+# # 88
+
+
+# 2 решение через ЦИКЛЫ:
+# f = open("Файлы к задачам/24_8__3b9ul.txt")
+# s = f.readline()
+# mx = 0
+# for i in range(len(s)):
+#     for j in range(i + mx, len(s)):
+#         t = s[i:j+1]
+#         c = sum(1 for el in t if el in 'MATH')
+#         if c == 0:
+#             mx = max(mx, len(t))
+#         else:
+#             break
+# print(mx)
+# # 88
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 3 | max(len), 'D' <= 100
+
+# 1 решение через УКАЗАТЕЛИ:
+# f = open('Файлы к задачам/24_4__3b9tg.txt')
+# s = f.readline()
+#
+# mx = start = cd = 0
+#
+# for end in range(len(s)):
+#     if s[end] == 'D':
+#         cd += 1
+#     while cd > 100:
+#         if s[start] == 'D':
+#             cd -= 1
+#         start += 1
+#     if cd <= 100:
+#         mx = max(mx, end - start + 1)
+#
+# print(mx)
+# # 838
+
+
+# 2 решение через ЦИКЛЫ:
+# f = open('Файлы к задачам/24_4__3b9tg.txt')
+# s = f.readline()
+# mx = 0
+# for i in range(len(s)):
+#     for j in range(i + mx, len(s)):
+#         t = s[i:j+1]
+#         if t.count('D') <= 100:
+#             mx = max(mx, len(t))
+#         else:
+#             break
+# print(mx)
+# # 838
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 4 | max(len), без 'A'
+
+# 1 решение через УКАЗАТЕЛИ:
+# f = open("Файлы к задачам/8__2pp7a.txt")
+# s = f.readline()
+#
+# mx = start = ca = 0
+#
+# for end in range(len(s)):
+#     if s[end] == 'A':
+#         ca += 1
+#     while ca > 0:
+#         if s[start] == 'A':
+#             ca -= 1
+#         start += 1
+#     if ca == 0:
+#         mx = max(mx, end - start + 1)
+#
+# print(mx)
+# # 51
+
+
+# 2 решение через ЦИКЛЫ:
+# f = open("Файлы к задачам/8__2pp7a.txt")
+# s = f.readline()
+# mx = 0
+# for i in range(len(s)):
+#     for j in range(i + mx, len(s)):
+#         t = s[i:j+1]
+#         if 'A' not in t:
+#             mx = max(mx, len(t))
+#         else:
+#             break
+# print(mx)
+# # 51
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 5 | max(len), 'DF' и 'LE' нет одновременно
+
+# 1 решение через УКАЗАТЕЛИ:
+# f = open("Файлы к задачам/7__2pp79.txt")
+# s = f.readline()
+# s = s.replace('DF', '**')
+# s = s.replace('LE', '&&')
+# mx = start = cdf = cle = 0
+#
+# for end in range(len(s)):
+#     if s[end-1:end + 1] == '**':  # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#         cdf += 1
+#     if s[end-1: end + 1] == '&&': # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#         cle += 1
+#     while cdf > 0 and cle > 0:
+#         if s[start: start + 2] == '**': # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#             cdf -= 1
+#         if s[start: start + 2] == '&&': # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#             cle -= 1
+#         start += 1
+#
+#     t = s[start:end + 1]
+#     if not (t.count('**') > 0 and t.count('&&') > 0):
+#         mx = max(mx, len(t))
+# print(mx)
+# # 6197
+
+
+# 2 решение через ЦИКЛЫ:
+# f = open("Файлы к задачам/7__2pp79.txt")
+# s = f.readline()
+# mx = 0
+# for i in range(len(s)):
+#     for j in range(i + mx, len(s)):
+#         t = s[i:j + 1]
+#         if ('DF' not in t) or ('LE' not in t):
+#             mx = max(mx, len(t))
+#             if mx == 3143:
+#                 print(t.count('DF'), t.count('LE'))
+#         if 'DF' in t and 'LE' in t:
+#             break
+# print(mx)
+# # 6197
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 6 | max(len), без 'CEDA'
+
+# 1 решение через УКАЗАТЕЛИ:
+# f = open("Файлы к задачам/4__2pp6x.txt")
+# s = f.readline()
+# mx = start = cbad = 0
+#
+# for end in range(len(s)):
+#     if s[end-3:end + 1] == 'CEDA':
+#         cbad += 1
+#     while cbad > 0:
+#         if s[start:start + 4] == 'CEDA':
+#             cbad -= 1
+#         start += 1
+#
+#     if cbad == 0:
+#         mx = max(mx, end - start + 1)
+#
+# print(mx)
+# 4151
+
+
+# 2 решение через ЦИКЛЫ:
+# f = open("Файлы к задачам/4__2pp6x.txt")
+# s = f.readline()
+# mx = 0
+# for i in range(len(s)):
+#     for j in range(i + mx, len(s)):
+#         t = s[i:j+1]
+#         if t.count('CEDA') == 0:
+#             mx = max(mx, len(t))
+#         else:
+#             break
+# print(mx)
+# # 4151
 

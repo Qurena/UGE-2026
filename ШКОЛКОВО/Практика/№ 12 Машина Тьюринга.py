@@ -130,3 +130,54 @@
 #         i += 1
 #     print(''.join(s))
 # # 150
+
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/29322'''
+
+# 12
+# a = {
+#     'q0.': ['.', 'S', 'q0'],
+#     'q00': ['0', 'R', 'q0'],
+#     'q01': ['1', 'R', 'q1'],
+#     'q1.': ['.', 'S', 'q0'],
+#     'q10': ['0', 'R', 'q0'],
+#     'q11': ['1', 'R', 'q2'],
+#     'q2.': ['.', 'S', 'q0'],
+#     'q20': ['1', 'R', 'q0'],
+#     'q21': ['0', 'R', 'q0']
+# }
+#
+# mx_inv = 0
+# for el1 in '01':
+#     for el2 in '01':
+#         for el3 in '01':
+#             for el4 in '01':
+#                 for el5 in '01':
+#                     for el6 in '01':
+#                         for el7 in '01':
+#                             for el8 in '01':
+#                                 for el9 in '01':
+#                                     for el10 in '01':
+#                                         for el11 in '01':
+#                                             for el12 in '01':
+#
+#                                                 s1 = el1 + el2 + el3 + el4 + el5 + el6 + el7 + el8 + el9 + el10 + el11 + el12
+#
+#                                                 s = list('..' + s1 + '..')
+#                                                 i = 2
+#                                                 c = 0
+#                                                 p = 'q0'
+#                                                 while c != 'S':
+#                                                     s[i], c, p = a[p + s[i]]
+#                                                     i += 1
+#
+#                                                 new_s = ''.join(s)[2:-2]
+#
+#                                                 inv = 0
+#                                                 for i in range(len(s1)):
+#                                                     if s1[i] != new_s[i]:
+#                                                         inv += 1
+#                                                 mx_inv = max(mx_inv, inv)
+# print(mx_inv)
+# # 4
+
