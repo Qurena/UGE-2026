@@ -252,3 +252,47 @@ print(f(2, 10) * f(10, 15))
 #
 # print(f(2, 22, 0))
 # # 4953
+
+'-----------------------------------------------------------------------------------------------------------------------'
+# Задачка от репетитора
+'''Исполнитель преобразует число на экране. У исполнителя есть три команды, которые обозначены латинскими буквами:
+A. Вычесть 1 B. Извлечь квадратный корень из числа C. Извлечь кубический корень из числа
+Команды B и C могут быть применены, если в результате извлечения корня получается целое число.
+Команда A может применяться к любым числам. Сколько существует программ,
+для которых при исходном числе 512 результатом является число 1,
+при этом траектория вычислений содержит число 8 или 64, но не оба числа одновременно?'''
+# from math import *
+# def f64(start, end):
+#     if start < end:
+#         return 0
+#     if start == end:
+#         return 1
+#     if start == 64:
+#         return 0
+#     if start == (round(sqrt(start)))**2:
+#         if start == (round(start ** (1/3)))**3:
+#             return f64(start - 1, end) + f64(round(start ** 0.5), end) + f64(round(start ** (1 / 3)), end)
+#         return f64(start - 1, end) + f64(round(start ** 0.5), end)
+#     if start == (round(start ** (1 / 3))) ** 3:
+#         return f64(start - 1, end)  + f64(round(start ** (1 / 3)), end)
+#     return f64(start - 1, end)
+#
+# def f8(start, end):
+#     if start < end:
+#         return 0
+#     if start == end:
+#         return 1
+#     if start == 8:
+#         return 0
+#     if start == (round(sqrt(start)))**2:
+#         if start == (round(start ** (1/3)))**3:
+#             return f8(start - 1, end) + f8(round(start**0.5), end) + f8(round(start**(1/3)), end)
+#         return f8(start - 1, end) + f8(round(start**0.5), end)
+#     if start == (round(start ** (1 / 3))) ** 3:
+#         return f8(start - 1, end)  + f8(round(start ** (1 / 3)), end)
+#     return f8(start - 1, end)
+#
+# print(f64(512, 8)*f64(8, 1) + f8(512, 64)*f8(64, 1))
+# # 57
+
+

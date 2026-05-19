@@ -515,3 +515,81 @@ print(mx)
 #     mxl = max(mxl, len(g))
 # print(mxl)
 # # 85
+
+
+'''---------------------------------------------------------------------------------------------------------------------'''
+'''https://3.shkolkovo.online/my/course/7259/dz/29318'''
+
+# 1
+# from re import *
+# f = open("Файлы к задачам/10__19jzu.txt")
+# s = f.readline()
+#
+# pattern = r'(?=((CD)+))'
+# mx = 0
+#
+# for i in finditer(pattern, s):
+#     g = i.group(1)
+#     mx = max(mx, len(g))
+#     if len(g) == 6:
+#         print(g)
+# print(mx)
+# # 6 CDCDCD
+
+
+# 2
+# from re import *
+# f = open("Файлы к задачам/1__1iafg.txt")
+# s = f.readline()
+#
+# pattern = r'(?=((AAC|BBC)+))'
+# mx = 0
+#
+# for i in finditer(pattern, s):
+#     g = i.group(1)
+#     mx = max(mx, len(g))
+#     if len(g) == 12:
+#         print(g.count('BBC'), g.count('AAC'))
+# # 4
+
+
+# 6
+# from re import *
+# f = open("Файлы к задачам/Задание_24__7ajcf.txt")
+# s = f.readline()
+#
+# pattern = r'([CDF][AO])+'
+# mx = 0
+# for i in finditer(pattern, s):
+#     g = i.group(0)
+#     mx = max(mx, len(g))
+# print(mx//2)
+# # 95
+
+
+# 7
+# from re import *
+# f = open("Файлы к задачам/24_1__7boxw.txt")
+# s = f.readline()
+#
+# pattern = r'(?=((0|[1-4][0-4]*)([-+](0|[1-4][0-4]*))+))'
+# mx = 0
+# for i in finditer(pattern, s):
+#     g = i.group(1)
+#     mx = max(mx, len(g))
+# print(mx)
+# # 144
+
+
+# 8
+# from re import *
+# f = open("Файлы к задачам/24__7h51q.txt")
+# s = f.readline()
+#
+# pattern = r'(?=(A([1-6]+([-*][1-6]+)+)))'
+# mx = 0
+# for i in finditer(pattern, s):
+#     g = i.group(1)
+#     mx = max(mx, len(g))
+# print(mx)
+# # 85

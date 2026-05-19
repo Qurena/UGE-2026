@@ -628,3 +628,96 @@ print(mx)
 # print(mx)
 # # 4151
 
+'''---------------------------------------------------------------------------------------------------------------------'''
+'''https://3.shkolkovo.online/my/course/7259/dz/29318'''
+
+# 3
+# 1 решение:
+# f = open("Файлы к задачам/8__1vq2j.txt")
+# s = f.readline()
+# start = cAE = mx = 0
+#
+# for end in range(len(s)):
+#     if s[end-1:end+1] == 'AE':
+#         cAE += 1
+#     while cAE > 0:
+#         if s[start:start + 2] == 'AE':
+#             cAE -= 1
+#         start += 1
+#     if cAE == 0:
+#         mx = max(mx, end + 1 - start)
+# print(mx)
+# # 1743
+
+# 2 решение:
+# f = open("Файлы к задачам/8__1vq2j.txt")
+# s = f.readline()
+#
+# mx = 0
+# for i in range(len(s)):
+#     for j in range( i + mx, len(s)):
+#         t = s[i:j + 1]
+#         if t.count('AE') == 0:
+#             mx = max(mx, len(t))
+#         if t.count('AE') > 0:
+#             break
+# print(mx)
+# # 1743
+
+
+# 4
+# f = open("Файлы к задачам/24_16__3b9u2.txt")
+# s = f.readline()
+#
+# start = cy = 0
+# mn = 10**10
+# for end in range(len(s)):
+#     if s[end] == 'Y':
+#         cy += 1
+#     while cy > 100:
+#         if s[start] == 'Y':
+#             cy -= 1
+#         start += 1
+#     if cy == 100:
+#         mn = min(mn, end + 1 - start)
+# print(mn)
+# # 108
+
+
+# 5
+# 1 решение:
+# f = open("Файлы к задачам/24_18__3b9tx.txt")
+# s = f.readline()
+#
+# start = cf = cl = mx = 0
+# for end in range(len(s)):
+#     if s[end] == 'F':
+#         cf += 1
+#     if s[end] == 'L':
+#         cl += 1
+#     while cf > 3 or cl > 3: # !!!!!!!!!!!!!!!!!!!!!!!!!!!
+#         if s[start] == 'F':
+#             cf -= 1
+#         if s[start] == 'L':
+#             cl -= 1
+#         start += 1
+#     if cf == 3 and cl == 3:
+#         mx = max(mx, end + 1 - start)
+# print(mx)
+# # 292
+
+# 2 решение:
+# f = open("Файлы к задачам/24_18__3b9tx.txt")
+# s = f.readline()
+#
+# mx = 0
+# for i in range(len(s)):
+#     for j in range(mx + i, len(s)):
+#         t = s[i:j + 1]
+#         if t.count('F') == 3 and t.count('L') == 3:
+#             mx = max(mx, len(t))
+#         if t.count('F') > 3 or t.count('L') > 3:
+#             break
+# print(mx)
+# # 292
+
