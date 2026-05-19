@@ -34,6 +34,26 @@ for i in range(32): # у нас 32 возможных вариантов мас�
 8) net.network_address - если мы выводим просто net, то выведется адрес сети/кол-во единиц в маске
 network_address выводит только адрес сети
 
+
+9) Номер компьютера по маске и ip:
+
+from ipaddress import *
+
+net = ip_network('7.120.96.0/19')
+ip = ip_address('7.120.112.5')
+nm = int(ip) - int(net.network_address)  # если мы к узловой части адреса сети прибавляем номер компьютера, мы получаем ip-адрес этого компьютера
+print(nm)
+# 4101
+
+# ИЛИ !!!!!!!!!!!!!!!!!!!!!!!!!!
+num = 0
+for i in net.hosts():
+    num += 1
+    if i == ip:
+        print(num)
+# 4101 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 '''
 
 # from ipaddress import *
@@ -81,6 +101,14 @@ net = ip_network('7.120.96.0/19')
 ip = ip_address('7.120.112.5')
 nm = int(ip) - int(net.network_address)  # если мы к узловой части адреса сети прибавляем номер компьютера, мы получаем ip-адрес этого компьютера
 print(nm)
+# 4101
+
+# ИЛИ
+num = 0
+for i in net.hosts():
+    num += 1
+    if i == ip:
+        print(num)
 # 4101
 '''
 
