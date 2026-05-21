@@ -375,3 +375,407 @@ for s in range(1, 71):
 # print(ans)
 # # 58
 '''!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'''
+
+
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/31144'''
+
+# 1-3:
+# 1
+# решение 1:
+# def steps(p):
+#     return (p + 1, p * 2)
+#
+# def play(p, r):
+#     if p >= 70:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return 0
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(1, 70):
+#     if play(s, 2) and (not(play(s, 1))):
+#         print(s)
+# # 34
+
+
+# решение 2:
+# def f(a):
+#     if a >= 70:
+#         return 0
+#
+#     steps = [f(a + 1), f(a * 2)]
+#     win_check = [i for i in steps if i <= 0]
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for s in range(1, 70):
+#     if f(s) == -1:
+#         print(s)
+# # 34
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 2
+# решение 1:
+# def steps(p):
+#     return (p + 1, p * 2)
+#
+# def play(p, r):
+#     if p >= 70:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return 0
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(1, 70):
+#     if play(s, 3) and (not(play(s, 1))):
+#         print(s)
+# # 17
+
+
+# решение 2:
+# def f(a):
+#     if a >= 70:
+#         return 0
+#
+#     steps = [f(a + 1), f(a * 2)]
+#     win_check = [i for i in steps if i <= 0]
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for s in range(1, 70):
+#     if f(s) == 2:
+#         print(s)
+# # 17
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 3
+# решение 1:
+# def steps(p):
+#     return (p + 1, p * 2)
+#
+# def play(p, r):
+#     if p >= 70:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return 0
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(1, 70):
+#     if play(s, 4) and (not(play(s, 2))):
+#         print(s)
+# # 32
+
+
+# решение 2:
+# def f(a):
+#     if a >= 70:
+#         return 0
+#
+#     steps = [f(a + 1), f(a * 2)]
+#     win_check = [i for i in steps if i <= 0]
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for s in range(1, 70):
+#     if f(s) == -2:
+#         print(s)
+# # 32
+
+'-----------------------------------------------------------------------------------------------------------------------'
+
+# 4-6:
+# 4 | ПОСЛЕ НЕУДАЧНОГО ПЕРВОГО ХОДА ПЕТИ -> any()-any()
+# решение 1:
+# def steps(p):
+#     h1, h2 = p
+#     return [(h1 + 1, h2), (h1, h2 + 1), (h1 * 4, h2), (h1, h2 * 4)]
+#
+# def play(p, r):
+#     if sum(p) >= 82:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return 0
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return any(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(1, 78):
+#     p = (4, s)
+#     if play(p, 2) and (not(play(p, 1))):
+#         print(s)
+# # 5
+
+
+# решение 2:
+# from functools import lru_cache
+#
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b >= 82:
+#         return 0
+#
+#     steps = [f(a + 1, b), f(a * 4, b), f(a, b + 1), f(a, b * 4)]
+#     win_check = [i for i in steps if i <= 0]
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for s in range(1, 78):
+#     if f(4 + 1, s) == 1 or f(4 * 4, s) == 1 or f(4, s + 1) == 1 or f(4, s * 4) == 1:
+#         print(s)
+# # 5
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 5
+# решение 1:
+# def steps(p):
+#     h1, h2 = p
+#     return [(h1 + 1, h2), (h1, h2 + 1), (h1 * 4, h2), (h1, h2 * 4)]
+#
+# def play(p, r):
+#     if sum(p) >= 82:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return 0
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(1, 78):
+#     p = (4, s)
+#     if play(p, 3) and (not(play(p, 1))):
+#         print(s)
+# # 16 19
+
+
+# решение 2:
+# from functools import lru_cache
+#
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b >= 82:
+#         return 0
+#
+#     steps = [f(a + 1, b), f(a * 4, b), f(a, b + 1), f(a, b * 4)]
+#     win_check = [i for i in steps if i <= 0]
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for s in range(1, 78):
+#     if f(4, s) == 2:
+#         print(s)
+# # 16 19
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 6
+# решение 1:
+# def steps(p):
+#     h1, h2 = p
+#     return [(h1 + 1, h2), (h1, h2 + 1), (h1 * 4, h2), (h1, h2 * 4)]
+#
+# def play(p, r):
+#     if sum(p) >= 82:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return 0
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(1, 78):
+#     p = (4, s)
+#     if play(p, 4) and (not(play(p, 2))):
+#         print(s)
+# # 18
+
+
+# решение 2:
+# from functools import lru_cache
+#
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b >= 82:
+#         return 0
+#
+#     steps = [f(a + 1, b), f(a * 4, b), f(a, b + 1), f(a, b * 4)]
+#     win_check = [i for i in steps if i <= 0]
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for s in range(1, 78):
+#     if f(4, s) == -2:
+#         print(s)
+# # 18
+
+'-----------------------------------------------------------------------------------------------------------------------'
+
+# 7-9
+# 7
+# решение 1:
+# def steps(p):
+#     h1, h2 = p
+#     return [(h1, h2 - 1), (h1 - 1, h2), (h1 // 2, h2), (h1, h2 // 2)]
+#
+# def play(p, r):
+#     if sum(p) <= 34:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return 0
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(13, 10_000):
+#     p = (22, s)
+#     if play(p, 2) and (not(play(p, 1))):
+#         print(s)
+# # 26
+
+
+# решение 2:
+# from functools import lru_cache
+#
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b <= 34:
+#         return 0
+#
+#     steps = [f(a - 1, b), f(a // 2, b), f(a, b - 1), f(a, b // 2)]
+#     win_check = [i for i in steps if i <= 0]
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for s in range(13, 100):
+#     if f(22, s) == -1:
+#         print(s)
+# # 26
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 8
+# решение 1:
+# def steps(p):
+#     h1, h2 = p
+#     return [(h1, h2 - 1), (h1 - 1, h2), (h1 // 2, h2), (h1, h2 // 2)]
+#
+# def play(p, r):
+#     if sum(p) <= 34:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return 0
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(13, 10_000):
+#     p = (22, s)
+#     if play(p, 3) and (not(play(p, 1))):
+#         print(s)
+# # 52 53
+
+
+# решение 2:
+# from functools import lru_cache
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b <= 34:
+#         return 0
+#
+#     steps = []
+#     if a > 0:
+#         steps.append(f(a - 1, b))
+#         steps.append(f(a // 2, b))
+#     if b > 0:
+#         steps.append(f(a, b - 1))
+#         steps.append(f(a, b // 2))
+#
+#     win_check = [i for i in steps if i <= 0]
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for s in range(13, 100):
+#     if f(22, s) == 2:
+#         print(s)
+# # 52 53
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 9
+# решение 1:
+# def steps(p):
+#     h1, h2 = p
+#     return [(h1, h2 - 1), (h1 - 1, h2), (h1 // 2, h2), (h1, h2 // 2)]
+#
+# def play(p, r):
+#     if sum(p) <= 34:
+#         return r % 2 == 0
+#
+#     if r == 0:
+#         return 0
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(13, 10_000):
+#     p = (22, s)
+#     if play(p, 4) and (not(play(p, 2))):
+#         print(s)
+# # 29
+
+
+# решение 2:
+# from functools import lru_cache
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b <= 34:
+#         return 0
+#
+#     steps = []
+#     if a > 0:
+#         steps.append(f(a - 1, b))
+#         steps.append(f(a // 2, b))
+#     if b > 0:
+#         steps.append(f(a, b - 1))
+#         steps.append(f(a, b // 2))
+#
+#     win_check = [i for i in steps if i <= 0]
+#     if win_check:
+#         return -max(win_check) + 1
+#     return -max(steps)
+#
+# for s in range(13, 100):
+#     if f(22, s) == -2:
+#         print(s)
+# # 29

@@ -28,6 +28,10 @@ for i in net.hosts():
 for i in range(32): # у нас 32 возможных вариантов маски (i - кол-во единиц в маске)
     net = ip_network('IP-адрес/' + str(i), 0)
     print(net, net.netmask) # ищем подходящий адрес сети и соответствующую ему маску
+    # ИЛИ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    our_net = ip_network('адрес сети из условия')
+    if net.network_address == our_net.network_address:
+        print(i)
 
 7) ip = ip_address('IP-адрес') - вводим адрес, чтобы комп понял, что это именно он
 
