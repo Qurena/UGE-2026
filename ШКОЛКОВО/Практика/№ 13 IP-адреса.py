@@ -386,4 +386,162 @@ print(adr.replace(".", ""))
 # # 64
 
 
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/25859'''
+
+# 1
+# from ipaddress import *
+# net = ip_network('188.134.59.77/255.255.255.192', 0)
+# ip = ip_address('188.134.59.77')
+# num = int(ip) - int(net.network_address)
+# print(num)
+# # ВТОРОЕ РЕШЕНИЕ (БОЛЕЕ ПОНЯТНОЕ)
+# # num = 0
+# # for i in net.hosts():
+# #     num += 1
+# #     if i == ip:
+# #         print(num)
+# # 13
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 2
+# from ipaddress import *
+# net = ip_network('145.125.105.101/255.255.248.0', 0)
+# ip = ip_address('145.125.105.101')
+# # num = int(ip) - int(net.network_address)
+# # print(num)
+# # ВТОРОЕ РЕШЕНИЕ (БОЛЕЕ ПОНЯТНОЕ)
+# num = 0
+# for i in net.hosts():
+#     num += 1
+#     if i == ip:
+#         print(num)
+# # 13
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 3
+# from ipaddress import *
+# ip = ip_address('7.120.112.5')
+# # Поиск маски:
+# for i in range(32):
+#     net = ip_network('7.120.112.5/' + str(i), 0)
+#     net2 = ip_network('7.120.96.0')
+#     if net.network_address == net2.network_address:
+#         print(i)
+# # i = 19
+# our_net = ip_network('7.120.112.5/19', 0)
+# # num = int(ip) - int(our_net.network_address)
+# # print(num)
+# num = 0
+# for l in our_net.hosts():
+#     num += 1
+#     if l == ip:
+#         print(num)
+# # 4101
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 4
+# from ipaddress import *
+# ip = ip_address('10.43.180.188')
+# net0 = ip_network('10.43.180.0')
+#
+# # for i in range(32):
+# #     net = ip_network('10.43.180.188/' + str(i), 0)
+# #     if net.network_address == net0.network_address:
+# #         print(i) # i == 22; 23; 24
+#
+# # i = 22 -> 1024
+# n = ip_network('10.43.180.188/22', 0)
+# ans = 0
+# for adr in n:
+#     ans += 1
+# print(ans)
+# # 1024
+#
+# # i = 23 -> 512
+# n = ip_network('10.43.180.188/23', 0)
+# ans = 0
+# for adr in n:
+#     ans += 1
+# print(ans)
+# # 512
+#
+# # i = 24 -> 256
+# n = ip_network('10.43.180.188/24', 0)
+# ans = 0
+# for adr in n:
+#     ans += 1
+# print(ans)
+# # 256
+#
+# # 1024 256
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 5
+# from ipaddress import *
+# print(bin(int(ip_network('68.232.57.148/255.255.252.0', 0).network_address))[2:].zfill(32).count('0'))
+# # 23
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 6
+# from ipaddress import *
+# net = ip_network('158.202.220.40/255.255.192.0', 0)
+# print(net.network_address)
+# # 158.202.192.0
+
+# ----------------------------------------------------------------------------------------------------------------------
+
 # 7
+# from ipaddress import *
+# net = ip_network('164.90.174.208/255.255.224.0', 0)
+# print(net.network_address)
+# # 164.90.160.0
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 8
+# from ipaddress import *
+# ip = ip_address('215.119.119.160')
+# net0 = ip_network('215.119.119.128')
+#
+# ans = []
+# for i in range(32):
+#     net = ip_network('215.119.119.160/' + str(i), 0)
+#     if net.network_address == net0.network_address:
+#         ans.append(i)
+# print(max(ans))
+# # 26
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 9
+# from ipaddress import *
+# ip = ip_address('115.200.200.27')
+# net0 = ip_network('115.200.192.0')
+#
+# for i in range(32):
+#     net = ip_network('115.200.200.27/' + str(i), 0)
+#     if net.network_address == net0.network_address:
+#         print(i)
+# # 11111111.11111111.11000000.00000000 <- i = 18
+# print(int('11000000', 2))
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 10
+# from ipaddress import *
+# ip = ip_address('128.225.157.50')
+# net0 = ip_network('128.225.128.0')
+#
+# for i in range(32):
+#     net = ip_network('128.225.157.50/' + str(i), 0)
+#     if net.network_address == net0.network_address:
+#         print(i)
+# # 11111111.11111111.11100000.00000000 <- i = 19
+# print(int('11100000', 2))
+# # 224
