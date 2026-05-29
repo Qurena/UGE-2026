@@ -1,4 +1,4 @@
-'''https://3.shkolkovo.online/my/course/7259/dz/30092'''
+"""https://3.shkolkovo.online/my/course/7259/dz/30092"""
 
 
 # 2

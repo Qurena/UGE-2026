@@ -329,7 +329,7 @@ for s in range(1, 71):
 #     if p <= 17:
 #         return 0
 #
-#     steps = [f(p - 1)] # убираем самый "эффективный" ход: в данном случае это (p * 3)
+#     steps = [f(p - 1)]
 #     if p % 3 == 0:
 #         steps.append(f(p // 3))
 #     else:
