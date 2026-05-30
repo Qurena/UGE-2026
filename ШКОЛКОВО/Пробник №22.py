@@ -154,20 +154,19 @@
 
 
 # 17
-f = open("Файлы для пробников/10__1vf5g.txt")
-n = [int(i) for i in f]
-
-c = 0
-mns = 10**10
-for i1 in range(len(n)):
-    for i2 in range(i1 + 1, len(n)):
-        # if n[i1] != n[i2]: # по усл. эл-ты различны
-        t = [n[i1], n[i2]]
-        if abs(t[0] - t[1]) % 2 == 0:
-            if t[0] % 11 == 0 or t[1] % 11 == 0:
-                c += 1
-                mns = min(mns, sum(t))
-print(c, mns)
+# f = open("Файлы для пробников/10__1vf5g.txt")
+# n = [int(i) for i in f]
+#
+# c = 0
+# mns = 10**10
+# for i1 in range(len(n)):
+#     for i2 in range(i1 + 1, len(n)):
+#         t = [n[i1], n[i2]]
+#         if abs(t[0] - t[1]) % 2 == 0:
+#             if t[0] % 11 == 0 or t[1] % 11 == 0:
+#                 c += 1
+#                 mns = min(mns, sum(t))
+# print(c, mns)
 # 4182668 18
 
 
