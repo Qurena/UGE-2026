@@ -19,6 +19,7 @@
 # print(len(schedule), mn)
 # # 38 1288
 
+# ----------------------------------------------------------------------------------------------------------------------
 
 # Расписание вылетов (1)
 # f = open("../Файлы к задачам/4_26_conf__3uzok.txt")
@@ -71,6 +72,7 @@
 #                # то количество окрашенных деталей до нее – нулевое.
 # # 798 0
 
+# ----------------------------------------------------------------------------------------------------------------------
 
 # Покраска (2)
 # f = open("../Файлы к задачам/26_4M__63amv.txt")
@@ -241,6 +243,7 @@
 # print(len(places), places[-1])
 # # 946 2
 
+# ----------------------------------------------------------------------------------------------------------------------
 
 # Столбы
 # f = open("../Файлы к задачам/26_1__6gp5h.txt")
@@ -279,8 +282,9 @@
 # print(l[k - 1][1])
 # # 489 924
 
+# ----------------------------------------------------------------------------------------------------------------------
 
-# Покраска | [вр. шлиф, вр. окрас], 1. Номер предпоследней детали на общей ленте? 2. Кол-во дет., окраш. до неё?)
+# Покраска | [вр. шлиф, вр. окрас], 1. Номер предпоследней детали на общей ленте? 2. Кол-во дет., окраш. до неё?
 # f = open("../Файлы к задачам/26_1M__3whph (1).txt")
 # n = int(f.readline())
 # data = [list(map(int, i.split())) for i in f]
@@ -290,7 +294,6 @@
 # for el in data:
 #     num += 1
 #     g, p = el
-#
 #     if g < p:
 #         l_start.append([g, num])
 #     else:
@@ -299,20 +302,13 @@
 # l_start.sort()
 # l_end.sort(reverse=True)
 # l = l_start + l_end
-#
-# mx_time2 = 0
-# for detail in l:
-#     if detail[0] > mx_time2 and detail[0] != 5836: # 5836 - первый максимум
-#         mx_time2 = detail[0]
-# # print(mx_time2)
-# for detail in l:
-#     if detail[0] == mx_time2:
-#         print(detail[1])
-# print(l)
+# l.sort()
+# print(l[-2][1], 0)
 # # 1. 798
 # # 2. 0, так как деталь с этим номером на шлифовке, то до нее не будет ни одной окраш. детали
 # # 798 0
 
+# ----------------------------------------------------------------------------------------------------------------------
 
 # Покраска | [вр. шлиф, вр. окрас], 1. Кол-во отшлиф. дет.? 2. Номер последней размещ. на ленту детали?)
 # f = open("../Файлы к задачам/26_1__3whs4.txt")
@@ -366,3 +362,123 @@
 #         ans1.add(i)
 # print(len(ans1), ans2)
 # # 1 3716
+
+
+'''---------------------------------------------------------------------------------------------------------------------'''
+'''https://3.shkolkovo.online/my/course/7259/materials/4093/lesson/39673'''
+
+# 1 | Покраска | [вр. шлиф, вр. окраш], 1. Кол-во отшлиф. дет.? 2. Номер детали на позиции K на ленте?
+# f = open("../Файлы к задачам/26_2M__3whpt.txt")
+# n, k = map(int, f.readline().split())
+#
+# l_start = []
+# l_end = []
+#
+# num = 0
+# for el in f:
+#     grind, paint = map(int, el.split())
+#     num += 1
+#     if grind < paint:
+#         l_start.append([grind, num])
+#     if grind > paint:
+#         l_end.append([paint, num])
+#
+# l_start.sort()
+# l_end.sort(reverse=True)
+#
+# line = l_start + l_end
+# print(len(l_start), line[k-1][1])
+# # 489 924
+
+# ДЗ -------------------------------------------------------------------------------------------------------------------
+'''https://3.shkolkovo.online/my/course/7259/dz/31127'''
+
+#157985 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# 1 | Покраска | [вр. ожид., вр. акт.], 1. Номер последнего на ленте? 2. Кол-во уст-в с позициями ниже?
+# f = open("../Файлы к задачам/26task__8k9oc.txt")
+# n = int(f.readline())
+#
+# l_start = []
+# l_end = []
+# num = 0
+# for phone in f:
+#     wait, act = map(int, phone.split())
+#     num += 1
+#     if wait < act:
+#         l_start.append([wait, num, 'w'])
+#     if act < wait:
+#         l_end.append([act, num, 'a'])
+# l_start.sort()
+# l_end.sort(reverse=True)
+# line = l_start + l_end
+# line.sort()
+#
+# position = l_start + l_end
+# fnd = line[-1]
+# last_num = fnd[1]
+# downs = len(position) - 1 - position.index(fnd)
+# print(last_num, downs)
+# # 667 517
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 2 | Покраска | [вр. хран., срок годн.], 1. Номер последнего на ленте? 2. Кол-во тов-в с позициями ниже?
+# f = open("../Файлы к задачам/DEMO_26__7atk3.txt")
+# n = int(f.readline())
+#
+# check = []
+# l_start = []
+# l_end = []
+# num = 0
+# for product in f:
+#     safe, use = map(int, product.split())
+#     num += 1
+#     if safe not in check and use not in check:
+#         if safe < use:
+#             l_start.append([safe, num])
+#             check.append(safe)
+#         if use < safe:
+#             l_end.append([use, num])
+#             check.append(use)
+#
+# l_start.sort()
+# l_end.sort(reverse=True)
+# line = l_start + l_end
+# position = l_start + l_end
+# line.sort()
+# fnd = line[-1]
+# print(fnd[1], len(position) - 1 - position.index(fnd))
+# # 564 444
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 3 | Покраска | [вр. шлиф., срок окраш.], 1. Время обработки дет. на месте 168? 2. Суммарное время окраш. дет.?
+# f = open("../Файлы к задачам/26_3__3whrj.txt")
+# n = int(f.readline())
+#
+# check = []
+# l_start = []
+# l_end = []
+# num = 0
+#
+# for detail in f:
+#     grind, paint = map(int, detail.split())
+#     num += 1
+#     if grind not in check and paint not in check:
+#         if grind > paint:
+#             l_start.append([grind, num])
+#             check.append(grind)
+#         if paint > grind:
+#             l_end.append([paint, num])
+#             check.append(paint)
+#
+# l_start.sort(reverse=True)
+# l_end.sort()
+# line = l_start + l_end
+#
+# sm = 0
+# for el in l_end:
+#     sm += el[0]
+#
+# print(line[168-1][0], sm)
+# # 1475 616262
