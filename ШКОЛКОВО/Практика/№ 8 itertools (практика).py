@@ -470,3 +470,108 @@ print(c)
 #
 # print(ans)
 # # 11565
+
+
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/26332'''
+
+# 1
+# from itertools import *
+#
+# s = 'БУРЖАЗИЯ'
+# count = 0
+# for i in product(s, repeat=8):
+#     g = ''.join(i)
+#     if 'БУРЖУИ' not in g:
+#         count += 1
+# print(count)
+# # 16777024
+
+
+# 2
+# from itertools import *
+#
+# s = 'МЫШИ'
+# count = 0
+# for i in product(s, repeat=7):
+#     g = ''.join(i)
+#     if 'МЫШ' in g:
+#         count += 1
+# print(count)
+# # 1268
+
+
+# 3
+# from itertools import *
+#
+# s = 'АБВГДЕ'
+# count = 0
+# for k in range(5):
+#     for i in product(s, repeat=k+1):
+#         g = ''.join(i)
+#         if g[0] not in 'АЕ' and g[-1] not in 'БВГД':
+#             count += 1
+# print(count)
+# # 2072
+
+
+# 4
+# from itertools import *
+#
+# s = 'НАПИТОК'
+# count = 0
+# for i in permutations(s):
+#     g = ''.join(i)
+#     if g[-1] == 'П':
+#         count += 1
+# print(count)
+# # 720
+
+
+# 5
+# from itertools import *
+#
+# s = 'ЦИФРА'
+# count = 0
+#
+# for i in product(s, repeat=5):
+#     g = ''.join(i)
+#     if g[0] not in 'ИА':
+#         count += 1
+# print(count)
+# # 1875
+
+
+# 9
+# from itertools import *
+#
+# s = 'УСПЕХ'
+# count = 0
+#
+# for i in product(s, repeat=6):
+#     g = ''.join(i)
+#     if g.count('У') >= 2:
+#         count += 1
+# print(count)
+# # 5385
+
+
+# 10
+# from itertools import *
+#
+# s = '012345678'
+# count = 0
+# for i in product(s, repeat=7):
+#     g = ''.join(i)
+#     if g[0] != '0' and len(set(g)) == len(g):
+#         flag = 1
+#         for k in range(len(g)-1):
+#             if int(g[k]) % 2 == 0 and int(g[k+1]) % 2 == 0:
+#                 flag = 0
+#             if int(g[k]) % 2 != 0 and int(g[k + 1]) % 2 != 0:
+#                 flag = 0
+#         if flag == 1:
+#             count += 1
+# print(count)
+# # 3744
+

@@ -721,3 +721,64 @@ print(mx)
 # print(mx)
 # # 292
 
+
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/29327'''
+
+# 1
+# f = open("Файлы к задачам/24-5__8ag1l.txt")
+# s = f.readline()
+# ans = 0
+#
+# for start in range(len(s)):
+#     if s[start] == 'B':
+#         c = 0
+#         for end in range(start + 1, len(s)):
+#             if s[end] in '13579':
+#                 c += 1
+#             if s[end] in 'AEIOU':
+#                 break
+#             if c == 15:
+#                 ans += 1
+# print(ans)
+# # 94
+
+# 4.1
+# f = open("Файлы к задачам/24__7h75n.txt")
+# s = f.readline()
+#
+# ca = cb = start = mx = 0
+#
+# for end in range(len(s)):
+#     if s[end] == 'A':
+#         ca += 1
+#     if s[end] == 'B':
+#         cb += 1
+#     while cb > 2 or ca > 2:
+#         if s[start] == 'A':
+#             ca -= 1
+#         if s[start] == 'B':
+#             cb -= 1
+#         start += 1
+#
+#     if ca <= 2 and cb <= 2:
+#         mx = max(mx, end - start + 1)
+# print(mx)
+# # 222
+
+
+# 4.2
+# f = open("Файлы к задачам/24__7h75n.txt")
+# s = f.readline()
+# mx = 0
+#
+# for i in range(len(s)):
+#     for j in range(i + mx, len(s)):
+#         t = s[i:j + 1]
+#         if t.count('A') > 2 or t.count('B') > 2:
+#             break
+#         if t.count('A') <= 2 and t.count('B') <= 2:
+#             mx = max(mx, len(t))
+# print(mx)
+# # 222
+

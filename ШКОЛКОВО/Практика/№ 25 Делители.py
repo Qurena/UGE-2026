@@ -1,7 +1,5 @@
 """Дз к вебу: https://3.shkolkovo.online/my/course/7259/materials/lesson/37103 (начиная с номера 6)"""
 
-
-
 # 6
 # def prime(x):
 #     for i in range(2, int(x**0.5) + 1):
@@ -140,3 +138,153 @@
 # for x in range(650_001, 655_000):
 #     if prime(max(count(x))) == False:
 #         print(x, max(count(x)))
+
+
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/29327'''
+
+
+# 6
+# def f(n):
+#     divs = set()
+#     p = 0
+#     for i in range(2, int(n ** 0.5) + 1):
+#         if n % i == 0:
+#             divs.add(i)
+#             divs.add(n // i)
+#     if divs:
+#         p = int(sum(divs) / len(divs))
+#     return p
+#
+#
+# stp = 0
+# for n in range(750_001, 1_000_000):
+#     if f(n) % 7 == 6:
+#         stp += 1
+#         print(n, f(n))
+#     if stp == 5:
+#         break
+# # 750002 35482
+# # 750007 16316
+# # 750021 125005
+# # 750022 29392
+# # 750024 31919
+
+
+# 7
+# def is_prime(x):
+#     if x == 1:
+#         return False
+#     for i in range(2, int(x**0.5) + 1):
+#         if x % i == 0:
+#             return False
+#     return True
+#
+# def f(n):
+#     divs = set()
+#     for i in range(2, int(n**0.5) + 1):
+#         if n % i == 0:
+#             divs.add(i)
+#             divs.add(n//i)
+#     return divs
+#
+# stop = 0
+# for n in range(8_712_014, 9_000_000):
+#     p = f(n)
+#     dvs = []
+#     for el in p:
+#         if is_prime(el):
+#             dvs.append(el)
+#     m = 0
+#     if dvs:
+#         m = max(dvs) - min(dvs)
+#     if m > 50_000 and str(m) == str(m)[::-1]:
+#         print(n, m)
+#         stop += 1
+#     if stop == 5:
+#         break
+# # 8713118 71417
+# # 8713169 86168
+# # 8716479 61816
+# # 8717691 67576
+# # 8718316 70307
+
+
+# 8
+# def good11(n):
+#     divs = set()
+#     for i in range(2, int(n**0.5) + 1):
+#         if n % i == 0:
+#             divs.add(i)
+#             divs.add(n//i)
+#     if divs:
+#         d = sorted(divs)
+#         for el in d:
+#             if el % 100 == 11 and el != 11:
+#                 return el
+#     return False
+#
+# stop = 0
+# for i in range(1_350_051, 1_600_000):
+#     if good11(i):
+#         print(i, good11(i))
+#         stop += 1
+#     if stop == 5:
+#         break
+# # 1350051 311
+# # 1350055 270011
+# # 1350062 511
+# # 1350063 40911
+# # 1350066 225011
+
+
+# 9
+# def d(n):
+#     divs = set()
+#     for i in range(1, int(n**0.5) + 1):
+#         if n % i == 0:
+#             divs.add(i)
+#             divs.add(n//i)
+#     odd = even = 0
+#     for el in sorted(divs):
+#         if el % 2 == 0:
+#             even += 1
+#         else:
+#             odd += 1
+#     if even == odd and sum(divs) % 2 != 0:
+#         return True
+#     return False
+#
+# ans = 0
+# for i in range(312_322, 486_712):
+#     if d(i):
+#         ans += 1
+# print(ans)
+# # 49
+
+
+# 10
+# def d(n):
+#     divs = set()
+#     for i in range(2, int(n**0.5) + 1):
+#         if n % i == 0:
+#             divs.add(i)
+#             divs.add(n//i)
+#     even = odd = 0
+#     if len(divs) == 4:
+#         for el in sorted(divs):
+#             if el % 2 == 0:
+#                 even += 1
+#             else:
+#                 odd += 1
+#         if even == odd:
+#             return True
+#     return False
+#
+# count = sm = 0
+# for i in range(90_000, 147_001):
+#     if d(i):
+#         count += 1
+#         sm += i
+# print(count, sm)
+# # 11 1334422

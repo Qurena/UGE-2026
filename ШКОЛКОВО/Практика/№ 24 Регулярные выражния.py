@@ -593,3 +593,57 @@ print(mx)
 #     mx = max(mx, len(g))
 # print(mx)
 # # 85
+
+
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/29327'''
+
+
+# 2
+# from re import *
+#
+# f = open("Файлы к задачам/24_25361__8k9o7.txt")
+# s = f.readline()
+#
+# pattern = r'(?=([02468]([^02468F]*[F]){76}[^02468F]*))'
+# mx = 0
+# for i in finditer(pattern, s):
+#     g = i.group(1)
+#     mx = max(mx, len(g))
+#
+# print(mx)
+# # 163
+
+
+# 3
+# from re import *
+#
+# f = open("Файлы к задачам/24__7y14j.txt")
+# s = f.readline()
+#
+# pattern = r'(?=([1-9]+([+*][1-9]+){49}))'
+# mx = 0
+#
+# for i in finditer(pattern, s):
+#     g = i.group(1)
+#     mx = max(mx, len(g))
+#
+# print(mx)
+# # 428
+
+
+# 5
+# from re import *
+# f = open("Файлы к задачам/Задание_24__7blrn.txt")
+# s = f.readline()
+#
+# pattern = r'[1-9ABCD]+[0-9ABCD]+[02468AC]'
+# mx = 0
+#
+# for i in finditer(pattern, s):
+#     g = i.group(0)
+#     mx = max(mx, len(g))
+#
+# print(mx)
+# # 2598
+
