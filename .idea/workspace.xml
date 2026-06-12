@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="30.05">
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/24-5__8ag1l.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/24_25361__8k9o7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/24__7h75n.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/24__7y14j.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Пробник ЕГКР от 18.04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/17__a7wt8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/24__a7x9e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/26__a7ysc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_A__a7xle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_B__a7xld.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Метод двух указателей.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Метод двух указателей.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Регулярные выражния.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Регулярные выражния.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 25 Делители.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 25 Делители.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 8 itertools (практика).py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 8 itertools (практика).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 24 Метод двух указателей.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 24 Метод двух указателей. Теория.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 24 Регулярные выражения.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 24 Регулярные выражения. Теория.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 8 itertools (теория).py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 8 itertools (теория).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ЕГЭ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ЕГЭ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/№ 19-21/Особые случаи.py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 19-21/Особые случаи.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,108 +53,109 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="32EuJ24oEhurUuAcOhmr6zXQ0Tk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.!№ 26 Жадные алгоритмы (кабинеты и покраска).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Dictionaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HackerRank.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fg.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Досрочная волна.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ЕГЭ №2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ЕГЭ №5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 23 Особые случаи (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 23 Особые случаи.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 23 Рекурсия (11.09).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 23 Словари (04.09).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 23 особые случаи.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 24 и 25 (практика МАСКИ).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 24 и 25 (теория МАСКИ).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 25 (02.10) МАСКИ.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 25 (11.09).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 25 (практика МАСКИ) (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 25 (практика МАСКИ).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 25 (теория ДЕЛИТЕЛИ).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача 25 (теория МАСКИ) (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Задача № 23 Ограничение по командам (рекурсия).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Новогодний пробник (8 марта).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Олимпиады (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Олимпиады.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Особые случаи.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Практика (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Практика.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник ЦУ 16.05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник № 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник №0.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник №1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник №10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник №2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник №23.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник №3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник №4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник №6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник №7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Пробник №9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Решение входного пробника (№0).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Статград № 402.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Теория.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 13 IP-адрес.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 13 IP-адреса.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 14 Системы счисления.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 15. Решение прогой.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 16, 23 Рекурсия.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 17 Тройки (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 17 Тройки.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 19-21 Теория игр. Рекурсия.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 19-21 Теория игр.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 19.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 2 Переборные алгоритмы.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 24 Метод двух указателей (практика).executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 24 Метод двух указателей.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 24 Регулярные выражния.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 24. Метод частичной суммы. Регулярки (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 24. Метод частичной суммы.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 24. Сложные случаи.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 25 Делители.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 25 делители.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 26 Базовые прототипы.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 26 Динамическое программирование.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 26 Жадные алгоритмы (кабинеты и покраска).executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 26 Покраска.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 26 Свободные ячейки и места.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 26 Списки. Метод остатков для задач на пары.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 26.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 27 Звезды. DBSCAN. Особые случаи.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 27 Звезды. DBSCAN.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 27 Звезды. Через циклы и словари.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 27 Звёзды и кластеры.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 5 Алгоритмы.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 6 Черепаха.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 8 itertools (практика).executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 8 itertools (теория) (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 8 itertools (теория).executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 8 itertools.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№12 Машина Тьюринга (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.№12 Машина Тьюринга.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№24. Сложные случаи.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№26 Базовые прототипы.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№26 Ряды.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№26 Теория чисел (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.№26 Теория чисел.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/PycharmProjects/USE-2026/ШКОЛКОВО&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.!№ 26 Жадные алгоритмы (кабинеты и покраска).executor": "Run",
+    "Python.Dictionaries.executor": "Run",
+    "Python.HackerRank.executor": "Run",
+    "Python.fg.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.Досрочная волна.executor": "Run",
+    "Python.ЕГЭ №2.executor": "Run",
+    "Python.ЕГЭ №5.executor": "Run",
+    "Python.Задача 23 Особые случаи (1).executor": "Run",
+    "Python.Задача 23 Особые случаи.executor": "Run",
+    "Python.Задача 23 Рекурсия (11.09).executor": "Run",
+    "Python.Задача 23 Словари (04.09).executor": "Run",
+    "Python.Задача 23 особые случаи.executor": "Run",
+    "Python.Задача 24 и 25 (практика МАСКИ).executor": "Run",
+    "Python.Задача 24 и 25 (теория МАСКИ).executor": "Run",
+    "Python.Задача 25 (02.10) МАСКИ.executor": "Run",
+    "Python.Задача 25 (11.09).executor": "Run",
+    "Python.Задача 25 (практика МАСКИ) (1).executor": "Run",
+    "Python.Задача 25 (практика МАСКИ).executor": "Run",
+    "Python.Задача 25 (теория ДЕЛИТЕЛИ).executor": "Run",
+    "Python.Задача 25 (теория МАСКИ) (1).executor": "Run",
+    "Python.Задача № 23 Ограничение по командам (рекурсия).executor": "Run",
+    "Python.Новогодний пробник (8 марта).executor": "Run",
+    "Python.Олимпиады (1).executor": "Run",
+    "Python.Олимпиады.executor": "Run",
+    "Python.Особые случаи.executor": "Run",
+    "Python.Практика (1).executor": "Run",
+    "Python.Практика.executor": "Run",
+    "Python.Пробник ЕГКР от 18.04.executor": "Run",
+    "Python.Пробник ЦУ 16.05.executor": "Run",
+    "Python.Пробник № 2.executor": "Run",
+    "Python.Пробник №0.executor": "Run",
+    "Python.Пробник №1.executor": "Run",
+    "Python.Пробник №10.executor": "Run",
+    "Python.Пробник №2.executor": "Run",
+    "Python.Пробник №23.executor": "Run",
+    "Python.Пробник №3.executor": "Run",
+    "Python.Пробник №4.executor": "Run",
+    "Python.Пробник №6.executor": "Run",
+    "Python.Пробник №7.executor": "Run",
+    "Python.Пробник №9.executor": "Run",
+    "Python.Решение входного пробника (№0).executor": "Run",
+    "Python.Статград № 402.executor": "Run",
+    "Python.Теория.executor": "Run",
+    "Python.№ 13 IP-адрес.executor": "Run",
+    "Python.№ 13 IP-адреса.executor": "Run",
+    "Python.№ 14 Системы счисления.executor": "Run",
+    "Python.№ 15. Решение прогой.executor": "Run",
+    "Python.№ 16, 23 Рекурсия.executor": "Run",
+    "Python.№ 17 Тройки (1).executor": "Run",
+    "Python.№ 17 Тройки.executor": "Run",
+    "Python.№ 19-21 Теория игр. Рекурсия.executor": "Run",
+    "Python.№ 19-21 Теория игр.executor": "Run",
+    "Python.№ 19.executor": "Run",
+    "Python.№ 2 Переборные алгоритмы.executor": "Run",
+    "Python.№ 24 Метод двух указателей (практика).executor": "Run",
+    "Python.№ 24 Метод двух указателей.executor": "Run",
+    "Python.№ 24 Регулярные выражния.executor": "Run",
+    "Python.№ 24. Метод частичной суммы. Регулярки (1).executor": "Run",
+    "Python.№ 24. Метод частичной суммы.executor": "Run",
+    "Python.№ 24. Сложные случаи.executor": "Run",
+    "Python.№ 25 Делители.executor": "Run",
+    "Python.№ 25 делители.executor": "Run",
+    "Python.№ 26 Базовые прототипы.executor": "Run",
+    "Python.№ 26 Динамическое программирование.executor": "Run",
+    "Python.№ 26 Жадные алгоритмы (кабинеты и покраска).executor": "Run",
+    "Python.№ 26 Покраска.executor": "Run",
+    "Python.№ 26 Свободные ячейки и места.executor": "Run",
+    "Python.№ 26 Списки. Метод остатков для задач на пары.executor": "Run",
+    "Python.№ 26.executor": "Run",
+    "Python.№ 27 Звезды. DBSCAN. Особые случаи.executor": "Run",
+    "Python.№ 27 Звезды. DBSCAN.executor": "Run",
+    "Python.№ 27 Звезды. Через циклы и словари.executor": "Run",
+    "Python.№ 27 Звёзды и кластеры.executor": "Run",
+    "Python.№ 5 Алгоритмы.executor": "Run",
+    "Python.№ 6 Черепаха.executor": "Run",
+    "Python.№ 8 itertools (практика).executor": "Run",
+    "Python.№ 8 itertools (теория) (1).executor": "Run",
+    "Python.№ 8 itertools (теория).executor": "Run",
+    "Python.№ 8 itertools.executor": "Run",
+    "Python.№12 Машина Тьюринга (1).executor": "Run",
+    "Python.№12 Машина Тьюринга.executor": "Run",
+    "Python.№24. Сложные случаи.executor": "Run",
+    "Python.№26 Базовые прототипы.executor": "Run",
+    "Python.№26 Ряды.executor": "Run",
+    "Python.№26 Теория чисел (1).executor": "Run",
+    "Python.№26 Теория чисел.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/user/PycharmProjects/USE-2026/ШКОЛКОВО"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО" />
@@ -166,15 +165,15 @@
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Файлы для пробников" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Теория\Хард прога" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Хард прога" />
-      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Файлы для пробников" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.№ 8 itertools (практика)">
-    <configuration name="№ 24 Метод двух указателей" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Пробник ЕГКР от 18.04">
+    <configuration name="Пробник ЕГКР от 18.04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,11 +182,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Метод двух указателей.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Пробник ЕГКР от 18.04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +209,31 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Регулярные выражния.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="№ 24 Метод двух указателей" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Метод двух указателей.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,6 +255,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 25 Делители.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -253,29 +278,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 8 itertools (практика).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="!№ 26 Жадные алгоритмы (кабинеты и покраска)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ЕГЭ" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/!№ 26 Жадные алгоритмы (кабинеты и покраска).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,18 +290,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Пробник ЕГКР от 18.04" />
         <item itemvalue="Python.№ 8 itertools (практика)" />
         <item itemvalue="Python.№ 24 Метод двух указателей" />
         <item itemvalue="Python.№ 24 Регулярные выражния" />
         <item itemvalue="Python.№ 25 Делители" />
-        <item itemvalue="Python.!№ 26 Жадные алгоритмы (кабинеты и покраска)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
   </component>
