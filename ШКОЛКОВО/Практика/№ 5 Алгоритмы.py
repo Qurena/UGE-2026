@@ -199,5 +199,129 @@ print(ans)
 '''
 
 
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/31086'''
+
+# 1
+# def ans(n):
+#     s = bin(n)[2:]
+#     q = sum(int(el) for el in s)
+#     s += str(q % 2)
+#     m = sum(int(el) for el in s)
+#     s += str(m % 2)
+#     return int(s, 2)
+#
+# a = set()
+# for n in range(1, 1000):
+#     r = ans(n)
+#     if r > 43:
+#         a.add(r)
+# print(min(a))
+# # 46
+
+
+# 2
+# def ans(n):
+#     s = bin(n)[2:]
+#     s = s[:-1] + s[1] + s[1]
+#     return int(s, 2)
+#
+# a = set()
+# for n in range(2, 1000):
+#     r = ans(n)
+#     if r > 92:
+#         a.add(n)
+# print(min(a))
+# # 48
+
+
+# 3
+# def ans(n):
+#     s = bin(n)[2:]
+#     s = s[:-1] + s[1] + s[1]
+#     return int(s, 2)
+#
+# a = set()
+# for n in range(2, 1000):
+#     r = ans(n)
+#     if r > 58:
+#         a.add(n)
+# print(min(a))
+# # 28
+
+
+# 4
+# def t(n):
+#     s = ''
+#     while n != 0:
+#         s += str(n % 3)
+#         n //=  3
+#     return s[::-1]
+#
+# def ans(n):
+#     q = t(n)
+#     if n % 3 == 0:
+#         q += q[-2:]
+#     else:
+#         sm = sum(int(el) for el in q)
+#         q += t(sm*3)
+#     return int(q, 3)
+#
+# a = set()
+# for n in range(1, 1000):
+#     r = ans(n)
+#     if r > 208 and r % 2 != 0:
+#         a.add(r)
+# print(min(a))
+# # 243
+
+
+# 5
+# def t(n):
+#     s = ''
+#     while n != 0:
+#         s += str(n % 3)
+#         n //= 3
+#     return s[::-1]
+#
+# def ans(n):
+#     q = t(n)
+#     tws = sum(1 for el in q if int(el) == 2)
+#     if tws > 0:
+#         q += '0'
+#     else:
+#         q += t((n % 10)//2)
+#     return int(q, 3)
+#
+# a = set()
+# for n in range(1, 1000):
+#     r = ans(n)
+#     if r >= 202:
+#         a.add(r)
+# print(min(a))
+# # 204
+
+
+# 6
+# def ans(n):
+#     s = bin(n)[2:]
+#     if n % 3 == 0 or n % 3 == 1:
+#         s += s[:2]
+#     else:
+#         s += bin(s.count('0'))[2:]
+#     return int(s, 2)
+#
+# a = set()
+# for n in range(1, 1000):
+#     r = ans(n)
+#     if r > 122:
+#         a.add(n)
+# print(min(a))
+# # 30
+
+
+
+
+
 
 
