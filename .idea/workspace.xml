@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="13.06">
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/17_10__89i27.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/17_13__89i39.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/17_14__89i3l.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/17_15__89i3v.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/17_4__8cuce.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/17_9__89i1v.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 18 Нестандартные задачи/№ 18. Несколько заходов из разных точек.xlsx" afterDir="false" />
+    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="30.05">
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Пробник Щелчок №3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/17_17__8hqnx.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_2A__achhc (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_2B__achhd (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/Задание_26__lood__rjlq.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 15 Решение прогой.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 15 Решение прогой.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 17 Тройки.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 17 Ряды чисел.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 19-21 Теория игр. Рекурсия.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 19-21 Теория игр. Рекурсия.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 13 IP-адреса.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 13 IP-адреса.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 18 Нестандартные задачи/№ 18 Курьер на самокате.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 18 Нестандартные задачи/№ 18 Курьер на самокате.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 18 Нестандартные задачи/№ 18. Ладья.xls" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 18 Нестандартные задачи/№ 18. Ладья.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 18 Нестандартные задачи/№ 18. Несколько заходов из разных точек.ods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ЕГЭ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ЕГЭ.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +42,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Qurena/UGE-2026.git&quot;,
-    &quot;accountId&quot;: &quot;3e714abd-845c-4452-9f03-b42403b970e0&quot;
+    &quot;accountId&quot;: &quot;2ddb240a-8165-4159-ad9a-fb104abad8a1&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -58,7 +52,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="32EuJ24oEhurUuAcOhmr6zXQ0Tk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -96,7 +90,10 @@
     &quot;Python.Особые случаи.executor&quot;: &quot;Run&quot;,
     &quot;Python.Практика (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.Практика.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник ЕГКР от 18.04.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник ЦУ 16.05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник Щелчок №3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Пробник Щелчок №3.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник № 2.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №0.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пробник №1.executor&quot;: &quot;Run&quot;,
@@ -111,14 +108,11 @@
     &quot;Python.Решение входного пробника (№0).executor&quot;: &quot;Run&quot;,
     &quot;Python.Статград № 402.executor&quot;: &quot;Run&quot;,
     &quot;Python.Теория.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 12 Машина Тьюринга.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 13 IP-адрес.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 13 IP-адреса.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 14 Системы счисления.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 15 Решение прогой.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 15. Решение прогой.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 16, 23 Рекурсия.executor&quot;: &quot;Run&quot;,
-    &quot;Python.№ 17 Ряды чисел.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 17 Тройки (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 17 Тройки.executor&quot;: &quot;Run&quot;,
     &quot;Python.№ 19-21 Теория игр. Рекурсия.executor&quot;: &quot;Run&quot;,
@@ -172,15 +166,15 @@
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Теория\№ 18 Нестандартные задачи" />
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Файлы для пробников" />
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Теория\Хард прога" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Хард прога" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.№ 19-21 Теория игр. Рекурсия">
-    <configuration name="№ 12 Машина Тьюринга" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Пробник Щелчок №3 (1)">
+    <configuration name="Пробник ЕГКР от 18.04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,11 +183,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 12 Машина Тьюринга.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Пробник ЕГКР от 18.04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№ 15 Решение прогой" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Пробник Щелчок №3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,11 +206,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 15 Решение прогой.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Пробник Щелчок №3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№ 17 Ряды чисел" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Пробник Щелчок №3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,11 +229,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 17 Ряды чисел.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Пробник Щелчок №3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,7 +243,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№ 19-21 Теория игр. Рекурсия" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="№ 24 Метод двух указателей" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,7 +256,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 19-21 Теория игр. Рекурсия.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Метод двух указателей.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,7 +266,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№ 5 Алгоритмы" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="№ 8 itertools (практика)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,7 +279,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 5 Алгоритмы.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 8 itertools (практика).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,18 +291,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.№ 19-21 Теория игр. Рекурсия" />
-        <item itemvalue="Python.№ 17 Ряды чисел" />
-        <item itemvalue="Python.№ 15 Решение прогой" />
-        <item itemvalue="Python.№ 12 Машина Тьюринга" />
-        <item itemvalue="Python.№ 5 Алгоритмы" />
+        <item itemvalue="Python.Пробник Щелчок №3 (1)" />
+        <item itemvalue="Python.Пробник Щелчок №3" />
+        <item itemvalue="Python.Пробник ЕГКР от 18.04" />
+        <item itemvalue="Python.№ 8 itertools (практика)" />
+        <item itemvalue="Python.№ 24 Метод двух указателей" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
   </component>
@@ -460,15 +459,7 @@
       <option name="project" value="LOCAL" />
       <updated>1780170442080</updated>
     </task>
-    <task id="LOCAL-00019" summary="13.06">
-      <option name="closed" value="true" />
-      <created>1781341570555</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1781341570555</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -490,7 +481,6 @@
     <MESSAGE value="23.04" />
     <MESSAGE value="21.05(2)" />
     <MESSAGE value="30.05" />
-    <MESSAGE value="13.06" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.06" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.05" />
   </component>
 </project>
