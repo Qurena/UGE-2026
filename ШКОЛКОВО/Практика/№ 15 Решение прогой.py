@@ -181,3 +181,43 @@
 #     if t == 0:
 #         print(a)
 # # 13
+
+
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/30089'''
+
+# 2
+# ans = set()
+# for x in range(100):
+#     for y in range(100):
+#         if 2*x + y == 99:
+#             ans.add(max(x, y) - 1)
+# print(min(ans))
+# # 32
+
+
+
+
+# 3
+# def f(a, x):
+#     return (x & a != 0) <= ((x & 25 == 0) <= (x & 17 != 0))
+#
+# for a in range(100):
+#     t = (f(a, x) for x in range(100000))
+#     if all(t):
+#         print(a)
+# # 25
+
+
+# 4
+# def f(a, x):
+#     return ( ((x&38 != 0) or (x&45 != 0)) <= ((x&34 == 0) <= (x&a != 0)) )
+#
+# for a in range(1, 1000):
+#     t = (f(a, x) for x in range(1000))
+#     if all(t):
+#         print(a)
+# # 13
+
+
+# 5

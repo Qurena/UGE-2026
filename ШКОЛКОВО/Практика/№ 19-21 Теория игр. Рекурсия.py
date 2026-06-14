@@ -390,3 +390,387 @@ for i in range(1,187):
 #     if f(p1, p2) == -2:
 #         print(p2)
 # # 451
+
+
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/30085'''
+
+# 1 | Решение 1
+# def staps(p):
+#     return (p + 2, p + 4, p * 3)
+#
+# def play(p, r):
+#     if p >= 271:
+#         return r % 2 == 0
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in staps(p)]
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for p in range(1, 271):
+#     if play(p, 2) and (not(play(p, 1))):
+#         print(p)
+# # 90
+
+
+# 1 | Решение 2
+# from functools import *
+# @lru_cache(None)
+# def f(a):
+#     if a >= 271:
+#         return False
+#     steps = [f(a + 2), f(a + 4), f(a * 3)]
+#     petya_win_check = [i for i in steps if i <= 0]
+#     if petya_win_check:
+#         return -max(petya_win_check) + 1
+#     return -max(steps)
+#
+# for s in range(1, 271):
+#     if f(s) == -1:
+#         print(s)
+# # 90
+
+
+# 2 | Решение 1
+# def staps(p):
+#     return (p + 2, p + 4, p * 3)
+#
+# def play(p, r):
+#     if p >= 271:
+#         return r % 2 == 0
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in staps(p)]
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# ans = 0
+# for p in range(1, 271):
+#     if play(p, 3) and (not(play(p, 1))):
+#         ans += p
+# print(ans)
+# # 376
+
+
+# 2 | Решение 2
+# from functools import *
+# @lru_cache(None)
+# def f(a):
+#     if a >= 271:
+#         return False
+#     steps = [f(a + 2), f(a + 4), f(a * 3)]
+#     petya_win_check = [i for i in steps if i <= 0]
+#     if petya_win_check:
+#         return -max(petya_win_check) + 1
+#     return -max(steps)
+#
+# ans = 0
+# for s in range(1, 271):
+#     if f(s) == 2:
+#         ans += s
+# print(ans)
+# # 376
+
+
+# 3 | Решение 1
+# def staps(p):
+#     return (p + 2, p + 4, p * 3)
+#
+# def play(p, r):
+#     if p >= 271:
+#         return r % 2 == 0
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in staps(p)]
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for p in range(1, 271):
+#     if play(p, 4) and (not(play(p, 2))):
+#         print(p)
+# # 83
+
+
+# 3 | Решение 2
+# from functools import *
+# @lru_cache(None)
+# def f(a):
+#     if a >= 271:
+#         return False
+#     steps = [f(a + 2), f(a + 4), f(a * 3)]
+#     petya_win_check = [i for i in steps if i <= 0]
+#     if petya_win_check:
+#         return -max(petya_win_check) + 1
+#     return -max(steps)
+#
+# for s in range(1, 271):
+#     if f(s) == -2:
+#         print(s)
+# # 83
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 4 | Решение 1
+# def steps(p):
+#     h1, h2 = p
+#     return ((h1 + 1, h2), (h1, h2 + 1), (h1 * 2, h2), (h1, h2 * 2))
+#
+# def play(p, r):
+#     if sum(p) >= 74:
+#         return r % 2 == 0
+#     if r == 0:
+#         return False
+#
+#     nex_plays = [play(step, r - 1) for step in steps(p)]
+#     return any(nex_plays) if r % 2 == 0 else any(nex_plays)
+#
+# for s in range(1, 62):
+#     p = (12, s)
+#     if play(p, 2) and (not(play(p, 1))):
+#         print(s)
+# # 16
+
+
+# 4 | Решение 2
+# from functools import *
+#
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b >= 74:
+#         return False
+#     steps = [f(a + 1, b), f(a, b + 1), f(a * 2, b), f(a, b * 2)]
+#     petya_win_check = [i for i in steps if i <= 0]
+#     if petya_win_check:
+#         return -max(petya_win_check) + 1
+#     return -max(steps)
+#
+# for s in range(1, 62):
+#     if f(12 + 1, s) == 1 or f(12 * 2, s) == 1 or f(12, s + 1) == 1 or f(12, s * 2) == 1:
+#         print(s)
+# # 16
+
+
+# 5 | Решение 1
+# def steps(p):
+#     h1, h2 = p
+#     return ((h1 + 1, h2), (h1, h2 + 1), (h1 * 2, h2), (h1, h2 * 2))
+#
+# def play(p, r):
+#     if sum(p) >= 74:
+#         return r % 2 == 0
+#     if r == 0:
+#         return False
+#
+#     nex_plays = [play(step, r - 1) for step in steps(p)]
+#     return all(nex_plays) if r % 2 == 0 else any(nex_plays)
+#
+# for s in range(1, 62):
+#     p = (12, s)
+#     if play(p, 3) and (not(play(p, 1))):
+#         print(s)
+# # 24 30
+
+
+# 5 | Решение 2
+# from functools import *
+#
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b >= 74:
+#         return False
+#     steps = [f(a + 1, b), f(a, b + 1), f(a * 2, b), f(a, b * 2)]
+#     petya_win_check = [i for i in steps if i <= 0]
+#     if petya_win_check:
+#         return -max(petya_win_check) + 1
+#     return -max(steps)
+#
+# for s in range(1, 62):
+#     if f(12, s) == 2:
+#         print(s)
+# # 24 30
+
+
+# 6 | Решение 1
+# def steps(p):
+#     h1, h2 = p
+#     return ((h1 + 1, h2), (h1, h2 + 1), (h1 * 2, h2), (h1, h2 * 2))
+#
+# def play(p, r):
+#     if sum(p) >= 74:
+#         return r % 2 == 0
+#     if r == 0:
+#         return False
+#
+#     nex_plays = [play(step, r - 1) for step in steps(p)]
+#     return all(nex_plays) if r % 2 == 0 else any(nex_plays)
+#
+# for s in range(1, 62):
+#     p = (12, s)
+#     if play(p, 4) and (not(play(p, 2))):
+#         print(s)
+# # 29
+
+
+# 6 | Решение 2
+# from functools import *
+#
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b >= 74:
+#         return False
+#     steps = [f(a + 1, b), f(a, b + 1), f(a * 2, b), f(a, b * 2)]
+#     petya_win_check = [i for i in steps if i <= 0]
+#     if petya_win_check:
+#         return -max(petya_win_check) + 1
+#     return -max(steps)
+#
+# for s in range(1, 62):
+#     if f(12, s) == -2:
+#         print(s)
+# # 29
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 7 | Решение 1
+# def steps(p):
+#     h1, h2 = p
+#     return [(h1 - 2, h2), (h1, h2 - 2), (h1 // 3, h2), (h1, h2 // 3)]
+#
+# def play(p, r):
+#     if sum(p) <= 165:
+#         return r % 2 == 0
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#     return any(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(150, 10000):
+#     p = (17, s)
+#     if play(p, 2) and (not(play(p, 1))):
+#         print(s)
+# # 1340
+
+
+# 7 | Решение 2
+# from functools import lru_cache
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b <= 165:
+#         return 0
+#     steps = []
+#     if a - 2 >= 0:
+#         steps.append(f(a - 2, b))
+#     if b - 2 >= 0:
+#         steps.append(f(a, b - 2))
+#     if a  >= 3:
+#         steps.append(f(a // 3, b))
+#     if b  >= 3:
+#         steps.append(f(a, b // 3))
+#     petya_win_check = [i for i in steps if i <= 0]
+#     if petya_win_check:
+#         return -max(petya_win_check) + 1
+#     return -max(steps)
+#
+#
+# for s in range(150, 2000):
+#     if f(s, 17 - 2) == 1 or f(s, 17//3) == 1 or f(s - 2, 17) == 1 or f(s//3, 17) == 1:
+#         print(s)
+# # 1340
+
+# 8 | Решение 1
+# def steps(p):
+#     h1, h2 = p
+#     return [(h1 - 2, h2), (h1, h2 - 2), (h1 // 3, h2), (h1, h2 // 3)]
+#
+# def play(p, r):
+#     if sum(p) <= 165:
+#         return r % 2 == 0
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(150, 10000):
+#     p = (17, s)
+#     if play(p, 3) and (not(play(p, 1))):
+#         print(s)
+# # 449 450
+
+
+# 8 | Решение 2
+# from functools import lru_cache
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b <= 165:
+#         return 0
+#     steps = []
+#     if a - 2 >= 0:
+#         steps.append(f(a - 2, b))
+#     if b - 2 >= 0:
+#         steps.append(f(a, b - 2))
+#     if a  >= 3:
+#         steps.append(f(a // 3, b))
+#     if b  >= 3:
+#         steps.append(f(a, b // 3))
+#     petya_win_check = [i for i in steps if i <= 0]
+#     if petya_win_check:
+#         return -max(petya_win_check) + 1
+#     return -max(steps)
+#
+#
+# for s in range(150, 2000):
+#     if f(s, 17) == 2:
+#         print(s)
+# # 449 450
+
+
+# 9 | Решение 1
+# def steps(p):
+#     h1, h2 = p
+#     return [(h1 - 2, h2), (h1, h2 - 2), (h1 // 3, h2), (h1, h2 // 3)]
+#
+# def play(p, r):
+#     if sum(p) <= 165:
+#         return r % 2 == 0
+#     if r == 0:
+#         return False
+#
+#     next_plays = [play(step, r - 1) for step in steps(p)]
+#     return all(next_plays) if r % 2 == 0 else any(next_plays)
+#
+# for s in range(150, 10000):
+#     p = (17, s)
+#     if play(p, 4) and (not(play(p, 2))):
+#         print(s)
+# # 451
+
+
+# 9 | Решение 2
+# from functools import lru_cache
+# @lru_cache(None)
+# def f(a, b):
+#     if a + b <= 165:
+#         return 0
+#     steps = []
+#     if a - 2 >= 0:
+#         steps.append(f(a - 2, b))
+#     if b - 2 >= 0:
+#         steps.append(f(a, b - 2))
+#     if a  >= 3:
+#         steps.append(f(a // 3, b))
+#     if b  >= 3:
+#         steps.append(f(a, b // 3))
+#     petya_win_check = [i for i in steps if i <= 0]
+#     if petya_win_check:
+#         return -max(petya_win_check) + 1
+#     return -max(steps)
+#
+#
+# for s in range(150, 2000):
+#     if f(s, 17) == -2:
+#         print(s)
+# # 451
+
