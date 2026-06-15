@@ -628,7 +628,7 @@ print(mx)
 # print(mx)
 # # 4151
 
-'''---------------------------------------------------------------------------------------------------------------------'''
+'-----------------------------------------------------------------------------------------------------------------------'
 '''https://3.shkolkovo.online/my/course/7259/dz/29318'''
 
 # 3
@@ -781,4 +781,113 @@ print(mx)
 #             mx = max(mx, len(t))
 # print(mx)
 # # 222
+
+
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/30078'''
+
+
+# 1
+# Решение 1. Указатели:
+# f = open("Файлы к задачам/24__7h77f.txt")
+# s = f.readline()
+# start = cc = cd = mx = 0
+# for end in range(len(s)):
+#     if s[end] == 'C':
+#         cc += 1
+#     if s[end] == 'D':
+#         cd += 1
+#     while cc > 2 or cd > 2:
+#         if s[start] == 'C':
+#             cc -= 1
+#         if s[start] == 'D':
+#             cd -= 1
+#         start += 1
+#     if cc <= 2 and cd <= 2:
+#         mx = max(mx, end + 1 - start)
+# print(mx)
+# # 253
+
+# Решение 2. Циклы:
+# f = open("Файлы к задачам/24__7h77f.txt")
+# s = f.readline()
+# mx = 0
+# for i in range(len(s)):
+#     for j in range(i + mx, len(s)):
+#         t = s[i:j + 1]
+#         if t.count('C') > 2 or t.count('D') > 2:
+#             break
+#         if t.count('C') <= 2 and t.count('D') <= 2:
+#             mx = max(mx, len(t))
+# print(mx)
+# # 253
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 2
+# f = open("Файлы к задачам/24__7h6ti.txt")
+# s = f.readline()
+# cu = cv = cw = cx = cy = cz = start = mx = 0
+# for end in range(len(s)):
+#     if s[end] == 'U':
+#         cu += 1
+#     if s[end] == 'V':
+#         cv += 1
+#     if s[end] == 'W':
+#         cw += 1
+#     if s[end] == 'X':
+#         cx += 1
+#     if s[end] == 'Y':
+#         cy += 1
+#     if s[end] == 'Z':
+#         cz += 1
+#     while max(cu, cv, cw, cx, cy, cz) > 100:
+#         if s[start] == 'U':
+#             cu -= 1
+#         if s[start] == 'V':
+#             cv -= 1
+#         if s[start] == 'W':
+#             cw -= 1
+#         if s[start] == 'X':
+#             cx -= 1
+#         if s[start] == 'Y':
+#             cy -= 1
+#         if s[start] == 'Z':
+#             cz -= 1
+#         start += 1
+#     if max(cu, cv, cw, cx, cy, cz) <= 100:
+#         mx = max(mx, end + 1 - start)
+# print(mx)
+# # 2844
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+# 3
+# f = open("Файлы к задачам/24_M3__42ngp.txt")
+# s = f.readline()
+# first_eq = 'ABCDEFGHIJKLM'
+# second_eq = 'NOPQRSTUVWXYZ'
+# cf = cs = cdot = start = mx = 0
+#
+# for end in range(len(s)):
+#     if s[end] == '.':
+#         cdot += 1
+#     if s[end] in first_eq:
+#         cf += 1
+#     if s[end] in second_eq:
+#         cs += 1
+#
+#     while cdot >= 4: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#         if s[start] == '.' and cf > cs:
+#             mx = max(mx, end + 1 - start)
+#         if s[start] == '.':
+#             cdot -= 1
+#         if s[start] in first_eq:
+#             cf -= 1
+#         if s[start] in second_eq:
+#             cs -= 1
+#         start += 1
+# print(mx)
+# # 378
+
 
