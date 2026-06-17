@@ -73,6 +73,7 @@
 #         if g > p:
 #             l_end.append([p, 'paint', i])
 #             current_data.append(p)
+#
 # l_start.sort()
 # l_end.sort(reverse=True)
 # l = l_start + l_end

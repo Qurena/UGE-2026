@@ -1,4 +1,5 @@
 """Практика по номеру №26"""
+from hmac import new
 
 '''https://3.shkolkovo.online/my/course/7259/dz/28545'''
 # 1 | Конц. зал
@@ -197,3 +198,99 @@
 #         if good_row == 627:
 #             print(i)
 # # 627 503
+
+'-----------------------------------------------------------------------------------------------------------------------'
+'''https://3.shkolkovo.online/my/course/7259/dz/27823'''
+
+# 1
+# f = open("../Файлы к задачам/Задание_26__lood__rjlq (2).txt")
+# n = int(f.readline())
+#
+# data = [[] for _ in range(10_100)]
+# for el in f:
+#     row, sit = map(int, el.split())
+#     data[row].append(sit)
+#
+# lines = []
+# for i in range(len(data)):
+#     r = data[i]
+#     if r:
+#         r.sort()
+#         l = 1
+#         for k in range(len(r)-1):
+#             if r[k+1] - r[k] == 1:
+#                 l += 1
+#             if r[k+1] - r[k] == 0:
+#                 pass
+#             if r[k+1] - r[k] > 1:
+#                 if l == 2:
+#                     print(i)
+#                 l = 1
+# # 2 29
+
+
+# 2
+# f = open("../Файлы к задачам/Задание_26__wxju.txt")
+# n = int(f.readline())
+#
+# data = [[] for _ in range(100_100)]
+# for ticket in f:
+#     row, sit = map(int, ticket.split())
+#     data[row].append(sit)
+#
+# for i in range(len(data)):
+#     r = data[i]
+#     if r:
+#         r.sort()
+#         for k in range(len(data[i])-1):
+#             if r[k+1] - r[k] == 4:
+#                 break
+#
+# ans1 = 136
+# ans2 = 0
+# q = data[136]
+# for sit in range(len(q) - 1):
+#     if q[sit+1] - q[sit] == 4:
+#         print(q[sit], q[sit+1])
+#         ans2 = q[sit] + 2
+# print(ans1, ans2)
+# # 136 297
+
+
+# 3
+# f = open("../Файлы к задачам/task26__5z1ta.txt")
+# n_sits, n_rows, n_sits_per_row = map(int, f.readline().split())
+# data = [[]for _ in range(n_sits+1)]
+#
+# for ticket in f:
+#     row, sit = map(int, ticket.split())
+#     data[sit].append(row)
+#
+# for i in range(len(data)):
+#     r = data[i]
+#     if r:
+#         r.sort()
+# ans1 = ans2 = 0
+# rs = []
+# for i in range(1, len(data) - 1):
+#     if data[i] and data[i+1]:
+#         first = data[i]
+#         second = data[i+1]
+#         good_row = max(first[-1]+1, second[-1]+1)
+#         if good_row == 627:
+#             print(i)
+#         rs.append(good_row)
+# print(min(rs))
+# # 627 503
+
+
+
+
+
+
+
+
+
+
+
+

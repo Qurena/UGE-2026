@@ -4,22 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="14.06(2)">
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/24-1__63h3j.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/24-3__63h5x.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/24_12__3b9uf.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/24_7__3b9tq.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/24__7y15x (2).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/24__8wp6q.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/9_0987.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/9_12345.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 9 Строки.py" afterDir="false" />
+    <list default="true" id="700a5663-b14d-4f0f-876d-ee9b220ed37f" name="Changes" comment="15.06">
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Босс Щелчка.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/1_A__63l3o.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/1_B__63l3q.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27A__8twgv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27A__8xikf (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27B__8twgw.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27B__8xiki (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27_A__abzym.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/27_B__abzyn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/Задание_26__lood__rjlq (2).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Файлы к задачам/Задание_26__wxju.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/17__8syxa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/24__7h77f (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/26_4__94fik.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_5A__achn9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников/27_5B__achna.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Занятия с репетитором/№ 24/Задание 24 (теория).py" beforeDir="false" afterPath="$PROJECT_DIR$/Занятия с репетитором/№ 24/Задание 24. Теория.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Метод двух указателей.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Метод двух указателей.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Регулярные выражния.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Регулярные выражния.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 22 Процессы в мс (Электронные таблицы)/№ 22 Процессы. Электронные таблицы.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 22 Процессы в мс (Электронные таблицы)/№ 22 Процессы. Электронные таблицы.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 24 Метод двух указателей. Теория.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/№ 24 Метод двух указателей. Теория.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/!№ 26 Жадные алгоритмы (кабинеты и покраска).py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/!№ 26 Жадные алгоритмы (кабинеты и покраска).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Концертный зал.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Концертный зал.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. DBSCAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. DBSCAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№ 26 Базовые прототипы.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№ 26 Базовые прототипы.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№ 26 Покраска.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№ 26 Покраска.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№ 26 Ряды.py" beforeDir="false" afterPath="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№ 26 Ряды.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +83,7 @@
     "Python.HackerRank.executor": "Run",
     "Python.fg.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.Босс Щелчка.executor": "Run",
     "Python.Досрочная волна.executor": "Run",
     "Python.ЕГЭ №2.executor": "Run",
     "Python.ЕГЭ №5.executor": "Run",
@@ -136,7 +147,9 @@
     "Python.№ 26 Базовые прототипы.executor": "Run",
     "Python.№ 26 Динамическое программирование.executor": "Run",
     "Python.№ 26 Жадные алгоритмы (кабинеты и покраска).executor": "Run",
+    "Python.№ 26 Концертный зал.executor": "Run",
     "Python.№ 26 Покраска.executor": "Run",
+    "Python.№ 26 Ряды.executor": "Run",
     "Python.№ 26 Свободные ячейки и места.executor": "Run",
     "Python.№ 26 Списки. Метод остатков для задач на пары.executor": "Run",
     "Python.№ 26.executor": "Run",
@@ -161,16 +174,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/user/PycharmProjects/USE-2026/ШКОЛКОВО/Практика"
+    "last_opened_file_path": "C:/Users/user/PycharmProjects/USE-2026/ШКОЛКОВО/Практика/Хард прога"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Практика" />
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Практика\Хард прога" />
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Файлы для пробников" />
       <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО" />
+      <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Практика" />
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Теория\№ 18 Нестандартные задачи" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Файлы для пробников" />
-      <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика\Файлы к задачам" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Практика\Файлы к задачам" />
@@ -180,53 +193,7 @@
       <recent name="C:\Users\misha\PycharmProjects\ЕГЭ\ШКОЛКОВО\Практика" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.№ 24 Метод двух указателей">
-    <configuration name="Пробник Щелчок №3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ЕГЭ" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Пробник Щелчок №3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Пробник Щелчок №3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ЕГЭ" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Файлы для пробников" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\USE-2026\ШКОЛКОВО\Пробник Щелчок №3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.№ 26 Концертный зал">
     <configuration name="№ 24 Метод двух указателей" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
@@ -250,7 +217,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№ 24 Регулярные выражния" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="№ 26 Концертный зал" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,12 +226,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 24 Регулярные выражния.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/Хард прога/№ 26 Концертный зал.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,7 +240,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="№ 9 Строки" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="№ 26 Ряды" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Теория/Хард прога/№ 26 Ряды.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="№ 27 Звезды. DBSCAN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ЕГЭ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,7 +277,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 9 Строки.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Практика/№ 27 Звезды. DBSCAN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Босс Щелчка" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ЕГЭ" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ШКОЛКОВО" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ШКОЛКОВО/Босс Щелчка.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.№ 26 Концертный зал" />
+        <item itemvalue="Python.№ 26 Ряды" />
+        <item itemvalue="Python.Босс Щелчка" />
+        <item itemvalue="Python.№ 27 Звезды. DBSCAN" />
         <item itemvalue="Python.№ 24 Метод двух указателей" />
-        <item itemvalue="Python.№ 24 Регулярные выражния" />
-        <item itemvalue="Python.№ 9 Строки" />
-        <item itemvalue="Python.Пробник Щелчок №3 (1)" />
-        <item itemvalue="Python.Пробник Щелчок №3" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781469052414</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="15.06">
+      <option name="closed" value="true" />
+      <created>1781533909778</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1781533909778</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,6 +518,7 @@
     <MESSAGE value="21.05(2)" />
     <MESSAGE value="30.05" />
     <MESSAGE value="14.06(2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.06(2)" />
+    <MESSAGE value="15.06" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.06" />
   </component>
 </project>
