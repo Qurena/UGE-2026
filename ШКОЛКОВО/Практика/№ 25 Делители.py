@@ -288,3 +288,54 @@
 #         sm += i
 # print(count, sm)
 # # 11 1334422
+
+
+
+# Задача с ЕГЭ
+'''Найдите такое м, что м >90_000 и простое и содержит в своей записи ровно одну последовательность «489».
+М - сумма Макс и мин простого натурального делителя числа, не считая само число. 
+Первые 5 чисел и м, им соответсвующие, чтобы каждое из них было больше 8_007_504_024'''
+# def prime(x):
+#     if x == 1:
+#         return False
+#     for i in range(2, int(x**0.5) + 1):
+#         if x % i == 0:
+#             return False
+#     return True
+#
+# def mn_prime_divisor(x):
+#     for i in range(2, int(x**0.5) + 1):
+#         if x % i == 0 and prime(i):
+#             return i
+#     return 0
+#
+# def mx_prime_divisor(x):
+#     for i in range(int(x**0.5), 1, -1):
+#         if x % i == 0 and prime(i):
+#             return i
+#     return 0
+#
+# for x in range(8_010_000_000, 8_050_000_000):
+#     m1 = mn_prime_divisor(x)
+#     m2 = mn_prime_divisor(x)
+#     m = m1 + m2
+#     if m > 90_000 and prime(m) and str(m).count('489') == 1:
+#         print(x, m)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
